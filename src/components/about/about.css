@@ -1,0 +1,49 @@
+.about-section{
+    display: flex;
+    padding: 3rem;
+    justify-content: space-between;
+}
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 60rem;
+    margin: 2rem auto;
+}
+.about-title{
+    font-weight: 400;
+    color: #22263E;
+}
+.about-sub-title{
+    font-weight: 300;
+    font-style: italic;
+    margin: .6rem 0;
+    color: #22263E;
+}
+.about-text{
+    font-size: 14px;
+    width: 30rem;
+    line-height: 1.8;
+    margin: 1rem 0;
+    color: rgba(0, 0, 0, .6);
+}
+.about-img{
+    width: 25rem;
+    height: 20rem;
+    object-fit: contain;
+}
+.about-btn{
+    width: 10rem;
+    height: 2.5rem;
+    background-color: #22263E;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-weight: 600;
+}
+.about-btn:hover{
+    background-color: transparent;
+    border: 1px solid #22263E;
+    color: #22263E;
+}
