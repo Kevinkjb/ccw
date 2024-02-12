@@ -1,36 +1,35 @@
 
+import './message.css';
+
 const LatestMessage = (props) => {
-  const {id, messageTitle} = props.data;
+  const { id, messageTitle, datePosted, description, imgUrl } = props.data;
+
   return (
     <div className="message-container">
-      <section>
-        <h3>Latest Message</h3>
+      <div>
+        <h3 className='latest-title'>Latest Message</h3>
         <div className="message-content">
-            <img src="" alt="" />
-            <div className="message-details">
-                <h3>Message Title</h3>
-                <div className="messageby">
-                    <span>Message by: </span>
-                    <span>{messageTitle}</span>
-                </div>
-                <div className="date-posted">
-                    <span>Date Posted:</span>
-                    <span>April 13, 2024</span>
-                </div>
-                <div className="description">
-                    <p>Description:</p>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Vivamus condimentum neque nec velit suscipit tempor.
-                         Phasellus sed nisl vel nibh imperdiet fermentum at eu lacus. 
-                    </p>
-                </div>
-                <button className="message-btn">Learn More</button>
+          <img className="message-img" src={imgUrl} alt="Message" />
+          <div className="message-details">
+            <h3 className='message-title'>{messageTitle}</h3>
+            <div className="message-by">
+              <span><strong>Message by:</strong> </span>
+              <span>{messageTitle}</span>
             </div>
+            <div className="date-posted">
+              <span> <strong>Date Posted:</strong> </span>
+              <span>{datePosted}</span>
+            </div>
+            <div className="description">
+              <p><strong>Description:</strong></p>
+              <p className='message-text'>{description}</p>
+            </div>
+            <button className="message-btn">Learn More</button>
+          </div>
         </div>
-      </section>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default LatestMessage
+export default LatestMessage;
