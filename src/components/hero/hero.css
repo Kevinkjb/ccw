@@ -1,30 +1,28 @@
+
 .hero-container{
-    display: flex;
-    align-items: center;
-    height: 30rem;
-    background-image: url('../../images/hero.webp');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 1;
-    position: relative;
-    margin: auto;
-    padding: 4rem;
+  width: 100%;
+  height: 60rem;
+  position: relative;
 }
-.hero-container::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    opacity: .4;
-    background-color: black;
-  }
-  .hero-title{
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 4.5rem;
-    letter-spacing: 2px;
-  }
+.hero-content{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.video-frame{
+  width: 160rem;
+  max-width: 100%;
+  object-fit: cover;
+  height: 50rem;
+}
+
+.hero-title{
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 6rem;
+  letter-spacing: 2px;
+  margin-left: 5rem;
+}
