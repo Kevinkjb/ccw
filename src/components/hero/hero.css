@@ -21,6 +21,10 @@
 
 .hero-title{
   color: #fff;
+  text-shadow: 
+      3px 0px 7px rgba(181, 136, 16, 0.2), 
+      -3px 0px 7px rgba(181, 136, 16, 0.2), 
+      0px 4px 7px rgba(181, 136, 16, 0.2);
   text-transform: uppercase;
   font-size: 6rem;
   letter-spacing: 2px;

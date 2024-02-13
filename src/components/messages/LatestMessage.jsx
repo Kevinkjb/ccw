@@ -1,8 +1,8 @@
-
+import PropTypes from 'prop-types';
 import './message.css';
 
 const LatestMessage = (props) => {
-  const { id, messageTitle, datePosted, description, imgUrl } = props.data;
+  const { messageTitle, datePosted, description, imgUrl } = props.data;
 
   return (
     <div className="message-container">
@@ -30,6 +30,16 @@ const LatestMessage = (props) => {
       </div>
     </div>
   );
+};
+
+LatestMessage.propTypes = {
+  data: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    messageTitle: PropTypes.string.isRequired,
+    datePosted: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    imgUrl: PropTypes.string.isRequired
+  }).isRequired
 };
 
 export default LatestMessage;

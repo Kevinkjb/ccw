@@ -9,10 +9,12 @@
     max-width: 100%;
     width: 60rem;
     margin: 2rem auto;
+
 }
 .about-title{
     font-weight: 400;
     color: #22263E;
+    font-size: 2rem;
 }
 .about-sub-title{
     font-weight: 300;
