@@ -1,7 +1,9 @@
-import {Link} from 'react-router-dom'
+import {Link, useLocation } from 'react-router-dom';
+
 import './navbar.css'
 import logo from '../../images/logo.png'
 const Navbar = () => {
+ 
   return (
     <nav  className='nav-container'>
       <div className="main-nav">

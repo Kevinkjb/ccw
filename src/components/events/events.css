@@ -26,3 +26,10 @@
     width: 18.5rem;
     height: 20rem;
 }
+.events-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    width: 80%;
+    margin: 5rem auto;
+}

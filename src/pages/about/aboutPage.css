@@ -1,0 +1,40 @@
+.hero-section{
+    background-image: url('../../images/hero.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+  }
+  .about-hero-title{
+    color: #fff;
+    text-shadow: 
+        3px 0px 7px rgba(181, 136, 16, 0.2), 
+        -3px 0px 7px rgba(181, 136, 16, 0.2), 
+        0px 4px 7px rgba(181, 136, 16, 0.2);
+    text-transform: uppercase;
+    font-size: 6rem;
+    letter-spacing: 2px;
+    margin-left: 5rem;
+  }
+  .gallery-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin: 3rem 0;
+  }
+  .img-container{
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+  }
+  .one{
+    background-color: antiquewhite;
+    width: 20rem;
+    height: 20rem;
+  }

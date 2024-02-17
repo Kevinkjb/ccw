@@ -1,5 +1,6 @@
 import './about.css'
 import headImage from '../../images/about.jpg'
+import {Link} from 'react-router-dom'
 const About = () => {
   return (
     <div className='about-section'>
@@ -17,7 +18,10 @@ const About = () => {
                     Phasellus fringilla nisl sed sem scelerisque, 
                     eget aliquam magna vehicula.nteger nec bibendum lacus.
                 </p>
-                <button className="about-btn">Read More</button>
+                <Link to="/about">
+                    <button className="about-btn">Read More</button>
+                </Link>
+
             </div>
             <div className="about-img-container">
                 <img className='about-img' src={headImage} alt="CCW Image" />

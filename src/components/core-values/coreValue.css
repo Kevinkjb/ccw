@@ -3,18 +3,19 @@
     align-items: center;
     justify-content: center;
     padding: 2rem;
-    background-image: url('../../images/value.jpg');
+    /* background-image: url('../../images/value.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background-color: #22263E;
     z-index: 1;
     position: relative;
     margin: auto;
     height: 40rem;
     margin: 2rem 0;
 }
-.core-container::before{
+/* .core-container::before{
     content: "";
     position: absolute;
     top: 0;
@@ -24,7 +25,7 @@
     z-index: -1;
     opacity: .6;
     background-color: black;
-}
+} */
 .core-value{
     display: grid;
     grid-template-columns: 1fr 1fr;

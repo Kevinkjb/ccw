@@ -22,7 +22,7 @@ const HomePage = () => {
       <div className="events">
         <h3 className='events-title'>Events</h3>
         <div className="events-item">
-        {eventsData.map((item,index) => (
+        {eventsData.filter((item, index) => index < 3).map((item,index) => (
           <Events key={index} events={item}/>
         ))}
         </div>
