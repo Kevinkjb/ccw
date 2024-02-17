@@ -1,7 +1,18 @@
 import headImage from '../../images/about.jpg'
 import CoreValue from '../../components/core-values/CoreValue'
 import Footer from '../../components/footer/Footer'
-import './aboutPage.css'
+import sampleImage from '../../images/Image Coming Soon.png'
+import AboutGallery from '../../components/about/AboutGallery'
+const imageGallery = [
+  {imgUrl: sampleImage},
+  {imgUrl: sampleImage},
+  {imgUrl: sampleImage},
+  {imgUrl: sampleImage},
+  {imgUrl: sampleImage},
+  {imgUrl: sampleImage},
+  {imgUrl: sampleImage},
+  {imgUrl: sampleImage}
+]
 
 const AboutPage = () => {
   return (
@@ -36,14 +47,13 @@ const AboutPage = () => {
       <section className="gallery-section">
 
         <div className="img-container">
-          <div className="one"></div>
-          <div className="one"></div>
-          <div className="one"></div>
-          <div className="one"></div>
-          <div className="one"></div>
-          <div className="one"></div>
-          <div className="one"></div>
-          <div className="one"></div>
+          {imageGallery.map((img, index) =>(
+            <AboutGallery
+              key={index}
+              img={img.imgUrl}
+            />
+          ))}
+
         </div>
       </section>
       <Footer/>
