@@ -89,3 +89,71 @@
     color: #fff;
     background-color: #22263E;
 }
+
+@media screen and (max-width: 1120px) {
+    .online-container{
+        padding: 2rem;
+    }
+    .live,
+    .attend,
+    .meeting{
+        width: 19rem;
+        padding: 2rem;
+    }
+}
+@media screen and (max-width: 1020px) {
+
+    .live,
+    .attend,
+    .meeting{
+        width: 18rem;
+        padding: 2rem;
+    }
+    .online-section{
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+        width: 70rem;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 970px) {
+    .online-container{
+        height: 100%;
+    }
+    .live,
+    .attend,
+    .meeting{
+        width: 18rem;
+        padding: 2rem;
+    }
+    .meeting{
+        width: 18rem;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .online-section{
+        width: 40rem;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+}
+@media screen and (max-width: 670px) {
+    .online-container{
+        height: 100%;
+    }
+    .live,
+    .attend,
+    .meeting{
+        width: 18rem;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .online-section{
+        width: 20rem;
+    }
+    .online-container::before{
+        background-size: cover;
+    }
+}

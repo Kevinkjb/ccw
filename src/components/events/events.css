@@ -1,5 +1,8 @@
-.events-section{
+/* .events-section{
     padding: 1.8rem;
+} */
+.events{
+    padding: 4rem;
 }
 .events-item{
     display: grid;
@@ -34,3 +37,4 @@
     width: 18.5rem;
     height: 20rem;
 }
+

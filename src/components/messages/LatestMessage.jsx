@@ -6,7 +6,7 @@ const LatestMessage = (props) => {
 
   return (
     <div className="message-container">
-      <div>
+      <div className='message-section'>
         <h3 className='latest-title'>Latest Message</h3>
         <div className="message-content">
           <img className="message-img" src={imgUrl} alt="Message" />

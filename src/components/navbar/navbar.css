@@ -40,3 +40,9 @@
 .nav-link:hover{
     color: #B58810;
 }
+
+@media screen and (max-width: 820px) {
+    .nav-item{
+        display: none;
+    }
+}

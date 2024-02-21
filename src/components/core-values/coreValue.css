@@ -53,3 +53,78 @@
     font-size: 14px;
     line-height: 1.8;
 }
+
+
+@media screen and (max-width: 970px){
+    .core-container{
+        padding: 3rem;
+    }
+    .core-value{
+        width: 50rem;
+    }
+    .core-content{
+        width: 23rem;
+    }
+}
+@media screen and (max-width: 890px){
+    .core-container{
+        padding: 3rem;
+    }
+    .core-value{
+        width: 45rem;
+    }
+    .core-content{
+        width: 20rem;
+    }
+    .core-text,
+    .list-values{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 790px){
+    .core-container{
+        padding: 2rem;
+    }
+    .core-value{
+        width: 41rem;
+    }
+    .core-content{
+        width: 19rem;
+    }
+    .core-title{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 720px){
+
+    .core-value{
+        width: 38rem;
+        gap: 1rem;
+    }
+    .core-content{
+        width: 17rem;
+        height: 13rem;
+        padding: 1.5rem;
+    }
+    .core-title{
+        font-size: 1.4rem;
+    }
+    .core-text,
+    .list-values{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 640px){
+    .core-container{
+        padding: 3rem 2rem;
+    }
+    .core-value{
+        width: 22rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .core-content{
+        width: 18rem;
+    }
+
+}

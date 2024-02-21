@@ -14,7 +14,9 @@ const HeroSection = (props) => {
     <div>
       <section className='hero-container'>
         <div className="hero-content">
-        <h1 className='hero-title'>{props.heroTitle}</h1>
+          <div className="title-section">
+            <h1 className='hero-title'>{props.heroTitle}</h1>
+          </div>
         </div>
         <video
           className='video-frame'

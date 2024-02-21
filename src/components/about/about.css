@@ -20,7 +20,6 @@
   max-width: 100%;
   width: 60rem;
   margin: 2rem auto;
-
 }
 .about-details .about-title{
   font-weight: 400;
@@ -50,7 +49,7 @@
 .about-img{
   width: 25rem;
   height: 20rem;
-  object-fit: contain;
+  object-fit: cover;
 }
 .about-btn{
   width: 10rem;
@@ -88,7 +87,6 @@
   }
   .img-container{
     display: grid;
-
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
     gap: 1rem;
@@ -97,4 +95,94 @@
     width: 20rem;
     height: 20rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  @media screen  and (max-width: 1000px){
+    .about-container{
+      padding: 3rem;
+      flex-direction: column;
+    }
+    .about-container{
+      width: 46rem;
+    }
+    .about-text{
+      width: 40rem;
+    }
+    .about-img{
+      margin-top: 3rem;
+      width: 40rem;
+      height: 35rem;
+      object-fit: contain;
+    }
+  }
+  @media screen  and (max-width: 870px){
+    .about-container{
+      width: 35rem;
+      padding: 0;
+    }
+    .about-text{
+      width: 35rem;
+    }
+    .about-img{
+      margin-top: 0;
+      width: 35rem;
+    }
+  }
+  @media screen  and (max-width: 670px){
+    .about-container{
+      width: 30rem;
+    }
+    .about-text{
+      width: 30rem;
+    }
+    .about-img{
+      width: 30rem;
+    }
+  }
+  @media screen  and (max-width: 590px){
+    .about-section{
+      padding: 2rem;
+    }
+    .about-container{
+      width: 25rem;
+    }
+    .about-text{
+      width: 25rem;
+    }
+    .about-img{
+      width: 25rem;
+      height: 25rem;
+    }
+  }
+  @media screen  and (max-width: 470px){
+    .about-section{
+      padding: 1rem;
+    }
+    .about-container{
+      width: 22rem;
+    }
+    .about-text{
+      width: 20rem;
+      font-size: 13px;
+    }
+    .about-img{
+      width: 22rem;
+      height: 22rem;
+    }
+  }
+  @media screen  and (max-width: 470px){
+    .about-section{
+      padding: 1rem;
+    }
+    .about-container{
+      width: 20rem;
+    }
+    .about-text{
+      width: 20rem;
+      font-size: 13px;
+    }
+    .about-img{
+      width: 20rem;
+      height: 22rem;
+    }
   }
