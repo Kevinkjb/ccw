@@ -3,7 +3,7 @@ import './events.css'
 const Events = (props) => {
     const {imgUrl, eventMonths, eventDays} = props.events
   return (
-    <div>
+    <div className='events-container'>
       <section className="events-section">
 
         <div className="events-content">
