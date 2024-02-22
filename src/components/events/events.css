@@ -14,6 +14,17 @@
 
 .event-item{
     position: relative;
+    margin: 3rem auto;
+}
+.events-page{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    width: 80rem;
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 4rem;
+    justify-items: center;
 }
 .event-date{
     background-color: #B58810;
@@ -37,4 +48,64 @@
     width: 18.5rem;
     height: 20rem;
 }
+.events-title{
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #22263E;
+    background:  #eaac4e;
+    width: 7rem;
+    height: 1rem;
+    display: flex;
+    align-items: end;
+}
 
+
+@media screen and (max-width: 1170px){
+    .events-item{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 45rem;
+        gap: 2rem;
+    }  
+}
+@media screen and (max-width: 850px){
+    .events{
+        padding: 3rem;
+    }
+    .events-item{
+        width: 40rem;
+    }  
+    .events-img{
+        width: 18rem;
+    }
+}
+@media screen and (max-width: 750px){
+    .events-item{
+        width: 35rem;
+    }  
+    .events-img{
+        width: 16rem;
+    }
+}
+@media screen and (max-width: 690px){
+    .events-item{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        width: 22rem;
+    }  
+    .events-img{
+        width: 19rem;
+    }
+}
+@media screen and (max-width: 420px){
+    .events{
+        padding: 3rem 2rem;
+    }
+    .events-item{
+        width: 18rem;
+    }  
+    .events-img{
+        width: 17rem;
+    }
+}

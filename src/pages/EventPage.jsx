@@ -8,7 +8,7 @@ const EventPage = () => {
       <section className="hero-section">
         <h1 className='about-hero-title'>Events</h1>
       </section>
-      <div className="events-item">
+      <div className="events-page">
         {eventsData.map((item,index) => (
           <Events key={index} events={item}/>
         ))}
