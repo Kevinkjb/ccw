@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import {Link} from 'react-router-dom'
 import './message.css';
 
 const LatestMessage = (props) => {
@@ -24,7 +25,9 @@ const LatestMessage = (props) => {
               <p><strong>Description:</strong></p>
               <p className='message-text'>{description}</p>
             </div>
+            <Link to='/messages'>
             <button className="message-btn">Learn More</button>
+            </Link>
           </div>
         </div>
       </div>

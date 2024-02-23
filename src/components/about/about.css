@@ -130,11 +130,7 @@
       font-size: 4rem;
     }
   }
-  @media screen and (max-width: 1060px) {
-    .about-hero-title{
-      font-size: 3rem;
-    }
-  }
+
   @media screen and (max-width: 1000px){
     .img-container{
       grid-template-columns: repeat(2, 1fr);
@@ -153,14 +149,10 @@
       height: 25rem;
     }
     .about-hero-title{
-      font-size: 2.5rem;
+      font-size: 3.5rem;
     }
   }
-  @media screen and (max-width: 450px) {
-    .about-hero-title{
-      font-size: 2rem;
-    }
-  }
+
   
 
 
