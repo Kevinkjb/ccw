@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { GiHamburgerMenu } from "react-icons/gi";
 import './navbar.css';
 import logo from '../../images/logo.png';
 
@@ -16,7 +17,7 @@ const Navbar = () => {
         <div className="logo">
           <img className='logo-img' src={logo} alt="ccw logo" />
         </div>
-        <ul className='nav-item'>
+        <ul className='nav-item active'>
           <li className='nav-list'>
             <Link className='nav-link' to="/" onClick={scrollToTop}>Home</Link>
           </li>
@@ -36,6 +37,9 @@ const Navbar = () => {
             <Link className='nav-link' to="/contact" onClick={scrollToTop}>Contact Us</Link>
           </li>
         </ul>
+        <div className="burger-menu">
+          <GiHamburgerMenu className='burger-item'/>
+        </div>
       </div>
     </nav>
   );
