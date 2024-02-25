@@ -11,7 +11,7 @@ import Footer from "../components/footer/Footer"
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="main">
       <HeroSection heroTitle="Welcome To CCW"/>
       <About/>
       <OnlineInfo/>

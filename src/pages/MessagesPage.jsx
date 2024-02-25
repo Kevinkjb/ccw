@@ -2,11 +2,12 @@
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 import AllMessages from "../components/messages/AllMessages"
+import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
 import sampleImage from '../images/Image Coming Soon.png'
 const allMessage = [
     {
       videoUrl: "https://www.youtube.com/embed/-EcCtP8Rx38?si=aG6oBHXHWvpV23VN",
-      imgUrl: sampleImage
+      imgUrl: basicTruth
     },
     {
         videoUrl: "https://www.youtube.com/embed/QLFAPAElvnk",
@@ -33,19 +34,21 @@ const MessagesPage = () => {
             <div className='message-section'>
             <h3 className='latest-title'>Latest Message</h3>
             <div className="message-content">
-              <iframe 
+              {/* <iframe 
                 className="latest-video"
                 src={item.videoUrl} 
                 title="YouTube video player" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 allowFullScreen="true"
               >
-              </iframe>
+              </iframe> */}
+              <img className="message-img" src={item.imgUrl} alt="Message" />
+             
               <div className="message-details">
                 <h3 className='message-title'>{item.messageTitle}</h3>
                 <div className="message-by">
                   <span><strong>Message by:</strong> </span>
-                  <span>{item.messageTitle}</span>
+                  <span>{item.messageBy}</span>
                 </div>
                 <div className="date-posted">
                   <span> <strong>Date Posted:</strong> </span>

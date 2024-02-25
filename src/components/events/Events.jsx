@@ -4,13 +4,14 @@ import './events.css'
 import Display from '../modal/ModalDisplay';
 const Events = (props) => {
     const [openModal, setOpenModal] = useState(false)
+
     const {imgUrl, eventMonths, eventDays} = props.events
   return (
     <div className='events-container'>
       <section className="events-section">
 
         <div className="events-content">
-            <div className="event-item">
+            <div className="event-item" >
                 <img onClick={() => setOpenModal(!openModal)} className='events-img' src={imgUrl} alt="events image" />
                 <div className="event-date">
                     <h5 className='event-day'>{eventDays}</h5>
@@ -19,7 +20,7 @@ const Events = (props) => {
             </div>
         </div>
       </section>
-      {openModal && <Display modalClose={setOpenModal}/>}
+      {openModal && <Display modalClose={setOpenModal} />}
     </div>
   )
 }

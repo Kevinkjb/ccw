@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import './message.css';
 
 const LatestMessage = (props) => {
-  const { messageTitle, datePosted, description, imgUrl } = props.data;
+  const { messageTitle, datePosted,messageBy, description, imgUrl } = props.data;
 
   return (
     <div className="message-container">
@@ -15,7 +15,7 @@ const LatestMessage = (props) => {
             <h3 className='message-title'>{messageTitle}</h3>
             <div className="message-by">
               <span><strong>Message by:</strong> </span>
-              <span>{messageTitle}</span>
+              <span>{messageBy}</span>
             </div>
             <div className="date-posted">
               <span> <strong>Date Posted:</strong> </span>
@@ -41,7 +41,8 @@ LatestMessage.propTypes = {
     messageTitle: PropTypes.string.isRequired,
     datePosted: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
-    imgUrl: PropTypes.string.isRequired
+    imgUrl: PropTypes.string.isRequired,
+    messageBy: PropTypes.string.isRequired
   }).isRequired
 };
 

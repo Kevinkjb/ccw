@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-
-const Display = ({modalClose}) => {
+import './modal.css'
+const Display = ({modalClose, closeOutside}) => {
   return (
     <div className="modal-background">
-      <div className="modal-container">
+      <div className="modal-container" onClick={() => closeOutside()}>
         <div className="modal-content">
         <div className="closeButton">
             <button className='close-btn' onClick={() => modalClose(false)}>X</button>
@@ -23,7 +23,8 @@ const Display = ({modalClose}) => {
 }
 
 Display.propTypes = {
-    modalClose: PropTypes.bool.isRequired
+    modalClose: PropTypes.bool.isRequired,
+    closeOutside: PropTypes.bool.isRequired
 }.isRequired
 
 export default Display
