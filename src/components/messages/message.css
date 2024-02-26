@@ -36,7 +36,6 @@
     margin: 2rem 0 ;
 }
 .message-btn{
-    margin-top: 1rem;
     width: 15rem;
     height: 2.5rem;
     background-color: #B58810;
@@ -55,10 +54,11 @@
     padding: 4rem;
     height: 100%;
     max-height: 100%;
-    width: 100%;
+    width: 100rem;
     max-width: 100%;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr 1fr;
 }
 .message-content{
@@ -77,7 +77,7 @@
     place-items: center; */
     display: flex;
     justify-content: space-between;
-    width: 75rem;
+    width: 35rem;
     max-width: 100%;
     margin: 4rem auto;
 }
@@ -99,13 +99,52 @@
 }
 .messages-img{
     max-width: 100%;
-    width: 35rem;
-    height: 25rem;
+    width: 40rem;
+    height: 20rem;
+    object-fit: cover;
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .image-message{
     width: 30rem;
+}
+.youtube-link{
+    text-decoration: none;    
+    padding: .5rem 3rem;
+    background-color: #B58810;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all .3s ease;
+}
+.youtube-link:hover{
+    background-color: #22263E;
+}
+.prev-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.text-info{
+    margin: 1rem 0;
+}
+.messageBy{
+    font-weight: 600;
+    margin: .5rem .3rem .5rem 0;
+}
+.prev-text{
+    color: rgba(0, 0, 0, .6);
+    font-size: 14px;
+}
+.messages-slide{
+    height: 35rem;
+    width: 35rem;
+}
+.messages-details{
+    padding: 1rem 0;
 }
 
 /* ALL MESSAGE PAGE SECTION */

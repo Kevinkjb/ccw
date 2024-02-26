@@ -3,19 +3,34 @@ import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 import AllMessages from "../components/messages/AllMessages"
 import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
-import sampleImage from '../images/Image Coming Soon.png'
+import manSinDeath from '../images/Man, Sin, and Death.png'
+import discipleship from '../images/Discipleship.png'
+import relationship from "../images/1-21-2024 - Let's Talk About Relationship.png"
+
 const allMessage = [
     {
       videoUrl: "https://www.youtube.com/embed/-EcCtP8Rx38?si=aG6oBHXHWvpV23VN",
-      imgUrl: basicTruth
+      imgUrl: basicTruth,
+      messageBy: 'Ted Matira',
+      description: 'There are many things about God and God’s existence that will go beyond reasons and that will require FAITH to BELIEVE. '
     },
     {
-        videoUrl: "https://www.youtube.com/embed/QLFAPAElvnk",
-        imgUrl: sampleImage
+      videoUrl: "https://fb.watch/qrTqKakIhM/",
+      imgUrl: manSinDeath,
+      messageBy: 'Ted Matira',
+      description: 'God would like us to enjoy eternity with Him, but there’s one thing that can hinder us to get there - SIN.  '
     },
     {
-      videoUrl: "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FCCWetaskiwin%2Fvideos%2F382811670933559%2F&show_text=false&width=560&t=0",
-      imgUrl: sampleImage
+      videoUrl: "https://fb.watch/qrTvHVpND1/",
+      imgUrl: discipleship,
+      messageBy: 'Ted Matira',
+      description: 'Everyone joining the family of God are expected to not just profess the faith but divinely UNITE him/her self to Christ.'
+    },
+    {
+      videoUrl: "https://fb.watch/qrTyd8Up5G/",
+      imgUrl: relationship,
+      messageBy: 'Ted Matira',
+      description: 'Everyone joining the family of God are expected to not just profess the faith but divinely UNITE him/her self to Christ.'
     },
    
 
@@ -58,6 +73,7 @@ const MessagesPage = () => {
                   <p><strong>Description:</strong></p>
                   <p className='message-text'>{item.description}</p>
                 </div>
+                <a className='youtube-link' href="https://youtube.com/live/F0YRa9gVwtM?feature=share" target='_blank'>Watch</a>
               </div>
         </div>
       </div>
@@ -72,6 +88,8 @@ const MessagesPage = () => {
               key={index}
               video={item.videoUrl}
               image={item.imgUrl}
+              description={item.description}
+              message={item.messageBy}
             />
           ))
         }

@@ -6,7 +6,7 @@ const ContactForm = () => {
             <h2>Contact Us</h2>
         </div>
 
-        <form className="form" action="emai">
+        <form className="form" >
             <div className="fname-input">
                 <input className="fname" type="text" name="fname" placeholder="Full Name"/>
             </div>

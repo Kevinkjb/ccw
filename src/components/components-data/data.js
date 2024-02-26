@@ -1,7 +1,7 @@
 import messageImg from '../../images/02-25-2024 - Membership.png'
 const latestMessage = [
     {
-        messageTitle: 'Message Title',
+        messageTitle: 'Talk about Membership',
         videoUrl: "https://www.youtube.com/embed/-EcCtP8Rx38?si=aG6oBHXHWvpV23VN",
         imgUrl: messageImg,
         messageBy: 'Ted Matira',

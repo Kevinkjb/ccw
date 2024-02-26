@@ -97,6 +97,62 @@
     height: 20rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
+  .about-ccw{
+    width: 60rem;
+    height: 100%;
+  }
+
+  /* CCW PRINCIPLES */
+
+  .principles-section{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+  }
+  .principles-info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .commited,
+  .accountability,
+  .relationships{
+    width: 25rem;
+  }
+  .relationships-text{
+    background-color: #a6a6a6;
+    color: #fff;
+    padding: 1rem 1rem;
+    width: 18rem;
+    margin: .4rem auto;
+    font-size: 1.4rem;
+  }
+  .accountability-text{
+    background-color: #22263d;
+    color: #fff;
+    padding: 1rem 1rem;
+    width: 18rem;
+    margin: .4rem auto;
+    font-size: 1.4rem;
+  }
+  .commited-text{
+    background-color: #b68911;
+    color: #fff;
+    padding: 1rem 1rem;
+    width: 18rem;
+    margin: .4rem auto;
+    font-size: 1.4rem;
+  }
+  .ccw-title-about{
+    width: 18rem;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 2rem;
+  }
 
 
   /*RESPONSIVE LAYOUT  */

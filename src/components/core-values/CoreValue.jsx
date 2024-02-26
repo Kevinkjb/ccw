@@ -28,7 +28,6 @@ const CoreValue = () => {
                         <p>Obedience</p>
                         <p>Relationship</p>
                         <p>Discipleship</p>
-                        <p>Service</p>
                     </div>
                 </div>
 
