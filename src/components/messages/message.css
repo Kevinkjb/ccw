@@ -16,6 +16,10 @@
     font-weight: 600;
     color: #22263E;
 }
+.message-link{
+    display: flex;
+    align-items: center;
+}
 .message-img{
     width: 30rem;
     object-fit: contain;
@@ -255,12 +259,38 @@
         width: 28rem;
     }
     .latest-title{
+        width: 62rem;
+    }
+    .message-content{
+        width: 62rem;
+    }
+    .message-text{
+        width: 25rem;
+    }
+}
+@media screen and (max-width: 1070px) {
+    .message-container{
+        padding: 3rem;
+    }
+    .message-img{
+        width: 28rem;
+    }
+    .latest-title{
         width: 55rem;
+    }
+    .message-title{
+        font-size: 2rem;
     }
     .message-content{
         width: 55rem;
     }
+    .message-details{
+        width: 25rem;
+    }
     .message-text{
+        width: 25rem;
+    }
+    .description{
         width: 25rem;
     }
 }
@@ -274,23 +304,27 @@
         object-fit: contain;
     }
     .latest-title{
-        width: 50rem;
+        width: 52rem;
     }
     .message-content{
-        width: 50rem;
+        width: 52rem;
+    }
+    .message-details{
+        width: 24.5rem;
+    }
+    .description{
+        width: 22rem;
     }
     .message-text{
         width: 22rem;
         font-size: 13px;
     }
-    .message-title{
-        font-size: 2.4rem;
-    }
+
     .description{
         margin: 1.5rem 0;
     }
 }
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 870px) {
     .message-container{
         padding: 3rem;
     }
@@ -338,6 +372,9 @@
     }
     .message-title{
         font-size: 2rem;
+    }
+    .message-details{
+        width: 20rem;
     }
     .message-img{
         width: 20rem;

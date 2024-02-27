@@ -1,0 +1,165 @@
+
+.schedule-container{
+    padding: 4rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    position: relative;
+    z-index: 1;
+}
+.schedule-container::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 25rem;
+    background: url('../../images/corevalue.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.weekly-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    width: 65rem;
+    gap: 2rem;
+    margin: 0 auto;
+
+}
+.weekly-heading h3{
+    color: #b84c65;
+    font-size: 3rem;
+    text-transform: uppercase;
+    width: 65rem;
+    margin: 0 auto 2rem auto;
+    letter-spacing: 1px;
+}
+.schedule-time{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+/* MONDAY TO FRIDAY SCHEDULE SECTION */
+.first-schedule{
+    background-image: url('../../images/schedule.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20rem;
+    height: 30rem;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.first-schedule::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    opacity: .6;
+    background-color: black;
+    border-radius: 15px;
+}
+.couples,
+.praise-worship{
+    border-bottom: 2px solid #fff;
+    padding: 1.5rem;
+}
+.young-pro{
+    padding: 1.5rem;
+}
+.schedule-text{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/* SUNDAY SERVICES SECTION */
+.second-schedule{
+    background-image: url('../../images/schedule-two.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20rem;
+    height: 30rem;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.second-schedule::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    opacity: .6;
+    background-color: black;
+    border-radius: 15px;
+}
+.sunday-service{
+    padding: 2rem;
+}
+.sunday-text{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+/* PRAYER MEETING SECTION */
+.third-schedule{
+    background-image: url('../../images/schedule-three.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20rem;
+    height: 30rem;
+    color: #fff;
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: end;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.third-schedule::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    opacity: .6;
+    background-color: black;
+    border-radius: 15px;
+}
+.prayer-text{
+
+}
+.prayer-meeting{
+    padding: 2rem;
+}
+.prayer-text{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}

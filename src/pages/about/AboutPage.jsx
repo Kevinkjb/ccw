@@ -47,35 +47,35 @@ const AboutPage = () => {
 
     {/* PRINCIPLES SECTION */}
     <section className='principles-section'>
-    <div className="principles-info">
-      <div className="commited">
-        <h2 className='ccw-title-about'>We are commited to</h2>
-        <div className="commited-info">
-          <p className='commited-text'>Care</p>
-          <p className='commited-text'>Mentor</p>
-          <p className='commited-text'>Serve</p>
-          <p className='commited-text'>Care</p>
+      <div className="principles-info">
+        <div className="commited">
+          <h2 className='ccw-title-about'>We are commited to</h2>
+          <div className="commited-info">
+            <p className='commited-text'>Care</p>
+            <p className='commited-text'>Mentor</p>
+            <p className='commited-text'>Serve</p>
+            <p className='commited-text'>Care</p>
+          </div>
+        </div>
+        <div className="accountability">
+          <h2 className='ccw-title-about'>We uphold accountability to</h2>
+          <div className="accountability-info">
+            <p className='accountability-text'>The Lord</p>
+            <p className='accountability-text'>The Word</p>
+            <p className='accountability-text'>The Leadership</p>
+            <p className='accountability-text'>The Ministry</p>
+          </div>
+        </div>
+        <div className="relationships">
+          <h2 className='ccw-title-about'>Focus on family relationships</h2>
+          <div className="relationships-info">
+            <p className='relationships-text'>Belongingness</p>
+            <p className='relationships-text'>Faith & Faithfulness</p>
+            <p className='relationships-text'>Discipleship</p>
+            <p className='relationships-text'>Protecting Testimonies</p>
+          </div>
         </div>
       </div>
-      <div className="accountability">
-        <h2 className='ccw-title-about'>We uphold accountability to</h2>
-        <div className="accountability-info">
-          <p className='accountability-text'>The Lord</p>
-          <p className='accountability-text'>The Word</p>
-          <p className='accountability-text'>The Leadership</p>
-          <p className='accountability-text'>The Ministry</p>
-        </div>
-      </div>
-      <div className="relationships">
-        <h2 className='ccw-title-about'>Focus on family relationships</h2>
-        <div className="relationships-info">
-          <p className='relationships-text'>Belongingness</p>
-          <p className='relationships-text'>Faith & Faithfulness</p>
-          <p className='relationships-text'>Discipleship</p>
-          <p className='relationships-text'>Protecting Testimonies</p>
-        </div>
-      </div>
-    </div>
     </section>
 
       <CoreValue/>

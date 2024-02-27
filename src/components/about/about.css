@@ -102,26 +102,56 @@
     height: 100%;
   }
 
+
+
   /* CCW PRINCIPLES */
 
   .principles-section{
-    background-color: bisque;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    position: relative;
+    z-index: 1;
     display: flex;
-    justify-content: space-between;
-    padding: 4rem;
     justify-content: center;
     align-items: center;
-    height: 40rem;
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+  }
+  .principles-section::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 30rem;
+    background: url('../../images/online-resource.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
   }
   .principles-info{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     text-align: center;
+    background-color: #fff;
+    width: 80rem;
+    height: 100%;
+    max-width: 100%;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
   .commited,
   .accountability,
   .relationships{
     width: 25rem;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
   }
   .relationships-text{
     background-color: #a6a6a6;
@@ -208,10 +238,6 @@
       font-size: 3.5rem;
     }
   }
-
-  
-
-
 
   /* --------------------- */
 
@@ -306,4 +332,61 @@
       width: 20rem;
       height: 22rem;
     }
+  }
+
+  /*PRINCIPLES SECTION  */
+  
+  @media screen and (max-width: 1110px) {
+    .ccw-title-about{
+      width: 14rem;
+      font-weight: 500;
+      font-size: 1.6rem;
+    }
+  }
+  @media screen and (max-width: 1090px) {
+    .principles-info{
+      flex-wrap: wrap;
+      width: 45rem;
+    }
+    .commited,
+    .accountability,
+    .relationships{
+      margin: 1rem 0;
+      width: 20rem;
+    }
+  }
+  @media screen and (max-width: 830px) {
+    .principles-info{
+      width: 30rem;
+      justify-content: center;
+    }
+    .commited,
+    .accountability,
+    .relationships{
+      margin: 1rem 0;
+      width: 20rem;
+    }
+  }
+  @media screen and (max-width: 520px){
+    .principles-section{
+      padding: 2rem;
+    }
+  }
+  @media screen and (max-width: 447px){
+    .relationships-text{
+      background-color: #a6a6a6;
+    }
+    .accountability-text{
+      background-color: #22263d;
+    }
+    .commited-text{
+      background-color: #b68911;
+    }
+    .commited-text,
+    .accountability-text,
+    .relationships-text{
+      width: 14rem;
+      font-size: 1rem;
+    }
+
   }
