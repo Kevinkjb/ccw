@@ -23,6 +23,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     width: 65rem;
+    max-width: 100%;
     gap: 2rem;
     margin: 0 auto;
 
@@ -152,9 +153,7 @@
     background-color: black;
     border-radius: 15px;
 }
-.prayer-text{
 
-}
 .prayer-meeting{
     padding: 2rem;
 }
@@ -162,4 +161,130 @@
     font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1170px) {
+    .schedule-container{
+        padding: 2.5rem;
+    }
+    .weekly-heading h3{
+        width: 60rem;
+    }
+    .weekly-content{
+        width: 60rem;
+    }
+    .first-schedule,
+    .second-schedule,
+    .third-schedule{
+        width: 18rem;
+        height: 30rem;
+    }
+    .prayer-text{
+        font-size: 2.2rem;
+    }
+}
+@media screen and (max-width: 1020px) {
+
+    .weekly-heading h3{
+        width: 55rem;
+    }
+    .weekly-content{
+        width: 55rem;
+    }
+    .first-schedule,
+    .second-schedule,
+    .third-schedule{
+        width: 16rem;
+        height: 30rem;
+    }
+    .sunday-text,
+    .prayer-text{
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    .schedule-text{
+        font-size: 1.2rem;
+    }
+    .schedule-time{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 930px) {
+
+    .weekly-heading h3{
+        width: 43rem;
+    }
+    .weekly-content{
+        width: 43rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .first-schedule,
+    .second-schedule,
+    .third-schedule{
+        width: 20rem;
+        height: 30rem;
+    }
+    .third-schedule{
+       grid-column: 1/3;
+    }
+    .sunday-text,
+    .prayer-text{
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .schedule-text{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 760px) {
+
+    .weekly-heading h3{
+        width: 30rem;
+    }
+    .weekly-content{
+        width: 30rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .third-schedule{
+       grid-column: 1/2;
+    }
+
+}
+@media screen and (max-width: 570px) {
+
+    .weekly-heading h3{
+        width: 20rem;
+        text-align: center;
+
+    }
+    .weekly-content{
+        width: 20rem;
+    }
+}
+@media screen and (max-width: 410px) {
+    .schedule-container{
+        padding: 1.8rem;
+    }
+    .weekly-content{
+        width: 18rem;
+    }
+    .weekly-heading h3{
+        width: 18rem;
+
+    }
+    .first-schedule,
+    .second-schedule,
+    .third-schedule{
+        width: 18rem;
+    }
+    .sunday-text,
+    .prayer-text{
+        font-size: 2.1rem;
+        margin-bottom: 1rem;
+    }
+    .schedule-text{
+        font-size: 1.2rem;
+    }
 }

@@ -71,14 +71,14 @@
     .events-page{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         width: 60rem;
     }
 }
 @media screen and (max-width: 720px){
     .events-page{
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         width: 30rem;
         padding: 2.5rem;
     }
