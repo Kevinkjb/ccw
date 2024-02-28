@@ -1,18 +1,25 @@
 import headImage from '../../images/about.jpg'
 import CoreValue from '../../components/core-values/CoreValue'
 import Footer from '../../components/footer/Footer'
-import sampleImage from '../../images/Image Coming Soon.png'
 import AboutGallery from '../../components/about/AboutGallery'
+import imageOne from "./images/Arnold's Baptism.jpg"
+import imageTwo from "./images/Carl Baptism.jpg"
+import imageThree from "./images/Church of Christ in PH.jpg"
+import imageFour from "./images/Dinner Night at Church.jpg"
+import imageFive from "./images/Dinner Night Womens.jpg"
+import imageSix from "./images/Family Day 2024.jpg"
+import imageSeven from "./images/camping.png"
+import imageEight from "./images//camping 2022.jpg"
 
 const imageGallery = [
-  {imgUrl: sampleImage},
-  {imgUrl: sampleImage},
-  {imgUrl: sampleImage},
-  {imgUrl: sampleImage},
-  {imgUrl: sampleImage},
-  {imgUrl: sampleImage},
-  {imgUrl: sampleImage},
-  {imgUrl: sampleImage}
+  {imgUrl: imageOne},
+  {imgUrl: imageTwo},
+  {imgUrl: imageThree},
+  {imgUrl: imageFour},
+  {imgUrl: imageFive},
+  {imgUrl: imageSix},
+  {imgUrl: imageSeven},
+  {imgUrl: imageEight}
 ]
 
 const AboutPage = () => {
