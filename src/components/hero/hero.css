@@ -82,6 +82,14 @@
     font-size: 4rem;
   }
 }
+@media screen and (max-width: 1200px){
+  html, body{
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+  }
+}
 @media screen and (max-width: 1060px) {
   .hero-container{
     height: 25rem;

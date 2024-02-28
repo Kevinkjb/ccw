@@ -97,6 +97,16 @@
 }
 
 
+
+@media screen and (max-width: 1200px){
+    html, body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+
 @media screen and (max-width: 1180px) {
     .footer-section{
         grid-template-columns: repeat(2, 1fr);

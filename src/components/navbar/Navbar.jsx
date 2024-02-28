@@ -1,9 +1,17 @@
 import { Link } from 'react-router-dom';
 import { GiHamburgerMenu } from "react-icons/gi";
+import { IoCloseSharp } from "react-icons/io5";
+import { useState } from 'react';
 import './navbar.css';
 import logo from '../../images/logo.png';
 
 const Navbar = () => {
+  const [navToggle, setNavToggle] = useState(false)
+
+  const closeMobile = () =>{
+    scrollToTop()
+    setNavToggle(false)
+  }
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -13,32 +21,34 @@ const Navbar = () => {
 
   return (
     <nav className='nav-container'>
-      <div className="main-nav">
+      <div className="main-nav ">
         <div className="logo">
           <img className='logo-img' src={logo} alt="ccw logo" />
         </div>
-        <ul className='nav-item active'>
+        <ul className={`nav-item ${navToggle ? 'active' : ''}`}>
           <li className='nav-list'>
-            <Link className='nav-link' to="/" onClick={scrollToTop}>Home</Link>
+            <Link className='nav-link' to="/" onClick={closeMobile}>Home</Link>
           </li>
           <li className='nav-list'>
-            <Link className='nav-link' to="/about" onClick={scrollToTop}>About</Link>
+            <Link className='nav-link' to="/about" onClick={closeMobile}>About</Link>
           </li>
           <li className='nav-list'>
-            <Link className='nav-link' to="/events" onClick={scrollToTop}>Events</Link>
+            <Link className='nav-link' to="/events" onClick={closeMobile}>Events</Link>
           </li>
           <li className='nav-list'>
-            <Link className='nav-link' to="/messages" onClick={scrollToTop}>Messages</Link>
+            <Link className='nav-link' to="/messages" onClick={closeMobile}>Messages</Link>
           </li>
           <li className='nav-list'>
-            <Link className='nav-link' to="/give" onClick={scrollToTop}>Give</Link>
+            <Link className='nav-link' to="/give" onClick={closeMobile}>Give</Link>
           </li>
           <li className='nav-list'>
-            <Link className='nav-link' to="/contact" onClick={scrollToTop}>Contact Us</Link>
+            <Link className='nav-link' to="/contact" onClick={closeMobile}>Contact Us</Link>
           </li>
         </ul>
-        <div className="burger-menu">
-          <GiHamburgerMenu className='burger-item'/>
+        <div className="burger-menu" onClick={() => setNavToggle(!navToggle)}>
+          {navToggle ? <IoCloseSharp className='burger-item'/> : <GiHamburgerMenu className='burger-item'/>}
+          
+          
         </div>
       </div>
     </nav>

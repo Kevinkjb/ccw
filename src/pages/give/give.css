@@ -15,7 +15,8 @@
 .giving-content{
     display: flex;
     justify-content: space-between;
-    width: 70rem;
+    width: 65rem;
+    max-width: 100%;
     height: 100%;
     margin: 2rem auto;
     align-items: center;
@@ -54,6 +55,7 @@
     background-color: #fff;
     border-radius: 15px;
     width: 60rem;
+    padding: 2rem;
     height: 20rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -67,9 +69,127 @@
     margin-bottom: 2rem;
 }
 .etransfer{
-    width: 30rem;
+    width: 26.5rem;
     font-size: 2rem;
+}
+.giving-details{
+    width: 26.5rem;
 }
 .giving-email{
     color: #B58810;
+}
+
+/* GIVING VERSE RESPONSIVE SECTION */
+
+@media screen and (max-width: 1200px){
+    html, body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+}
+@media screen and (max-width: 980px){
+    .verse{
+        font-size: 1.25rem;
+        margin-top: .5rem;
+    }
+}
+
+@media screen and (max-width: 675px){
+    .giving-verse{
+        padding: 2rem;
+    }
+    .verse{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width: 470px){
+    .verse{
+        font-size: 13px;
+    }
+    .giving-title-container{
+        height: 60%;
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 430px){
+    .chapter{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 375px){
+    .chapter{
+        font-size: 1.4rem;
+    }
+}
+
+
+/* GIVING CONTENT SECTION */
+@media screen and (max-width: 980px){
+    .giving-content{
+        width: 48rem;
+    }
+    .giving-img{
+        width: 20rem;
+        height: 20rem;
+    }
+    .etransfer{
+        width: 20rem;
+        font-size: 1.5rem;
+    }
+    .giving-details{
+        width: 20rem;
+    }
+}
+@media screen and (max-width: 800px){
+    .giving-content{
+        flex-direction: column-reverse;
+        width: 35rem;
+    }
+    .giving-img{
+        width: 25rem;
+        height: 25rem;
+        margin-top: 3rem;
+    }
+    .etransfer{
+        width: 25rem;
+        font-size: 1.8rem;
+    }
+    .giving-details{
+        width: 25rem;
+    }
+}
+@media screen and (max-width: 530px){
+    .giving-content{
+        padding: 1.5rem;
+    }
+    .giving-img{
+        width: 20rem;
+        height: 20rem;
+    }
+    .etransfer{
+        width: 20rem;
+        font-size: 1.5rem;
+    }
+    .giving-details{
+        width: 20rem;
+    }
+}
+@media screen and (max-width: 400px){
+    .giving-content{
+        padding: 1.5rem;
+        width: 22rem;
+    }
+    .giving-img{
+        width: 18rem;
+        height: 18rem;
+    }
+    .etransfer{
+        width: 18rem;
+        font-size: 1.4rem;
+    }
+    .giving-details{
+        width: 18rem;
+    }
 }
