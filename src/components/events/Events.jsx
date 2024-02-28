@@ -20,7 +20,7 @@ const Events = (props) => {
             </div>
         </div>
       </section>
-      {openModal && <Display modalClose={setOpenModal} />}
+      {openModal && <Display shown={openModal} close={() => {setOpenModal(false)}} />}
     </div>
   )
 }
