@@ -9,10 +9,10 @@ const Display = ({modalClose, closeOutside}) => {
             <button className='close-btn' onClick={() => modalClose(false)}>X</button>
         </div>
         <div className="modal-header">
-            <h2>Modal Title</h2>
+            <h2>Event Title</h2>
         </div>
         <div className="modal-body">
-            <p>This is modal test</p>
+            <p>No event currently</p>
         </div>
         </div>
 
