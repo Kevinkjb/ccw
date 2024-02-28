@@ -30,7 +30,7 @@ const allMessage = [
       videoUrl: "https://fb.watch/qrTyd8Up5G/",
       imgUrl: relationship,
       messageBy: 'Ted Matira',
-      description: 'Everyone joining the family of God are expected to not just profess the faith but divinely UNITE him/her self to Christ.'
+      description: 'He came to mend our hearts and consecrate us to a new and living way in full assurance of faith and trust.'
     },
    
 
