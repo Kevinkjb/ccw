@@ -8,13 +8,25 @@ const OnlineInfo = () => {
       <section className="online-section">
         <div className="live">
             <div className="live-icon">
-                <FaFacebook className='online-icon'/>
-                <FaYoutube className='online-icon'/>
+                <a className='live-link' href="https://www.facebook.com/CCWetaskiwin" target='_blank'>
+                    <FaFacebook className='online-icon'/>
+                </a>
+                <a className='live-link' href="https://www.youtube.com/@ChurchofChristWetaskiwin/streams" target='_blank'>
+                    <FaYoutube className='online-icon'/>
+                </a>
             </div>
             <div className="live-info">
                 <h3 className='online-title'>Join Us Online</h3>
                 <p className='online-text'>Live on Facebook <br /> and Youtube</p>
                 <p className='online-text'>Sundays at 10:00AM MST</p>
+            </div>
+            <div className="social-live-link">
+                <a className='fb-link' href="https://www.facebook.com/CCWetaskiwin" target='_blank'>
+                    Facebook Live
+                </a>
+                <a className='yt-link' href="https://www.youtube.com/@ChurchofChristWetaskiwin/streams" target='_blank'>
+                    Youtube Live
+                </a>
             </div>
 
         </div>

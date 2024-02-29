@@ -4,6 +4,7 @@ const latestMessage = [
         messageTitle: 'Talk about Membership',
         videoUrl: "https://www.youtube.com/embed/-EcCtP8Rx38?si=aG6oBHXHWvpV23VN",
         imgUrl: messageImg,
+        imageSlide: 'https://www.canva.com/design/DAF9ua8OCJg/dR6b9Wglj07SMPchRcO0cA/view?utm_content=DAF9ua8OCJg&utm_campaign=designshare&utm_medium=link&utm_source=editor',
         messageBy: 'Ted Matira',
         datePosted: 'April 25, 2024',
         description: 'so in Christ we, though many, form one body, and each member belongs to all the others.'

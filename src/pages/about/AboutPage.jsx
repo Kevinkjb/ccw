@@ -35,14 +35,10 @@ const AboutPage = () => {
                   <h2 className="about-title">About Our Church</h2>
                   <h4 className="about-sub-title">We exist to worship and serve God.</h4>
                   <p className="about-text">
-                      Integer nec bibendum lacus. 
-                      Suspendisse dictum enim sit amet libero malesuada feugiat. 
-                      Praesent malesuada congue magna at finibus. In hac habitasse platea dictumst. 
-                      Curabitur rhoncus auctor eleifend. 
-                      Fusce venenatis diam urna, eu pharetra arcu varius ac. 
-                      Etiam cursus turpis lectus, id iaculis risus tempor id. 
-                      Phasellus fringilla nisl sed sem scelerisque, 
-                      eget aliquam magna vehicula.nteger nec bibendum lacus.
+                  At Church of Christ Wetaskiwin, we are more than just a gathering of individuals; 
+                  we are a community united by the common goal of worshipping and serving God.
+                   Our mission is to create an environment where believers can deepen their relationship with God, 
+                  express their love through worship, and serve others with a spirit of humility.
                   </p>
               </div>
               <div className="about-img-container">
@@ -55,6 +51,9 @@ const AboutPage = () => {
     {/* PRINCIPLES SECTION */}
     <section className='principles-section'>
       <div className="principles-info">
+        <div className="principles-img-container">
+          <img className='about-img-logo' src="https://media.canva.com/1/image-resize/1/200_200_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9kdVFmQS9NQUZpRzhkdVFmQS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAMlhOy4GQS0UweA2JaI9IUukfpXAX2RQbW7R9G-RRwV3&exp=1709191296&x-canva-quality=thumbnail&csig=AAAAAAAAAAAAAAAAAAAAAO2J-vCn98Mz2i9fgYXm-wwBLPQ_gkxbXSu1eHPKpnbG" alt="logo img" />
+        </div>
         <div className="commited">
           <h2 className='ccw-title-about'>We are commited to</h2>
           <div className="commited-info">

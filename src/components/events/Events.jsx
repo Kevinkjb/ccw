@@ -2,6 +2,20 @@ import PropTypes from 'prop-types';
 import { useState } from 'react';
 import './events.css'
 import Display from '../modal/ModalDisplay';
+
+const currentEvent = [
+  {
+    eventTitle: 'Easter Escape Room',
+    description: 'No current description yet.',
+    date: 'No current date yet.'
+  },
+  {
+    eventTitle: "Women's Outing in Canmore",
+    description: 'No current description yet.',
+    date: 'May 3-4th 2024'
+  }
+]
+
 const Events = (props) => {
     const [openModal, setOpenModal] = useState(false)
 
@@ -20,7 +34,18 @@ const Events = (props) => {
             </div>
         </div>
       </section>
-      {openModal && <Display shown={openModal} close={() => {setOpenModal(false)}} />}
+      {openModal && 
+      currentEvent.map((item, index) => (
+        <Display 
+          key={index}
+          shown={openModal} 
+          close={() => {setOpenModal(false)}} 
+          eventTitle={item.eventTitle} 
+          description={item.description} 
+        />
+      ))
+
+      }
     </div>
   )
 }

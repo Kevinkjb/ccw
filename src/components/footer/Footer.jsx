@@ -16,10 +16,10 @@ const Footer = () => {
             </div>
             <p className='footer-text'>Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada feugiat. </p>
             <div className="footer-social">
-                <a className='footer-link' href="">
+                <a className='footer-link' href="https://www.facebook.com/CCWetaskiwin" target='_blank'>
                     <FaFacebook className='footer-img'/>
                 </a>
-                <a className='footer-link' href="">
+                <a className='footer-link' href="https://www.youtube.com/@ChurchofChristWetaskiwin" target='_blank'>
                     <FaYoutube className='footer-img'/>
                 </a>
             </div>

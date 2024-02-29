@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import './modal.css'
-const Display = ({shown, close}) => {
+const Display = ({shown, close, eventTitle}) => {
   return shown ? (
         <div className="modal-container" onClick={() => { close()}}>
           <div className="modal-content" onClick={e => { e.stopPropagation()}}>
@@ -8,7 +8,7 @@ const Display = ({shown, close}) => {
                 <button className='close-btn' onClick={close}>X</button>
             </div>
             <div className="modal-header">
-                <h2>Event Title</h2>
+                <h2>{eventTitle}</h2>
             </div>
             <div className="modal-body">
                 <p>No event currently</p>
@@ -21,7 +21,8 @@ const Display = ({shown, close}) => {
 
 Display.propTypes = {
   shown: PropTypes.bool.isRequired,
-  close: PropTypes.bool.isRequired
+  close: PropTypes.bool.isRequired,
+  eventTitle: PropTypes.string.isRequired
 }.isRequired
 
 export default Display

@@ -1,4 +1,5 @@
 import eventsImage from '../../images/event.jpg'
+
 const events = [
     {
         imgUrl: eventsImage,

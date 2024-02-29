@@ -12,24 +12,28 @@ const allMessage = [
       videoUrl: "https://www.youtube.com/embed/-EcCtP8Rx38?si=aG6oBHXHWvpV23VN",
       imgUrl: basicTruth,
       messageBy: 'Ted Matira',
+      imageSlide: 'https://www.canva.com/design/DAF7xTSIPBE/kN4ZsWKbm4Jrpvfrk51NCQ/view?utm_content=DAF7xTSIPBE&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: 'There are many things about God and God’s existence that will go beyond reasons and that will require FAITH to BELIEVE. '
     },
     {
       videoUrl: "https://fb.watch/qrTqKakIhM/",
       imgUrl: manSinDeath,
       messageBy: 'Ted Matira',
+      imageSlide: 'https://www.canva.com/design/DAF8Z-jo1iA/4fgCXwRrRwsG6wbDUYpxCA/view?utm_content=DAF8Z-jo1iA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: 'God would like us to enjoy eternity with Him, but there’s one thing that can hinder us to get there - SIN.  '
     },
     {
       videoUrl: "https://fb.watch/qrTvHVpND1/",
       imgUrl: discipleship,
       messageBy: 'Ted Matira',
+      imageSlide: 'https://www.canva.com/design/DAF7BJQC4qA/lIGbFPqCFH8Vditywr_nqw/view?utm_content=DAF7BJQC4qA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: 'Everyone joining the family of God are expected to not just profess the faith but divinely UNITE him/her self to Christ.'
     },
     {
       videoUrl: "https://fb.watch/qrTyd8Up5G/",
       imgUrl: relationship,
       messageBy: 'Ted Matira',
+      imageSlide: 'https://www.canva.com/design/DAF6dfANZ6o/IoPawmKPKFJN028rUlN4vw/view?utm_content=DAF6dfANZ6o&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: 'He came to mend our hearts and consecrate us to a new and living way in full assurance of faith and trust.'
     },
    
@@ -57,8 +61,9 @@ const MessagesPage = () => {
                 allowFullScreen="true"
               >
               </iframe> */}
+              <a href={item.imageSlide}>
               <img className="message-img" src={item.imgUrl} alt="Message" />
-             
+              </a>
               <div className="message-details">
                 <h3 className='message-title'>{item.messageTitle}</h3>
                 <div className="message-by">
@@ -73,7 +78,13 @@ const MessagesPage = () => {
                   <p><strong>Description:</strong></p>
                   <p className='message-text'>{item.description}</p>
                 </div>
-                <a className='youtube-link' href="https://youtube.com/live/F0YRa9gVwtM?feature=share" target='_blank'>Watch</a>
+                <div className="messages-link">
+                  <a className='youtube-link' href="https://youtube.com/live/F0YRa9gVwtM?feature=share" target='_blank'>Watch</a>
+                  <a className='slide-link' href={item.imageSlide} target='_blank'>View Slide</a>
+                </div>
+                
+              
+                {/* <a  href={item.imageSlide}>View Slide</a> */}
               </div>
         </div>
       </div>
@@ -90,6 +101,7 @@ const MessagesPage = () => {
               image={item.imgUrl}
               description={item.description}
               message={item.messageBy}
+              imageSlide={item.imageSlide}
             />
           ))
         }

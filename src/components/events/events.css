@@ -1,19 +1,38 @@
-/* .events-section{
-    padding: 1.8rem;
-} */
+.events-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22rem;
+}
 
 .events{
     padding: 4rem;
-    
+}
+.events-title{
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #22263E;
+    background:  #eaac4e;
+    width: 7rem;
+    height: 1rem;
+    display: flex;
+    align-items: end;
 }
 .events-item{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
     justify-items: center;
-    width: 65rem;
-    margin: 5rem auto;
+    width: 70rem;
+    margin: 2rem auto;
 }
-
+.events-container{
+    height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .event-item{
     position: relative;
     margin: 3rem auto;
@@ -29,6 +48,12 @@
     gap: 2rem;
     padding: 4rem;
     justify-items: center;
+}
+.events-content{
+    height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .event-date{
     background-color: #B58810;
@@ -53,21 +78,14 @@
     height: 20rem;
     cursor: pointer;
 }
-.events-title{
-    margin-top: 3rem;
-    font-size: 2rem;
-    font-weight: 400;
-    color: #22263E;
-    background:  #eaac4e;
-    width: 7rem;
-    height: 1rem;
-    display: flex;
-    align-items: end;
-}
+
 
 
 /* EVENT PAGE SECTION */
 @media screen and (max-width: 1290px){
+    .events{
+        padding: 2rem;
+    }
     .events-page{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -105,6 +123,15 @@
         width: 45rem;
         gap: 2rem;
     }  
+    .title-container{
+        width: 62rem;
+    }
+}
+@media screen and (max-width: 1040px){
+
+    .title-container{
+        width: 55rem;
+    }
 }
 @media screen and (max-width: 850px){
     .events{
@@ -116,6 +143,9 @@
     .events-img{
         width: 18rem;
     }
+    .title-container{
+        width: 39rem;
+    }
 }
 @media screen and (max-width: 750px){
     .events-item{
@@ -123,6 +153,9 @@
     }  
     .events-img{
         width: 16rem;
+    }
+    .title-container{
+        width: 35rem;
     }
 }
 @media screen and (max-width: 690px){

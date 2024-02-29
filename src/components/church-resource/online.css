@@ -4,7 +4,7 @@
     align-items: center;
     padding: 3rem;
     justify-content: center;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: 0 -20px 10px -20px rgba(0,0,0,0.45) inset;
     z-index: 1;
     position: relative;
     margin: auto;
@@ -26,7 +26,7 @@
     display: flex;
     justify-content: space-between;
     max-width: 100%;
-    width: 70rem;
+    width: 65rem;
     align-content: center;
 }
 .live,
@@ -59,6 +59,36 @@
     font-size: 1rem;
     margin: 1rem 0;
     color: rgba(0, 0, 0, .6);
+}
+.live-link{
+    text-decoration: none;
+    color: #000;
+}
+.social-live-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.yt-link{
+    color: #000;
+    border: 1px solid #000;
+}
+.fb-link,
+.yt-link{
+    font-size: 11px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7.5rem;
+    height: 2rem;
+}
+.fb-link{
+    background-color: #B58810;
+    color: #fff;
+    border: 1px solid #B58810;
+
 }
 .join-btn,
 .meeting-btn{
@@ -110,6 +140,17 @@
         width: 19rem;
         padding: 2rem;
     }
+    .online-text{
+        margin: .6rem 0;
+    }
+    .social-live-link{
+        flex-direction: column;
+    }
+    .fb-link{
+        margin-bottom: .5rem;
+    }
+
+
 }
 @media screen and (max-width: 1020px) {
 
