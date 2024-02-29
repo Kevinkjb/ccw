@@ -12,7 +12,7 @@ import Footer from "../components/footer/Footer"
 const HomePage = () => {
   return (
     <div className="main">
-      <HeroSection heroTitle="Welcome To CCW"/>
+      <HeroSection heroTitle="Church of Christ"/>
       <About/>
       <OnlineInfo/>
       {messageData.map((item, index) => (

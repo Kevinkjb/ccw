@@ -3,10 +3,10 @@ const CoreValue = () => {
   return (
     <div className="core-container">
         <div className="core-value">
-            <div className="core-content">
+            {/* <div className="core-content">
                 <h3 className="core-title">Purpose Statement</h3>
                 <p className='core-text'>We exist to worship and serve God.</p>
-            </div>
+            </div> */}
             <div className="core-content">
                 <h3 className="core-title">Mission</h3>
                 <p className='core-text'>

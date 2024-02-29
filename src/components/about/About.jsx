@@ -7,7 +7,7 @@ const About = () => {
         <div className="about-container">
             <div className="about-details">
                 <h2 className="about-title">About Our Church</h2>
-                <h4 className="about-sub-title">We exist to worship and serve God.</h4>
+
                 <p className="about-text">
                 Welcome to Church of Christ Wetaskiwin, where our core purpose is rooted in the profound commitment to worship and serve God. 
                 Established with a passion for spiritual growth and community, we believe that our existence is defined by our devotion to the Almighty.
