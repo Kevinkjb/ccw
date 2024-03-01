@@ -10,6 +10,7 @@ import imageFive from "./images/Dinner Night Womens.jpg"
 import imageSix from "./images/Family Day 2024.jpg"
 import imageSeven from "./images/camping.png"
 import imageEight from "./images//camping 2022.jpg"
+import logoImg from '../../images/logo 2.webp'
 
 const imageGallery = [
   {imgUrl: imageOne},
@@ -33,7 +34,6 @@ const AboutPage = () => {
           <div className="about-container">
               <div className="about-details">
                   <h2 className="about-title">About Our Church</h2>
-                  <h4 className="about-sub-title">We exist to worship and serve God.</h4>
                   <p className="about-text">
                   At Church of Christ Wetaskiwin, we are more than just a gathering of individuals; 
                   we are a community united by the common goal of worshipping and serving God.
@@ -52,7 +52,7 @@ const AboutPage = () => {
     <section className='principles-section'>
       <div className="principles-info">
         <div className="principles-img-container">
-          <img className='about-img-logo' src="https://media.canva.com/1/image-resize/1/200_200_100_PNG_F/czM6Ly9tZWRpYS1wcml2YXRlLmNhbnZhLmNvbS9kdVFmQS9NQUZpRzhkdVFmQS8xL3AucG5n?osig=AAAAAAAAAAAAAAAAAAAAAMlhOy4GQS0UweA2JaI9IUukfpXAX2RQbW7R9G-RRwV3&exp=1709191296&x-canva-quality=thumbnail&csig=AAAAAAAAAAAAAAAAAAAAAO2J-vCn98Mz2i9fgYXm-wwBLPQ_gkxbXSu1eHPKpnbG" alt="logo img" />
+          <img className='about-img-logo' src={logoImg} alt="logo img" />
         </div>
         <div className="commited">
           <h2 className='ccw-title-about'>We are commited to</h2>

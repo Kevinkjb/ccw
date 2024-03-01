@@ -1,5 +1,4 @@
 import Events from "../components/events/Events"
-import eventsData from '../components/components-data/events'
 import Footer from "../components/footer/Footer"
 import WeeklySchedule from "../components/schedule/WeeklySchedule"
 
@@ -11,9 +10,7 @@ const EventPage = () => {
       </section>
       <WeeklySchedule/>
       <div className="events-page">
-        {eventsData.map((item,index) => (
-          <Events key={index} events={item}/>
-        ))}
+        <Events/>
         </div>
         <Footer/>
     </div>

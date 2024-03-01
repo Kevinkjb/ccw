@@ -17,7 +17,7 @@ const HeroSection = (props) => {
           <div className="title-section">
             <h3 className='hero-sub'>Welcome to</h3>
             <h1 className='hero-title'>{props.heroTitle}</h1>
-            <h4 className="hero-sub-title">We exist to worship and serve God.</h4>
+            <h4 className="hero-sub-title"><q>We exist to worship and serve God.</q></h4>
           </div>
         </div>
         {/* <video

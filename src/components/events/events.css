@@ -76,6 +76,7 @@
 .events-img{
     width: 18.5rem;
     height: 20rem;
+    object-fit: cover;
     cursor: pointer;
 }
 

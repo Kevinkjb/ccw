@@ -23,6 +23,13 @@
     justify-items: center;
 
 }
+.footer-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 5rem;
+
+}
 
 .footer-logo-img{
     width: 5rem;
@@ -31,7 +38,6 @@
     font-size: 2rem;
     color: #fff;
     margin-top: 1rem;
-    margin-right: 1rem;
 }
 .footer-logo-title{
     width: 10rem;
@@ -113,6 +119,9 @@
         grid-template-rows: 1fr 1fr;
         text-align: center;
         width: 45rem;
+    }
+    .footer-social{
+        margin: 0 auto;
     }
 
 }

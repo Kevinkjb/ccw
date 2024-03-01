@@ -24,8 +24,8 @@ const HomePage = () => {
           <h3 className='events-title'>Events</h3>
         </div>
         <div className="events-item">
-        {eventsData.filter((item, index) => index < 3).map((item,index) => (
-          <Events key={index} events={item}/>
+        {eventsData.filter((item, index) => index < 1).map((item,index) => (
+          <Events key={index} />
         ))}
         </div>
       </div>
