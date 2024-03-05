@@ -14,7 +14,7 @@ const Footer = () => {
                 <img className='footer-logo-img' src={footerLogo} alt="" />
                 <h4 className='footer-logo-title'>Church of Christ Wetaskiwin</h4>
             </div>
-            <p className='footer-text'>Integer nec bibendum lacus. Suspendisse dictum enim sit amet libero malesuada feugiat. </p>
+            <p className='footer-text'>At Church of Christ, we are more than just a gathering of individuals; we are a community united by the common goal of worshipping and serving God. </p>
             <div className="footer-social">
                 <a className='footer-link' href="https://www.facebook.com/CCWetaskiwin" target='_blank'>
                     <FaFacebook className='footer-img'/>
