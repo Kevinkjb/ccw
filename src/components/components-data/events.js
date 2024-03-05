@@ -1,4 +1,4 @@
-import eventsImage from '../../images/event.jpg'
+import eventsImage from '../../images/no image yet.png'
 import mothersDay from '../../images/mothersday.png'
 import escapeRoom from '../../images/Easter Escape Room.pptx.png'
 
@@ -8,7 +8,7 @@ const events = [
         id: 1,
         imgUrl: escapeRoom,
         eventMonths: 'Mar',
-        eventDays: '10',
+        eventDays: 'TBD',
         eventTitle: 'Youth - Easter Escape Room',
         description: 'No current description yet.',
         time: 'No time yet.'
