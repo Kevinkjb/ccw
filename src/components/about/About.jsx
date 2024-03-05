@@ -12,7 +12,7 @@ const About = () => {
                     Welcome to Church of Christ, where our core purpose is rooted in the profound commitment to worship and serve God. 
                     Established with a passion for spiritual growth and community, 
                     we worship in spirit and in truth and holding on to grace that we may serve acceptably, 
-                    with reverence and awe (John 4:23-24; Hebrews 12:28).
+                    with reverence and awe <span className='about-verse'>(John 4:23-24; Hebrews 12:28)</span>.
                 </p>
                 <Link to="/about">
                     <button className="about-btn">Read More</button>

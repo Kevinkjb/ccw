@@ -7,6 +7,7 @@
     box-shadow: 0 -20px 10px -20px rgba(0,0,0,0.45) inset;
     position: relative;
     z-index: 1;
+    margin-top: 2rem;
 }
 
 .core-content-one,
@@ -16,7 +17,7 @@
     width: 65rem;
     max-width: 100%;
     justify-content: space-between;
-    margin: 1rem auto;
+    margin: 2rem auto;
     align-items: flex-start;
 }
 
@@ -100,7 +101,7 @@
 .obedience-value,
 .relationship-value,
 .discipleship-value{
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 .core-value-img{
     width: 30rem;
