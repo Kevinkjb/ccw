@@ -42,11 +42,16 @@
   color: #22263E;
 }
 .about-text{
-  font-size: 14px;
+  font-size: 1rem;
   width: 30rem;
   line-height: 1.8;
   margin: 1rem 0;
   color: rgba(0, 0, 0, .6);
+}
+.about-img-container{
+  width: 25rem;
+  max-width: 100%;
+  height: 20rem;
 }
 .about-img{
   width: 25rem;
@@ -282,11 +287,14 @@
     .about-text{
       width: 40rem;
     }
+    .about-img-container{
+      width: 40rem;
+      height: 100%;
+    }
     .about-img{
       margin-top: 3rem;
       width: 40rem;
-      height: 35rem;
-      object-fit: contain;
+      height: 30rem;
     }
   }
   @media screen  and (max-width: 870px){
@@ -297,9 +305,13 @@
     .about-text{
       width: 35rem;
     }
-    .about-img{
-      margin-top: 0;
+    .about-img-container{
       width: 35rem;
+    }
+    .about-img{
+      margin-top: 1.5rem;
+      width: 35rem;
+      height: 30rem;
     }
   }
   @media screen  and (max-width: 670px){
@@ -309,8 +321,12 @@
     .about-text{
       width: 30rem;
     }
+    .about-img-container{
+      width: 30rem;
+    }
     .about-img{
       width: 30rem;
+      height: 25rem;
     }
   }
   @media screen  and (max-width: 590px){
@@ -322,28 +338,18 @@
     }
     .about-text{
       width: 25rem;
+      font-size: 14px;
+    }
+    .about-img-container{
+      width: 25rem;
     }
     .about-img{
       width: 25rem;
-      height: 25rem;
+      height: 20rem;
+      object-fit: contain;
     }
   }
-  @media screen  and (max-width: 470px){
-    .about-section{
-      padding: 1rem;
-    }
-    .about-container{
-      width: 22rem;
-    }
-    .about-text{
-      width: 20rem;
-      font-size: 13px;
-    }
-    .about-img{
-      width: 22rem;
-      height: 22rem;
-    }
-  }
+
   @media screen  and (max-width: 470px){
     .about-section{
       padding: 1rem;
@@ -353,11 +359,14 @@
     }
     .about-text{
       width: 20rem;
-      font-size: 13px;
+      font-size: 12px;
+    }
+    .about-img-container{
+      width: 20rem;
     }
     .about-img{
       width: 20rem;
-      height: 22rem;
+      height: 15rem;
     }
   }
 

@@ -190,7 +190,7 @@
         gap: 2rem;
     }
 }
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 671px) {
     .online-container{
         height: 100%;
     }

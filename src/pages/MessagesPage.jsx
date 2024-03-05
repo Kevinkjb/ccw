@@ -5,9 +5,17 @@ import AllMessages from "../components/messages/AllMessages"
 import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
 import manSinDeath from '../images/Man, Sin, and Death.png'
 import discipleship from '../images/Discipleship.png'
+import membership from '../images/02-25-2024 - Membership.png'
 import relationship from "../images/1-21-2024 - Let's Talk About Relationship.png"
 
 const allMessage = [
+    {
+      videoUrl: "https://www.youtube.com/watch?v=F0YRa9gVwtM&t=2244s",
+      imgUrl: membership,
+      messageBy: 'Ted Matira',
+      imageSlide: 'https://www.canva.com/design/DAF9ua8OCJg/dR6b9Wglj07SMPchRcO0cA/view?utm_content=DAF9ua8OCJg&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      description: 'so in Christ we, though many, form one body, and each member belongs to all the others.'
+    },
     {
       videoUrl: "https://www.youtube.com/embed/-EcCtP8Rx38?si=aG6oBHXHWvpV23VN",
       imgUrl: basicTruth,
@@ -79,7 +87,7 @@ const MessagesPage = () => {
                   <p className='message-text'>{item.description}</p>
                 </div>
                 <div className="messages-link">
-                  <a className='youtube-link' href="https://youtube.com/live/F0YRa9gVwtM?feature=share" target='_blank'>Watch</a>
+                  <a className='youtube-link' href={item.latestVideo} target='_blank'>Watch</a>
                   <a className='slide-link' href={item.imageSlide} target='_blank'>View Slide</a>
                 </div>
                 

@@ -35,10 +35,10 @@ const AboutPage = () => {
               <div className="about-details">
                   <h2 className="about-title">About Our Church</h2>
                   <p className="about-text">
-                  At Church of Christ Wetaskiwin, we are more than just a gathering of individuals; 
-                  we are a community united by the common goal of worshipping and serving God.
-                   Our mission is to create an environment where believers can deepen their relationship with God, 
-                  express their love through worship, and serve others with a spirit of humility.
+                    At Church of Christ, we are more than just a gathering of individuals; 
+                    we are a community united by the common goal of worshipping and serving God. 
+                    We are committed to create an environment where believers can deepen our relationship with God, 
+                    express our love through worship, and serve others with a spirit of humility.
                   </p>
               </div>
               <div className="about-img-container">

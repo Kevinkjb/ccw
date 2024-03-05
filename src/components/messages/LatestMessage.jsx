@@ -44,7 +44,8 @@ LatestMessage.propTypes = {
     datePosted: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     imgUrl: PropTypes.string.isRequired,
-    messageBy: PropTypes.string.isRequired
+    messageBy: PropTypes.string.isRequired,
+    
   }).isRequired
 };
 

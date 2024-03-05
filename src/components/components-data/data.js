@@ -1,13 +1,13 @@
-import messageImg from '../../images/02-25-2024 - Membership.png'
+import messageImg from '../../images/03-03-2024 - In The Midst of Difficulties - James 1.png'
 const latestMessage = [
     {
         messageTitle: 'Talk about Membership',
-        videoUrl: "https://www.youtube.com/embed/-EcCtP8Rx38?si=aG6oBHXHWvpV23VN",
+        latestVideo: "https://www.facebook.com/CCWetaskiwin/videos/372532832352882",
         imgUrl: messageImg,
-        imageSlide: 'https://www.canva.com/design/DAF9ua8OCJg/dR6b9Wglj07SMPchRcO0cA/view?utm_content=DAF9ua8OCJg&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-        messageBy: 'Ted Matira',
-        datePosted: 'April 25, 2024',
-        description: 'so in Christ we, though many, form one body, and each member belongs to all the others.'
+        imageSlide: 'https://www.canva.com/design/DAF-m9nzpAY/3Mcs6crJNoXxL-EIDupAUg/view?utm_content=DAF-m9nzpAY&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+        messageBy: 'Harry Nietes',
+        datePosted: 'March 03, 2024',
+        description: '"Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds, because you know that the testing of your faith produces perseverance.”'
     }
 ]
 

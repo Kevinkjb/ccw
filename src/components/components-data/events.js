@@ -1,6 +1,6 @@
 import eventsImage from '../../images/event.jpg'
 import mothersDay from '../../images/mothersday.png'
-import escapeRoom from '../../images/escaperoom.png'
+import escapeRoom from '../../images/Easter Escape Room.pptx.png'
 
 
 const events = [
