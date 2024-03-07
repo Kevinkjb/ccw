@@ -12,7 +12,9 @@
 .about-section{
   display: flex;
   padding: 3rem;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   
 }
 .about-container{
@@ -42,7 +44,7 @@
   color: #22263E;
 }
 .about-text{
-  font-size: 1rem;
+  font-size: 15px;
   width: 30rem;
   line-height: 1.8;
   margin: 1rem 0;
