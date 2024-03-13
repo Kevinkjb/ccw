@@ -1,7 +1,7 @@
 import rightVsWrong from '../../images/Right vs Wrong Debunking False Ideas.png'
 const latestMessage = [
     {
-        messageTitle: 'Right Vs Wrong',
+        messageTitle: 'Right vs Wrong',
         videoUrl: "https://www.youtube.com/watch?v=Y585jD5C07Y",
         imgUrl: rightVsWrong,
         messageBy: 'Boni Somook',
