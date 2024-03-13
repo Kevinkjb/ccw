@@ -2,6 +2,7 @@ import './online.css'
 import { FaFacebook, FaYoutube  } from "react-icons/fa";
 import { IoIosPeople } from "react-icons/io";
 import { PiHandsPraying } from "react-icons/pi";
+import {Link} from 'react-router-dom'
 const OnlineInfo = () => {
   return (
     <div className='online-container'>
@@ -48,7 +49,10 @@ const OnlineInfo = () => {
                 <h3 className='online-title'>Join Our Prayer Meeting</h3>
                 <p className='online-text'>Wednesdays at 6:00PM MST</p>
                 <div className="meeting-btn-container">
-                    <button className='meeting-btn'>Learn More</button>
+                    <Link to="events">
+                        <button className='meeting-btn'>Learn More</button>
+                    </Link>
+
                     <button className='join-btn'>Click to Join</button>
                 </div>
             </div>

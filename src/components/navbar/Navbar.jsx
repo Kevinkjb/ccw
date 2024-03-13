@@ -23,7 +23,9 @@ const Navbar = () => {
     <nav className='nav-container'>
       <div className="main-nav ">
         <div className="logo">
-          <img className='logo-img' src={logo} alt="ccw logo" />
+          <Link className='brand' to="/">
+            <img className='logo-img' src={logo} alt="ccw logo" />
+          </Link>
         </div>
         <ul className={`nav-item ${navToggle ? 'active' : ''}`}>
           <li className='nav-list'>

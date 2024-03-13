@@ -8,7 +8,17 @@ import discipleship from '../images/Discipleship.png'
 import membership from '../images/02-25-2024 - Membership.png'
 import relationship from "../images/1-21-2024 - Let's Talk About Relationship.png"
 
+import midstOfDifficulty from '../images/03-03-2024 - In The Midst of Difficulties - James 1.png'
+
 const allMessage = [
+    {
+      messageTitle: 'In the Midst of Difficulties',
+      videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/372532832352882",
+      imgUrl: midstOfDifficulty,
+      imageSlide: 'https://www.canva.com/design/DAF-m9nzpAY/3Mcs6crJNoXxL-EIDupAUg/view?utm_content=DAF-m9nzpAY&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      messageBy: 'Harry Nietes',
+      description: '"Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds, because you know that the testing of your faith produces perseverance.”'
+    },
     {
       videoUrl: "https://www.youtube.com/watch?v=F0YRa9gVwtM&t=2244s",
       imgUrl: membership,
@@ -87,7 +97,7 @@ const MessagesPage = () => {
                   <p className='message-text'>{item.description}</p>
                 </div>
                 <div className="messages-link">
-                  <a className='youtube-link' href={item.latestVideo} target='_blank'>Watch</a>
+                  <a className='youtube-link' href={item.videoUrl} target='_blank'>Watch</a>
                   <a className='slide-link' href={item.imageSlide} target='_blank'>View Slide</a>
                 </div>
                 

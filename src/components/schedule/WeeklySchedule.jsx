@@ -7,7 +7,7 @@ const WeeklySchedule = () => {
             <h3>Weekly Schedule</h3>
         </div>
         <div className='weekly-content'>
-            <div className="first-schedule">
+            {/* <div className="first-schedule">
                 <div className="couples">
                     <p className='schedule-text'>Monday - Couples</p>
                     <p className='schedule-time'>at 7:00 PM</p>
@@ -20,17 +20,67 @@ const WeeklySchedule = () => {
                     <p className='schedule-text'>Friday - Young Pros</p>
                     <p className='schedule-time'>at 6:00 PM</p>
                 </div>
+            </div> */}
+            <div className="first-schedule">
+                <div className="weekly-service">
+                    <div className="date">
+                        <h2>TUE</h2>
+                    </div>
+                    <div className='service-info'>
+                        <p className='service-text'>Bible Study</p>
+                        <p className='schedule-time'>at 7:00 AM</p>
+                    </div>
+
+                </div>
             </div>
             <div className="second-schedule">
-                <div className="sunday-service">
-                    <p className='sunday-text'>Sunday Service</p>
-                    <p className='schedule-time'>at 10:00 AM</p>
+                <div className="weekly-service">
+                    <div className="date">
+                        <h2>WED</h2>
+                    </div>
+                    <div className='service-info'>
+                        <p className='service-text'>Prayer Meeting</p>
+                        <p className='schedule-time'>at 6:00 AM</p>
+                    </div>
                 </div>
             </div>
             <div className="third-schedule">
-                <div className="prayer-meeting">
-                    <p className='prayer-text'>Wednesday Prayer Meeting</p>
-                    <p className='schedule-time'>at 6:00 PM</p>
+                <div className="weekly-service">
+                    <div className="date">
+                        <h2>THUR</h2>
+                    </div>
+                    <div className='service-info'>
+                        <p className='praise-text'>Praise & Worship Ministry</p>
+                        <p className='schedule-time'>at 6:00 AM</p>
+                    </div>
+
+                </div>
+            </div>
+            <div className="fourth-schedule">
+                <div className="fourth-service">
+                    <div className="date">
+                        <h2>FRI</h2>
+                    </div>
+                    <div className="shepherding-ministry">
+                        <p className='shepherding-text'>Shepherding Ministry</p>
+                        <p className='schedule-time'>at 10:30 AM</p>
+                    </div>
+                    <div className="young-pro">
+                        <p className='young-text'>Young Pro Ministry</p>
+                        <p className='schedule-time'>at 6:00 PM</p>
+                    </div>
+                </div>
+
+            </div>
+            <div className="fifth-schedule">
+                <div className="weekly-service">
+                    <div className="date">
+                        <h2>SUN</h2>
+                    </div>
+                    <div className='service-info'>
+                        <p className='service-text'>Worship Service</p>
+                        <p className='schedule-time'>at 10:00 PM</p>
+                    </div>
                 </div>
             </div>
         </div>
