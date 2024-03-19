@@ -273,6 +273,9 @@
     .messages-container{
         width: 20rem;
     }
+    .messages-container{
+        height: 28rem;
+    }
     .messages-img{
         width: 20rem;
         object-fit: cover;
@@ -282,11 +285,15 @@
 }
 @media screen and (max-width: 390px){
     .video-content,
-    .messages-slide,
-    .messages-container{
+    .messages-slide
+    {
         width: 18rem;
         height: 26rem;
     }
+    .messages-container{
+        height: 30rem;
+    }
+
     .messages-slide{
         margin: 1rem auto;
         height: 100%;

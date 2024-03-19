@@ -3,14 +3,24 @@ import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 import AllMessages from "../components/messages/AllMessages"
 import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
-import manSinDeath from '../images/Man, Sin, and Death.png'
-import discipleship from '../images/Discipleship.png'
+// import manSinDeath from '../images/Man, Sin, and Death.png'
+// import discipleship from '../images/Discipleship.png'
+// import relationship from "../images/1-21-2024 - Let's Talk About Relationship.png"
 import membership from '../images/02-25-2024 - Membership.png'
-import relationship from "../images/1-21-2024 - Let's Talk About Relationship.png"
 
+import rightVsWrong from '../images/Right vs Wrong Debunking False Ideas.png'
 import midstOfDifficulty from '../images/03-03-2024 - In The Midst of Difficulties - James 1.png'
 
 const allMessage = [
+    {
+      messageTitle: 'Right vs Wrong',
+      videoUrl: "https://www.youtube.com/watch?v=Y585jD5C07Y",
+      imgUrl: rightVsWrong,
+      messageBy: 'Boni Somook',
+      datePosted: 'March 10, 2024',
+      imageSlide: 'https://www.canva.com/design/DAF-4yKlZYk/03mX073ap8QwK4LUSxYWrQ/view?utm_content=DAF-4yKlZYk&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      description: ' Believers in humble circumstances ought to take pride in their high position. But the rich should take pride in their humiliation- since they will pass away like wild flower. '
+    },
     {
       messageTitle: 'In the Midst of Difficulties',
       videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/372532832352882",
@@ -33,27 +43,27 @@ const allMessage = [
       imageSlide: 'https://www.canva.com/design/DAF7xTSIPBE/kN4ZsWKbm4Jrpvfrk51NCQ/view?utm_content=DAF7xTSIPBE&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: 'There are many things about God and God’s existence that will go beyond reasons and that will require FAITH to BELIEVE. '
     },
-    {
-      videoUrl: "https://fb.watch/qrTqKakIhM/",
-      imgUrl: manSinDeath,
-      messageBy: 'Ted Matira',
-      imageSlide: 'https://www.canva.com/design/DAF8Z-jo1iA/4fgCXwRrRwsG6wbDUYpxCA/view?utm_content=DAF8Z-jo1iA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: 'God would like us to enjoy eternity with Him, but there’s one thing that can hinder us to get there - SIN.  '
-    },
-    {
-      videoUrl: "https://fb.watch/qrTvHVpND1/",
-      imgUrl: discipleship,
-      messageBy: 'Ted Matira',
-      imageSlide: 'https://www.canva.com/design/DAF7BJQC4qA/lIGbFPqCFH8Vditywr_nqw/view?utm_content=DAF7BJQC4qA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: 'Everyone joining the family of God are expected to not just profess the faith but divinely UNITE him/her self to Christ.'
-    },
-    {
-      videoUrl: "https://fb.watch/qrTyd8Up5G/",
-      imgUrl: relationship,
-      messageBy: 'Ted Matira',
-      imageSlide: 'https://www.canva.com/design/DAF6dfANZ6o/IoPawmKPKFJN028rUlN4vw/view?utm_content=DAF6dfANZ6o&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: 'He came to mend our hearts and consecrate us to a new and living way in full assurance of faith and trust.'
-    },
+    // {
+    //   videoUrl: "https://fb.watch/qrTqKakIhM/",
+    //   imgUrl: manSinDeath,
+    //   messageBy: 'Ted Matira',
+    //   imageSlide: 'https://www.canva.com/design/DAF8Z-jo1iA/4fgCXwRrRwsG6wbDUYpxCA/view?utm_content=DAF8Z-jo1iA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //   description: 'God would like us to enjoy eternity with Him, but there’s one thing that can hinder us to get there - SIN.  '
+    // },
+    // {
+    //   videoUrl: "https://fb.watch/qrTvHVpND1/",
+    //   imgUrl: discipleship,
+    //   messageBy: 'Ted Matira',
+    //   imageSlide: 'https://www.canva.com/design/DAF7BJQC4qA/lIGbFPqCFH8Vditywr_nqw/view?utm_content=DAF7BJQC4qA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //   description: 'Everyone joining the family of God are expected to not just profess the faith but divinely UNITE him/her self to Christ.'
+    // },
+    // {
+    //   videoUrl: "https://fb.watch/qrTyd8Up5G/",
+    //   imgUrl: relationship,
+    //   messageBy: 'Ted Matira',
+    //   imageSlide: 'https://www.canva.com/design/DAF6dfANZ6o/IoPawmKPKFJN028rUlN4vw/view?utm_content=DAF6dfANZ6o&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //   description: 'He came to mend our hearts and consecrate us to a new and living way in full assurance of faith and trust.'
+    // },
    
 
 ]

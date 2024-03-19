@@ -1,13 +1,14 @@
-import rightVsWrong from '../../images/Right vs Wrong Debunking False Ideas.png'
+
+import liveAndShare from '../../images/BRO. Bong Easter Sunday.png'
 const latestMessage = [
     {
-        messageTitle: 'Right vs Wrong',
-        videoUrl: "https://www.youtube.com/watch?v=Y585jD5C07Y",
-        imgUrl: rightVsWrong,
-        messageBy: 'Boni Somook',
-        datePosted: 'March 10, 2024',
-        imageSlide: 'https://www.canva.com/design/DAF-4yKlZYk/03mX073ap8QwK4LUSxYWrQ/view?utm_content=DAF-4yKlZYk&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-        description: ' Believers in humble circumstances ought to take pride in their high position. But the rich should take pride in their humiliation- since they will pass away like wild flower. '
+        messageTitle: 'Live and Share',
+        videoUrl: "https://www.youtube.com/watch?v=qulJzmvWjtY",
+        imgUrl: liveAndShare,
+        messageBy: 'Bong Aguiao',
+        datePosted: 'March 17, 2024',
+        imageSlide: 'https://www.canva.com/design/DAF_uLqK3gk/elct-xN-nl7m1ZuIQFnv0A/view?utm_content=DAF_uLqK3gk&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+        description: 'Go and make disciple of all nations baptizing them in the name of the Father, the Son and the Holy Spirit'
     }
 ]
 
