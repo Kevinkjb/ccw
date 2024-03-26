@@ -8,10 +8,10 @@ const events = [
         id: 1,
         imgUrl: escapeRoom,
         eventMonths: 'Mar',
-        eventDays: 'TBD',
+        eventDays: '30',
         eventTitle: 'Youth - Easter Escape Room',
-        description: 'No current description yet.',
-        time: 'No time yet.'
+        description: 'Welcome to the Easter Escape Room. You’ll need to place your participants into groups of about six young people. Then they’ll need to head off at five-minute intervals. They will be visiting a series of leaders in order to find the answers to 12 questions! .',
+        time: '5:00 PM'
     },
     {
         id: 2,

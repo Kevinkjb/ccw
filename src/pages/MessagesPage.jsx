@@ -7,11 +7,20 @@ import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
 // import discipleship from '../images/Discipleship.png'
 // import relationship from "../images/1-21-2024 - Let's Talk About Relationship.png"
 import membership from '../images/02-25-2024 - Membership.png'
-
+import liveAndShare from '../images/BRO. Bong Easter Sunday.png'
 import rightVsWrong from '../images/Right vs Wrong Debunking False Ideas.png'
 import midstOfDifficulty from '../images/03-03-2024 - In The Midst of Difficulties - James 1.png'
 
 const allMessage = [
+    {
+      messageTitle: 'Live and Share',
+      videoUrl: "https://www.youtube.com/watch?v=qulJzmvWjtY",
+      imgUrl: liveAndShare,
+      messageBy: 'Bong Aguiao',
+      datePosted: 'March 17, 2024',
+      imageSlide: 'https://www.canva.com/design/DAF_uLqK3gk/elct-xN-nl7m1ZuIQFnv0A/view?utm_content=DAF_uLqK3gk&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      description: 'Go and make disciple of all nations baptizing them in the name of the Father, the Son and the Holy Spirit'
+    },
     {
       messageTitle: 'Right vs Wrong',
       videoUrl: "https://www.youtube.com/watch?v=Y585jD5C07Y",

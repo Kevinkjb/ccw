@@ -4,7 +4,7 @@
 }
 
 .latest-title{
-    width: 65rem;
+    width: 70rem;
     margin: 1.5rem auto;
     font-weight: 400;
     font-size: 2rem;
@@ -68,7 +68,7 @@
 .message-content{
     display: flex;
     justify-content: space-between;
-    width: 65rem;
+    width: 70rem;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -201,6 +201,11 @@
         width: 30rem;
     }
 }
+@media screen and (max-width: 1220px){
+    .message-title{
+        font-size: 2.2rem;
+    }
+}
 @media screen and (max-width: 1200px){
     html, body{
         width: 100%;
@@ -223,6 +228,7 @@
         width: 25rem;
         height: 25rem;
     }
+
 
 }
 @media screen and (max-width: 1020px){
@@ -334,7 +340,12 @@
     .message-text{
         width: 25rem;
     }
+    .message-title{
+        line-height: 1.3;
+        font-size: 2rem;
+    }
 }
+
 @media screen and (max-width: 1070px) {
     .message-container{
         padding: 3rem;
@@ -402,6 +413,7 @@
     .latest-title{
         width: 30rem;
     }
+
     .message-img{
         width: 30rem;
         margin-bottom: 1rem;
@@ -439,10 +451,9 @@
     }
     .message-title{
         font-size: 2rem;
+        width: 16rem;
     }
-    .message-details{
-        width: 20rem;
-    }
+
     .message-img{
         width: 20rem;
     }
@@ -457,6 +468,22 @@
 @media screen and (max-width: 470px) {
 
     .message-content{
+        width: 20rem;
+    }
+    .latest-title{
+        width: 20rem;
+    }
+
+    .message-text{
+        width: 20rem;
+    }
+    .message-details{
+        width: 20rem;
+    }
+}
+@media screen and (max-width: 390px) {
+
+    .message-content{
         width: 18rem;
     }
     .latest-title{
@@ -466,6 +493,9 @@
         width: 18rem;
     }
     .message-text{
+        width: 18rem;
+    }
+    .message-details{
         width: 18rem;
     }
 }
