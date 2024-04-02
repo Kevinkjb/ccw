@@ -6,12 +6,22 @@ import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
 // import manSinDeath from '../images/Man, Sin, and Death.png'
 // import discipleship from '../images/Discipleship.png'
 // import relationship from "../images/1-21-2024 - Let's Talk About Relationship.png"
+import ExposingSin from '../images/Bro. Marvin March 24.png'
 import membership from '../images/02-25-2024 - Membership.png'
 import liveAndShare from '../images/BRO. Bong Easter Sunday.png'
 import rightVsWrong from '../images/Right vs Wrong Debunking False Ideas.png'
 import midstOfDifficulty from '../images/03-03-2024 - In The Midst of Difficulties - James 1.png'
 
 const allMessage = [
+    {
+      messageTitle: 'Exposing the Sin of Partiality',
+      videoUrl: "https://www.youtube.com/watch?v=zMimW6xPe_c",
+      imgUrl: ExposingSin,
+      messageBy: 'Marvin Risto',
+      datePosted: 'March 24, 2024',
+      imageSlide: 'https://www.canva.com/design/DAGAM6-Fdl0/BZXlDxApXVmI4fG6ypKjKw/view?utm_content=DAGAM6-Fdl0&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      description: '“Now let the fear of the Lord be on you. Judge carefully, for with the Lord our God there is no injustice or partiality or bribery.”'
+    },
     {
       messageTitle: 'Live and Share',
       videoUrl: "https://www.youtube.com/watch?v=qulJzmvWjtY",
