@@ -1,21 +1,21 @@
-import eventsImage from '../../images/no image yet.png'
+import womensOuting from "../../images/Women's Outing.jpg"
 import mothersDay from '../../images/mothersday.png'
-import escapeRoom from '../../images/Easter Escape Room.pptx.png'
+// import escapeRoom from '../../images/Easter Escape Room.pptx.png'
 
 
 const events = [
+    // {
+    //     id: 1,
+    //     imgUrl: escapeRoom,
+    //     eventMonths: 'Mar',
+    //     eventDays: '30',
+    //     eventTitle: 'Youth - Easter Escape Room',
+    //     description: 'Welcome to the Easter Escape Room. You’ll need to place your participants into groups of about six young people. Then they’ll need to head off at five-minute intervals. They will be visiting a series of leaders in order to find the answers to 12 questions! .',
+    //     time: '5:00 PM'
+    // },
     {
         id: 1,
-        imgUrl: escapeRoom,
-        eventMonths: 'Mar',
-        eventDays: '30',
-        eventTitle: 'Youth - Easter Escape Room',
-        description: 'Welcome to the Easter Escape Room. You’ll need to place your participants into groups of about six young people. Then they’ll need to head off at five-minute intervals. They will be visiting a series of leaders in order to find the answers to 12 questions! .',
-        time: '5:00 PM'
-    },
-    {
-        id: 2,
-        imgUrl: eventsImage,
+        imgUrl: womensOuting,
         eventMonths: 'May',
         eventDays: '3',
         eventTitle: "Women's Outing in Canmore",
@@ -23,7 +23,7 @@ const events = [
         time: 'No time yet.'
     },
     {
-        id: 3,
+        id: 2,
         imgUrl: mothersDay,
         eventMonths: 'May',
         eventDays: '12',

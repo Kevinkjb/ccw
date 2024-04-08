@@ -3,16 +3,26 @@ import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 import AllMessages from "../components/messages/AllMessages"
 import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
-// import manSinDeath from '../images/Man, Sin, and Death.png'
-// import discipleship from '../images/Discipleship.png'
-// import relationship from "../images/1-21-2024 - Let's Talk About Relationship.png"
+import WhyLookForLiving from '../images/Why do you look for the living among the dead.png'
 import ExposingSin from '../images/Bro. Marvin March 24.png'
 import membership from '../images/02-25-2024 - Membership.png'
 import liveAndShare from '../images/BRO. Bong Easter Sunday.png'
 import rightVsWrong from '../images/Right vs Wrong Debunking False Ideas.png'
 import midstOfDifficulty from '../images/03-03-2024 - In The Midst of Difficulties - James 1.png'
+// import manSinDeath from '../images/Man, Sin, and Death.png'
+// import discipleship from '../images/Discipleship.png'
+// import relationship from "../images/1-21-2024 - Let's Talk About Relationship.png"
 
 const allMessage = [
+    {
+      messageTitle: 'Why Do You Look For The Living Among The Dead',
+      videoUrl: "https://www.youtube.com/watch?v=Vx0k90z6Epg",
+      imgUrl: WhyLookForLiving,
+      messageBy: 'Marvin Risto',
+      datePosted: 'March 31, 2024',
+      imageSlide: 'https://www.canva.com/design/DAGA7C3TuKs/VTZo3jT-ca_E7Xv1SJRYIw/view?utm_content=DAGA7C3TuKs&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      description: 'In their fright the women bowed down with their faces to the ground, but the men said to them, “Why do you look for the living among the dead?'
+    },
     {
       messageTitle: 'Exposing the Sin of Partiality',
       videoUrl: "https://www.youtube.com/watch?v=zMimW6xPe_c",

@@ -1,14 +1,14 @@
 
-import WhyLookForLiving from '../../images/Why do you look for the living among the dead.png'
+import LoveYourNeighbor from '../../images/Royal Law April 7 2024.png'
 const latestMessage = [
     {
-        messageTitle: 'Why Do You Look For The Living Among The Dead',
-        videoUrl: "https://www.youtube.com/watch?v=Vx0k90z6Epg",
-        imgUrl: WhyLookForLiving,
-        messageBy: 'Marvin Risto',
-        datePosted: 'March 31, 2024',
-        imageSlide: 'https://www.canva.com/design/DAGA7C3TuKs/VTZo3jT-ca_E7Xv1SJRYIw/view?utm_content=DAGA7C3TuKs&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-        description: 'In their fright the women bowed down with their faces to the ground, but the men said to them, “Why do you look for the living among the dead?'
+        messageTitle: 'Royal Law: Love Your Neighbor',
+        videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/459224226527193",
+        imgUrl: LoveYourNeighbor,
+        messageBy: 'Chris Sampayan',
+        datePosted: 'April 07, 2024',
+        imageSlide: 'https://www.canva.com/design/DAGBqtMdvM0/bKYr3rmT0ixvMXrcW4UQwg/view?utm_content=DAGBqtMdvM0&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+        description: 'If you really keep the royal law found in Scripture, “Love your neighbor as yourself,” you are doing right.'
     }
 ]
 

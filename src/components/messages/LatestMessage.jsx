@@ -10,7 +10,7 @@ const LatestMessage = (props) => {
       <div className='message-section'>
         <h3 className='latest-title'>Latest Message</h3>
         <div className="message-content">
-        <Link className='message-link' to='/messages'>
+          <Link className='message-link' to='/messages'>
           <img className="message-img" src={imgUrl} alt="Message" />
           </Link>
           <div className="message-details">
