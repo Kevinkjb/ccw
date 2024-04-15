@@ -2,18 +2,28 @@
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 import AllMessages from "../components/messages/AllMessages"
-import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
+// import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
 import WhyLookForLiving from '../images/Why do you look for the living among the dead.png'
 import ExposingSin from '../images/Bro. Marvin March 24.png'
-import membership from '../images/02-25-2024 - Membership.png'
+// import membership from '../images/02-25-2024 - Membership.png'
 import liveAndShare from '../images/BRO. Bong Easter Sunday.png'
 import rightVsWrong from '../images/Right vs Wrong Debunking False Ideas.png'
 import midstOfDifficulty from '../images/03-03-2024 - In The Midst of Difficulties - James 1.png'
+import LoveYourNeighbor from '../images/Royal Law April 7 2024.png'
 // import manSinDeath from '../images/Man, Sin, and Death.png'
 // import discipleship from '../images/Discipleship.png'
 // import relationship from "../images/1-21-2024 - Let's Talk About Relationship.png"
 
 const allMessage = [
+    {
+      messageTitle: 'Royal Law: Love Your Neighbor',
+      videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/459224226527193",
+      imgUrl: LoveYourNeighbor,
+      messageBy: 'Chris Sampayan',
+      datePosted: 'April 07, 2024',
+      imageSlide: 'https://www.canva.com/design/DAGBqtMdvM0/bKYr3rmT0ixvMXrcW4UQwg/view?utm_content=DAGBqtMdvM0&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      description: 'If you really keep the royal law found in Scripture, “Love your neighbor as yourself,” you are doing right.'
+    },
     {
       messageTitle: 'Why Do You Look For The Living Among The Dead',
       videoUrl: "https://www.youtube.com/watch?v=Vx0k90z6Epg",
@@ -58,20 +68,20 @@ const allMessage = [
       messageBy: 'Harry Nietes',
       description: '"Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds, because you know that the testing of your faith produces perseverance.”'
     },
-    {
-      videoUrl: "https://www.youtube.com/watch?v=F0YRa9gVwtM&t=2244s",
-      imgUrl: membership,
-      messageBy: 'Ted Matira',
-      imageSlide: 'https://www.canva.com/design/DAF9ua8OCJg/dR6b9Wglj07SMPchRcO0cA/view?utm_content=DAF9ua8OCJg&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: 'so in Christ we, though many, form one body, and each member belongs to all the others.'
-    },
-    {
-      videoUrl: "https://www.youtube.com/embed/-EcCtP8Rx38?si=aG6oBHXHWvpV23VN",
-      imgUrl: basicTruth,
-      messageBy: 'Ted Matira',
-      imageSlide: 'https://www.canva.com/design/DAF7xTSIPBE/kN4ZsWKbm4Jrpvfrk51NCQ/view?utm_content=DAF7xTSIPBE&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: 'There are many things about God and God’s existence that will go beyond reasons and that will require FAITH to BELIEVE. '
-    },
+    // {
+    //   videoUrl: "https://www.youtube.com/watch?v=F0YRa9gVwtM&t=2244s",
+    //   imgUrl: membership,
+    //   messageBy: 'Ted Matira',
+    //   imageSlide: 'https://www.canva.com/design/DAF9ua8OCJg/dR6b9Wglj07SMPchRcO0cA/view?utm_content=DAF9ua8OCJg&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //   description: 'so in Christ we, though many, form one body, and each member belongs to all the others.'
+    // },
+    // {
+    //   videoUrl: "https://www.youtube.com/embed/-EcCtP8Rx38?si=aG6oBHXHWvpV23VN",
+    //   imgUrl: basicTruth,
+    //   messageBy: 'Ted Matira',
+    //   imageSlide: 'https://www.canva.com/design/DAF7xTSIPBE/kN4ZsWKbm4Jrpvfrk51NCQ/view?utm_content=DAF7xTSIPBE&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //   description: 'There are many things about God and God’s existence that will go beyond reasons and that will require FAITH to BELIEVE. '
+    // },
     // {
     //   videoUrl: "https://fb.watch/qrTqKakIhM/",
     //   imgUrl: manSinDeath,
