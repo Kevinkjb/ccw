@@ -2,19 +2,29 @@
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 import AllMessages from "../components/messages/AllMessages"
-// import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
 import WhyLookForLiving from '../images/Why do you look for the living among the dead.png'
 import ExposingSin from '../images/Bro. Marvin March 24.png'
-// import membership from '../images/02-25-2024 - Membership.png'
 import liveAndShare from '../images/BRO. Bong Easter Sunday.png'
 import rightVsWrong from '../images/Right vs Wrong Debunking False Ideas.png'
-import midstOfDifficulty from '../images/03-03-2024 - In The Midst of Difficulties - James 1.png'
 import LoveYourNeighbor from '../images/Royal Law April 7 2024.png'
+import FaithAndDeed from '../images/04.14.24 - Faith & Deeds.png'
+// import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
+// import membership from '../images/02-25-2024 - Membership.png'
+// import midstOfDifficulty from '../images/03-03-2024 - In The Midst of Difficulties - James 1.png'
 // import manSinDeath from '../images/Man, Sin, and Death.png'
 // import discipleship from '../images/Discipleship.png'
 // import relationship from "../images/1-21-2024 - Let's Talk About Relationship.png"
 
 const allMessage = [
+  {
+    messageTitle: 'Faith & Deeds',
+    videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/779467414112191",
+    imgUrl: FaithAndDeed,
+    messageBy: 'Bro. Joshua & Sis. Jazzlee',
+    datePosted: 'April 14, 2024',
+    imageSlide: 'https://www.canva.com/design/DAGCWi9wLvA/b8R0vsnnoi1mLgxwPE1XVw/view?utm_content=DAGCWi9wLvA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    description: 'What good is it, my brothers and sisters, if someone claims to have faith but has no deeds? Can such faith save them?'
+},
     {
       messageTitle: 'Royal Law: Love Your Neighbor',
       videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/459224226527193",
@@ -60,14 +70,14 @@ const allMessage = [
       imageSlide: 'https://www.canva.com/design/DAF-4yKlZYk/03mX073ap8QwK4LUSxYWrQ/view?utm_content=DAF-4yKlZYk&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: ' Believers in humble circumstances ought to take pride in their high position. But the rich should take pride in their humiliation- since they will pass away like wild flower. '
     },
-    {
-      messageTitle: 'In the Midst of Difficulties',
-      videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/372532832352882",
-      imgUrl: midstOfDifficulty,
-      imageSlide: 'https://www.canva.com/design/DAF-m9nzpAY/3Mcs6crJNoXxL-EIDupAUg/view?utm_content=DAF-m9nzpAY&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      messageBy: 'Harry Nietes',
-      description: '"Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds, because you know that the testing of your faith produces perseverance.”'
-    },
+    // {
+    //   messageTitle: 'In the Midst of Difficulties',
+    //   videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/372532832352882",
+    //   imgUrl: midstOfDifficulty,
+    //   imageSlide: 'https://www.canva.com/design/DAF-m9nzpAY/3Mcs6crJNoXxL-EIDupAUg/view?utm_content=DAF-m9nzpAY&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //   messageBy: 'Harry Nietes',
+    //   description: '"Consider it pure joy, my brothers and sisters, whenever you face trials of many kinds, because you know that the testing of your faith produces perseverance.”'
+    // },
     // {
     //   videoUrl: "https://www.youtube.com/watch?v=F0YRa9gVwtM&t=2244s",
     //   imgUrl: membership,
