@@ -8,6 +8,7 @@ import liveAndShare from '../images/BRO. Bong Easter Sunday.png'
 import rightVsWrong from '../images/Right vs Wrong Debunking False Ideas.png'
 import LoveYourNeighbor from '../images/Royal Law April 7 2024.png'
 import FaithAndDeed from '../images/04.14.24 - Faith & Deeds.png'
+import RestrainYourTongue from '../images/04-21 Restrain Your Tongue.png'
 // import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
 // import membership from '../images/02-25-2024 - Membership.png'
 // import midstOfDifficulty from '../images/03-03-2024 - In The Midst of Difficulties - James 1.png'
@@ -16,15 +17,24 @@ import FaithAndDeed from '../images/04.14.24 - Faith & Deeds.png'
 // import relationship from "../images/1-21-2024 - Let's Talk About Relationship.png"
 
 const allMessage = [
-  {
-    messageTitle: 'Faith & Deeds',
-    videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/779467414112191",
-    imgUrl: FaithAndDeed,
-    messageBy: 'Bro. Joshua & Sis. Jazzlee',
-    datePosted: 'April 14, 2024',
-    imageSlide: 'https://www.canva.com/design/DAGCWi9wLvA/b8R0vsnnoi1mLgxwPE1XVw/view?utm_content=DAGCWi9wLvA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-    description: 'What good is it, my brothers and sisters, if someone claims to have faith but has no deeds? Can such faith save them?'
-},
+    {
+      messageTitle: 'Restrain Your Tongue',
+      videoUrl: "https://www.youtube.com/watch?v=xYaWlaXb1S4",
+      imgUrl: RestrainYourTongue,
+      messageBy: 'Sis. Mabel Somook',
+      datePosted: 'April 20, 2024',
+      imageSlide: 'https://www.canva.com/design/DAGC4YghT0A/V1GC8ej1WrPhaBsYEvbbAA/view?utm_content=DAGC4YghT0A&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      description: 'Do not let any unwholesome talk come out of your mouths, but only what is helpful for building others up according to their needs, that it may benefit those who listen.'
+  },
+    {
+      messageTitle: 'Faith & Deeds',
+      videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/779467414112191",
+      imgUrl: FaithAndDeed,
+      messageBy: 'Bro. Joshua & Sis. Jazzlee',
+      datePosted: 'April 14, 2024',
+      imageSlide: 'https://www.canva.com/design/DAGCWi9wLvA/b8R0vsnnoi1mLgxwPE1XVw/view?utm_content=DAGCWi9wLvA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      description: 'What good is it, my brothers and sisters, if someone claims to have faith but has no deeds? Can such faith save them?'
+    },
     {
       messageTitle: 'Royal Law: Love Your Neighbor',
       videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/459224226527193",
