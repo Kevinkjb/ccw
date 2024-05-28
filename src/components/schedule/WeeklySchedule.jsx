@@ -21,7 +21,21 @@ const WeeklySchedule = () => {
                     <p className='schedule-time'>at 6:00 PM</p>
                 </div>
             </div> */}
+            {/* FIRST SCHEDULE */}
             <div className="first-schedule">
+                <div className="weekly-service">
+                    <div className="date">
+                        <h2>MON</h2>
+                    </div>
+                    <div className='service-info'>
+                        <p className='service-text'>SHEPHERDING MINISTRY</p>
+                        <p className='schedule-time'>at 10:30 AM</p>
+                    </div>
+
+                </div>
+            </div>
+            {/* SECOND SCHEDULE */}
+            <div className="second-schedule">
                 <div className="weekly-service">
                     <div className="date">
                         <h2>TUE</h2>
@@ -33,7 +47,8 @@ const WeeklySchedule = () => {
 
                 </div>
             </div>
-            <div className="second-schedule">
+            {/* THIRD SCHEDULE */}
+            <div className="third-schedule">
                 <div className="weekly-service">
                     <div className="date">
                         <h2>WED</h2>
@@ -44,7 +59,8 @@ const WeeklySchedule = () => {
                     </div>
                 </div>
             </div>
-            <div className="third-schedule">
+            {/* FOURTH SCHEDULE */}
+            <div className="fourth-schedule">
                 <div className="weekly-service">
                     <div className="date">
                         <h2>THUR</h2>
@@ -56,14 +72,11 @@ const WeeklySchedule = () => {
 
                 </div>
             </div>
-            <div className="fourth-schedule">
+            {/* FIFTH SCHEDULE */}
+            <div className="fifth-schedule">
                 <div className="fourth-service">
                     <div className="date">
                         <h2>FRI</h2>
-                    </div>
-                    <div className="shepherding-ministry">
-                        <p className='shepherding-text'>Shepherding Ministry</p>
-                        <p className='schedule-time'>at 10:30 AM</p>
                     </div>
                     <div className="young-pro">
                         <p className='young-text'>Young Pro Ministry</p>
@@ -72,7 +85,7 @@ const WeeklySchedule = () => {
                 </div>
 
             </div>
-            <div className="fifth-schedule">
+            <div className="sixth-schedule">
                 <div className="weekly-service">
                     <div className="date">
                         <h2>SUN</h2>

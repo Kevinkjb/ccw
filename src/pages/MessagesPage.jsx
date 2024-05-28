@@ -9,6 +9,7 @@ import rightVsWrong from '../images/Right vs Wrong Debunking False Ideas.png'
 import LoveYourNeighbor from '../images/Royal Law April 7 2024.png'
 import FaithAndDeed from '../images/04.14.24 - Faith & Deeds.png'
 import RestrainYourTongue from '../images/04-21 Restrain Your Tongue.png'
+import ValuesOfWisdom from '../images/The Values of Wisdom.png'
 // import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
 // import membership from '../images/02-25-2024 - Membership.png'
 // import midstOfDifficulty from '../images/03-03-2024 - In The Midst of Difficulties - James 1.png'
@@ -17,6 +18,15 @@ import RestrainYourTongue from '../images/04-21 Restrain Your Tongue.png'
 // import relationship from "../images/1-21-2024 - Let's Talk About Relationship.png"
 
 const allMessage = [
+    {
+      messageTitle: 'The Value of Wisdom',
+      videoUrl: "https://www.youtube.com/watch?v=pwznH6zOhvY",
+      imgUrl: ValuesOfWisdom,
+      messageBy: 'Bro. Harry Nietes',
+      datePosted: 'April 28, 2024',
+      imageSlide: '',
+      description: 'James 3:13-18'
+  },
     {
       messageTitle: 'Restrain Your Tongue',
       videoUrl: "https://www.youtube.com/watch?v=xYaWlaXb1S4",
