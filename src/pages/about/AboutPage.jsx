@@ -1,4 +1,4 @@
-import headImage from '../../images/about.jpg'
+import headImage from '../../images/gallery/about.jpg'
 import CoreValue from '../../components/core-values/CoreValue'
 import Footer from '../../components/footer/Footer'
 import AboutGallery from '../../components/about/AboutGallery'
@@ -9,9 +9,9 @@ import imageFour from "./images/Dinner Night at Church.jpg"
 import imageFive from "./images/Dinner Night Womens.jpg"
 import imageSix from "./images/Family Day 2024.jpg"
 import imageSeven from "./images/camping.png"
-import imageEight from "./images//camping 2022.jpg"
-import logoImg from '../../images/logo 2.webp'
-import aboutImg from '../../images/about-img.png'
+import imageEight from "./images/camping 2022.jpg"
+import logoImg from '../../images/logo/logo 2.webp'
+import aboutImg from '../../images/gallery/about-img.png'
 
 const imageGallery = [
   {imgUrl: imageOne},

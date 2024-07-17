@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
 import { useState } from 'react';
 import './navbar.css';
-import logo from '../../images/logo.png';
+import logo from '../../images/logo/logo.png';
 
 const Navbar = () => {
   const [navToggle, setNavToggle] = useState(false)

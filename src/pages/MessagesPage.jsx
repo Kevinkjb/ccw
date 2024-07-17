@@ -2,14 +2,16 @@
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 import AllMessages from "../components/messages/AllMessages"
-import WhyLookForLiving from '../images/Why do you look for the living among the dead.png'
-import ExposingSin from '../images/Bro. Marvin March 24.png'
-import liveAndShare from '../images/BRO. Bong Easter Sunday.png'
-import rightVsWrong from '../images/Right vs Wrong Debunking False Ideas.png'
-import LoveYourNeighbor from '../images/Royal Law April 7 2024.png'
-import FaithAndDeed from '../images/04.14.24 - Faith & Deeds.png'
-import RestrainYourTongue from '../images/04-21 Restrain Your Tongue.png'
-import ValuesOfWisdom from '../images/The Values of Wisdom.png'
+import WhyLookForLiving from '../images/message/Why do you look for the living among the dead.png'
+import ExposingSin from '../images/message/Bro. Marvin March 24.png'
+import liveAndShare from '../images/message/BRO. Bong Easter Sunday.png'
+
+import LoveYourNeighbor from '../images/message/Royal Law April 7 2024.png'
+import FaithAndDeed from '../images/message/04.14.24 - Faith & Deeds.png'
+import RestrainYourTongue from '../images/message/04-21 Restrain Your Tongue.png'
+import ValuesOfWisdom from '../images/message/The Values of Wisdom.png'
+import inHisTime from '../images/message/inhistime.png';
+// import rightVsWrong from '../images/Right vs Wrong Debunking False Ideas.png'
 // import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
 // import membership from '../images/02-25-2024 - Membership.png'
 // import midstOfDifficulty from '../images/03-03-2024 - In The Midst of Difficulties - James 1.png'
@@ -18,6 +20,15 @@ import ValuesOfWisdom from '../images/The Values of Wisdom.png'
 // import relationship from "../images/1-21-2024 - Let's Talk About Relationship.png"
 
 const allMessage = [
+    {
+      messageTitle: 'In His Time',
+      videoUrl: "https://www.youtube.com/watch?v=HN7pFGzeqdw",
+      imgUrl: inHisTime,
+      messageBy: 'Sis. Loverlee Matira',
+      datePosted: 'May 26, 2024',
+      imageSlide: 'https://www.canva.com/design/DAGGVwOH8WA/jElDUuSF5IEQIBcW7pH4Mw/view?utm_content=DAGGVwOH8WA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      description: 'Be patient, then, brothers and sisters, until the Lord’s coming. See how the farmer waits for the land to yield its valuable crop, patiently waiting for the autumn and spring rains.'
+    },
     {
       messageTitle: 'The Value of Wisdom',
       videoUrl: "https://www.youtube.com/watch?v=pwznH6zOhvY",
@@ -81,15 +92,15 @@ const allMessage = [
       imageSlide: 'https://www.canva.com/design/DAF_uLqK3gk/elct-xN-nl7m1ZuIQFnv0A/view?utm_content=DAF_uLqK3gk&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: 'Go and make disciple of all nations baptizing them in the name of the Father, the Son and the Holy Spirit'
     },
-    {
-      messageTitle: 'Right vs Wrong',
-      videoUrl: "https://www.youtube.com/watch?v=Y585jD5C07Y",
-      imgUrl: rightVsWrong,
-      messageBy: 'Boni Somook',
-      datePosted: 'March 10, 2024',
-      imageSlide: 'https://www.canva.com/design/DAF-4yKlZYk/03mX073ap8QwK4LUSxYWrQ/view?utm_content=DAF-4yKlZYk&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: ' Believers in humble circumstances ought to take pride in their high position. But the rich should take pride in their humiliation- since they will pass away like wild flower. '
-    },
+    // {
+    //   messageTitle: 'Right vs Wrong',
+    //   videoUrl: "https://www.youtube.com/watch?v=Y585jD5C07Y",
+    //   imgUrl: rightVsWrong,
+    //   messageBy: 'Boni Somook',
+    //   datePosted: 'March 10, 2024',
+    //   imageSlide: 'https://www.canva.com/design/DAF-4yKlZYk/03mX073ap8QwK4LUSxYWrQ/view?utm_content=DAF-4yKlZYk&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //   description: ' Believers in humble circumstances ought to take pride in their high position. But the rich should take pride in their humiliation- since they will pass away like wild flower. '
+    // },
     // {
     //   messageTitle: 'In the Midst of Difficulties',
     //   videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/372532832352882",

@@ -5,8 +5,8 @@ import LatestMessage from "../components/messages/LatestMessage"
 import messageData from '../components/components-data/data'
 import Events from "../components/events/Events"
 import eventsData from '../components/components-data/events'
-import mission from '../images/mission.jpg'
-import vision from '../images/worship.jpg'
+import mission from '../images/gallery/mission.jpg'
+import vision from '../images/gallery/worship.jpg'
 import Footer from "../components/footer/Footer"
 
 

@@ -1,6 +1,8 @@
-import womensOuting from "../../images/Women's Outing.jpg"
-import mothersDay from '../../images/mothersday.png'
+// import womensOuting from "../../images/Women's Outing.jpg"
+// import mothersDay from '../../images/mothersday.png'
 // import escapeRoom from '../../images/Easter Escape Room.pptx.png'
+import camping from '../../images/outing/Church.png'
+import kidsFunDay from '../../images/events/Fun Day.png'
 
 
 const events = [
@@ -15,20 +17,20 @@ const events = [
     // },
     {
         id: 1,
-        imgUrl: womensOuting,
-        eventMonths: 'May',
-        eventDays: '3',
-        eventTitle: "Women's Outing in Canmore",
-        description: 'No current description yet.',
-        time: 'No time yet.'
+        imgUrl: camping,
+        eventMonths: 'Jul',
+        eventDays: '19',
+        eventTitle: "Church Family Camping",
+        description: 'Learn, Grow, and Love the Lord together.',
+        time: 'TBD'
     },
     {
         id: 2,
-        imgUrl: mothersDay,
-        eventMonths: 'May',
-        eventDays: '12',
-        eventTitle: "Mother's Day",
-        description: "Celebrating Mother's Day on special occassion.",
+        imgUrl: kidsFunDay,
+        eventMonths: 'Aug',
+        eventDays: '24',
+        eventTitle: "Kid's Fun Day",
+        description: "Fun & Creative Activities for the kids",
         time: 'No time yet.'
     }
        

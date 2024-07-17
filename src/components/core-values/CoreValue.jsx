@@ -1,6 +1,6 @@
 import './coreValue.css'
-import mission from '../../images/mission.jpg'
-import vision from '../../images/worship.jpg'
+import mission from '../../images/gallery/mission.jpg'
+import vision from '../../images/gallery/worship.jpg'
 import { RiArrowRightSFill } from "react-icons/ri";
 const CoreValue = () => {
   return (

@@ -1,5 +1,5 @@
 import Footer from "../../components/footer/Footer"
-import giving from '../../images/love.png'
+import giving from '../../images/logo/love.png'
 import './give.css'
 const GivePage = () => {
   return (

@@ -11,6 +11,7 @@ const Display = ({item, close}) => {
                 <h2>{item.eventTitle}</h2>
             </div>
             <div className="modal-body">
+                <img className='event-image' src={item.imgUrl} alt={item.eventTitle} />
                 <p>{item.description}</p>
                 <p>{item.date}</p>
             </div>
