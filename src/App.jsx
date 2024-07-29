@@ -1,4 +1,4 @@
-import { Routes, Route} from 'react-router-dom';
+import { Routes, Route, Router} from 'react-router-dom';
 import './App.css'
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/about/AboutPage';
@@ -16,14 +16,29 @@ function App() {
     <>
     <Navbar/>
           <Routes>
+            <Router basename='/'>
+              <Route path="/" element={<HomePage/>}/>
+            </Router>
 
-            <Route path="/" element={<HomePage/>}/>
-            <Route path="/about" element={<AboutPage/>}/>
-            <Route path="/events" element={<EventPage/>}/>
-            <Route path="/messages" element={<MessagesPage/>}/>
-            <Route path="/give" element={<GivePage/>}/>
-            <Route path="/contact" element={<ContactPage/>}/>
+            <Router basename='/about'>
+              <Route path="/about" element={<AboutPage/>}/>
+            </Router>
 
+            <Router basename='/events'>
+              <Route path="/events" element={<EventPage/>}/>
+            </Router>
+
+            <Router basename='/messages'>
+              <Route path="/messages" element={<MessagesPage/>}/>
+            </Router>
+
+            <Router basename='/give'>
+             <Route path="/give" element={<GivePage/>}/>
+            </Router>
+
+            <Router basename='/contact'>
+              <Route path="/contact" element={<ContactPage/>}/>
+            </Router>
           </Routes>
     </>
 
