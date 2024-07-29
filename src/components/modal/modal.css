@@ -66,6 +66,13 @@
     height: 40%;
   }
 
+  .event-modal-time{
+    margin-top: 3rem;
+    margin-right: auto;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+
   @media screen and (max-width: 540px){
     .modal-content{
       width: 25rem;

@@ -25,6 +25,7 @@ const Events = () => {
                   <div className="event-date">
                       <h5 className='event-day'>{item.eventDays}</h5>
                       <p className='event-month'>{item.eventMonths}</p>
+
                   </div>
                   </div>
                 </div> 

@@ -12,8 +12,8 @@ const Display = ({item, close}) => {
             </div>
             <div className="modal-body">
                 <img className='event-image' src={item.imgUrl} alt={item.eventTitle} />
-                <p>{item.description}</p>
-                <p>{item.date}</p>
+                <p className='event-modal-desc'>{item.description}</p>
+                <p className='event-modal-time'>Time: <i style={{textDecoration: 'underline', color: '#B58810'}}>{item.time}</i></p>
             </div>
           </div>
       </div>

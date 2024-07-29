@@ -52,8 +52,10 @@ const OnlineInfo = () => {
                     <Link to="events">
                         <button className='meeting-btn'>Learn More</button>
                     </Link>
+                    <a href="https://meet.google.com/zhp-yxhm-emg" target='_blank'>
+                        <button className='join-btn'>Click to Join</button>
+                    </a>
 
-                    <button className='join-btn'>Click to Join</button>
                 </div>
             </div>
         </div>

@@ -9,8 +9,9 @@ import liveAndShare from '../images/message/BRO. Bong Easter Sunday.png'
 import LoveYourNeighbor from '../images/message/Royal Law April 7 2024.png'
 import FaithAndDeed from '../images/message/04.14.24 - Faith & Deeds.png'
 import RestrainYourTongue from '../images/message/04-21 Restrain Your Tongue.png'
-import ValuesOfWisdom from '../images/message/The Values of Wisdom.png'
+// import ValuesOfWisdom from '../images/message/The Values of Wisdom.png'
 import inHisTime from '../images/message/inhistime.png';
+import togetherness from '../images/message/07.14.2024 - Togetherness - Bro. Boni Somook.png'
 // import rightVsWrong from '../images/Right vs Wrong Debunking False Ideas.png'
 // import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
 // import membership from '../images/02-25-2024 - Membership.png'
@@ -21,6 +22,15 @@ import inHisTime from '../images/message/inhistime.png';
 
 const allMessage = [
     {
+      messageTitle: 'Togetherness',
+      videoUrl: "https://www.youtube.com/watch?v=PBrBWzaYgVg",
+      imgUrl: togetherness,
+      messageBy: 'Bro. Boni Somook',
+      datePosted: 'July 14, 2024',
+      imageSlide: 'https://www.canva.com/design/DAGK8FCT9DM/7y9ySbrQe0x1AfxkhU56Rw/edit?utm_content=DAGK8FCT9DM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
+      description: 'Now that you have purified yourselves by obeying the truth so that you have sincere love for each other, love one another deeply, from the heart.'
+    },
+    {
       messageTitle: 'In His Time',
       videoUrl: "https://www.youtube.com/watch?v=HN7pFGzeqdw",
       imgUrl: inHisTime,
@@ -29,15 +39,7 @@ const allMessage = [
       imageSlide: 'https://www.canva.com/design/DAGGVwOH8WA/jElDUuSF5IEQIBcW7pH4Mw/view?utm_content=DAGGVwOH8WA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: 'Be patient, then, brothers and sisters, until the Lord’s coming. See how the farmer waits for the land to yield its valuable crop, patiently waiting for the autumn and spring rains.'
     },
-    {
-      messageTitle: 'The Value of Wisdom',
-      videoUrl: "https://www.youtube.com/watch?v=pwznH6zOhvY",
-      imgUrl: ValuesOfWisdom,
-      messageBy: 'Bro. Harry Nietes',
-      datePosted: 'April 28, 2024',
-      imageSlide: '',
-      description: 'James 3:13-18'
-  },
+
     {
       messageTitle: 'Restrain Your Tongue',
       videoUrl: "https://www.youtube.com/watch?v=xYaWlaXb1S4",
@@ -92,6 +94,15 @@ const allMessage = [
       imageSlide: 'https://www.canva.com/design/DAF_uLqK3gk/elct-xN-nl7m1ZuIQFnv0A/view?utm_content=DAF_uLqK3gk&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: 'Go and make disciple of all nations baptizing them in the name of the Father, the Son and the Holy Spirit'
     },
+  //   {
+  //     messageTitle: 'The Value of Wisdom',
+  //     videoUrl: "https://www.youtube.com/watch?v=pwznH6zOhvY",
+  //     imgUrl: ValuesOfWisdom,
+  //     messageBy: 'Bro. Harry Nietes',
+  //     datePosted: 'April 28, 2024',
+  //     imageSlide: '',
+  //     description: 'James 3:13-18'
+  // },
     // {
     //   messageTitle: 'Right vs Wrong',
     //   videoUrl: "https://www.youtube.com/watch?v=Y585jD5C07Y",

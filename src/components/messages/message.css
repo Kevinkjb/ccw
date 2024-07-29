@@ -24,6 +24,7 @@
 .message-img{
     width: 30rem;
     object-fit: contain;
+
 }
 
 .message-text{
@@ -35,6 +36,9 @@
 .message-by,
 .date-posted{
     margin: 1rem 0;
+}
+.message-details{
+    padding: 0 1.5rem;
 }
 
 .description{
@@ -414,6 +418,9 @@
     }
     .latest-title{
         width: 30rem;
+    }
+    .message-details{
+        padding: 0;
     }
 
     .message-img{
