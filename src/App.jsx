@@ -15,19 +15,21 @@ function App() {
   return (
     <>
     <Navbar/>
-    <Router basename='/ccw'>
-    <Routes >
 
-    <Route path="/" element={<HomePage/>}/>
-    <Route path="/about" element={<AboutPage/>}/>
-    <Route path="/events" element={<EventPage/>}/>
-    <Route path="/messages" element={<MessagesPage/>}/>
-    <Route path="/give" element={<GivePage/>}/>
-    <Route path="/contact" element={<ContactPage/>}/>
+          <Routes >
+          <Router basename='/'>
+            <Route path="/" element={<HomePage/>}/>
+          </Router>
+          <Router basename='/about'>
+            <Route path="/about" element={<AboutPage/>}/>
+          </Router>
 
-    </Routes>
-    </Router>
+            <Route path="/events" element={<EventPage/>}/>
+            <Route path="/messages" element={<MessagesPage/>}/>
+            <Route path="/give" element={<GivePage/>}/>
+            <Route path="/contact" element={<ContactPage/>}/>
 
+          </Routes>
     </>
 
 
