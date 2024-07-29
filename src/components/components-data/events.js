@@ -4,18 +4,19 @@
 // import camping from '../../images/outing/Church.png'
 import kidsFunDay from '../../images/events/Fun Day.png'
 import anniversary from '../../images/events/anniversary.jpg'
+import camping from '../../images/events/Couple’s.png'
 
 
 const events = [
-    // {
-    //     id: 1,
-    //     imgUrl: escapeRoom,
-    //     eventMonths: 'Mar',
-    //     eventDays: '30',
-    //     eventTitle: 'Youth - Easter Escape Room',
-    //     description: 'Welcome to the Easter Escape Room. You’ll need to place your participants into groups of about six young people. Then they’ll need to head off at five-minute intervals. They will be visiting a series of leaders in order to find the answers to 12 questions! .',
-    //     time: '5:00 PM'
-    // },
+    {
+        id: 1,
+        imgUrl: camping,
+        eventMonths: 'Aug',
+        eventDays: '02',
+        eventTitle: "Young Couple's Camp",
+        description: 'Learn and grow to love the Lord. ',
+        time: 'Friday 5:00 PM'
+    },
     {
         id: 1,
         imgUrl: anniversary,
