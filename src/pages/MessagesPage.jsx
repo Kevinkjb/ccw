@@ -27,7 +27,7 @@ const allMessage = [
       imgUrl: togetherness,
       messageBy: 'Bro. Boni Somook',
       datePosted: 'July 14, 2024',
-      imageSlide: 'https://www.canva.com/design/DAGK8FCT9DM/7y9ySbrQe0x1AfxkhU56Rw/edit?utm_content=DAGK8FCT9DM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
+      imageSlide: 'https://www.canva.com/design/DAGK8FCT9DM/_7DbXYHoc6tmvtRb6d0kfA/view?utm_content=DAGK8FCT9DM&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: 'Now that you have purified yourselves by obeying the truth so that you have sincere love for each other, love one another deeply, from the heart.'
     },
     {
