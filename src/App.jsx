@@ -1,4 +1,4 @@
-import { Routes, Route, Router} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 import './App.css'
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/about/AboutPage';
@@ -15,15 +15,10 @@ function App() {
   return (
     <>
     <Navbar/>
-
           <Routes >
-          <Router basename='/'>
-            <Route path="/" element={<HomePage/>}/>
-          </Router>
-          <Router basename='/about'>
-            <Route path="/about" element={<AboutPage/>}/>
-          </Router>
 
+            <Route path="/" element={<HomePage/>}/>
+            <Route path="/about" element={<AboutPage/>}/>
             <Route path="/events" element={<EventPage/>}/>
             <Route path="/messages" element={<MessagesPage/>}/>
             <Route path="/give" element={<GivePage/>}/>
