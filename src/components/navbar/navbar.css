@@ -45,6 +45,16 @@
 .nav-link:hover{
     color: #B58810;
 }
+.active{
+    color: #B58810;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all .3s ease;
+    letter-spacing: 1px;
+}
 /* BURGER MENU */
 .burger-menu{
     display: none;
