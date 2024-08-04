@@ -9,7 +9,7 @@ import camping from '../../images/events/Couple’s.png'
 
 const events = [
     {
-        id: 1,
+        id: 0,
         imgUrl: camping,
         eventMonths: 'Aug',
         eventDays: '02',
