@@ -19,8 +19,18 @@ import togetherness from '../images/message/07.14.2024 - Togetherness - Bro. Bon
 // import manSinDeath from '../images/Man, Sin, and Death.png'
 // import discipleship from '../images/Discipleship.png'
 // import relationship from "../images/1-21-2024 - Let's Talk About Relationship.png"
+import togetherTwo from '../images/message/07.28.2024 - Bro. Boni Somook.png'
 
 const allMessage = [
+  {
+    messageTitle: 'Togetherness Pt.2',
+    videoUrl: "https://www.youtube.com/watch?v=p7oyaDtWx10",
+    imgUrl: togetherTwo,
+    messageBy: 'Bro. Boni Somook',
+    datePosted: 'July 28, 2024',
+    imageSlide: 'https://www.canva.com/design/DAGMQKx-TY8/dh89DTX04y3kBVx9wPzL1w/view?utm_content=DAGMQKx-TY8&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    description: 'Now that you have purified yourselves by obeying the truth so that you have sincere love for each other, love one another deeply, from the heart.'
+  },
     {
       messageTitle: 'Togetherness',
       videoUrl: "https://www.youtube.com/watch?v=PBrBWzaYgVg",
