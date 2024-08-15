@@ -1,17 +1,15 @@
-
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 import AllMessages from "../components/messages/AllMessages"
 import WhyLookForLiving from '../images/message/Why do you look for the living among the dead.png'
 import ExposingSin from '../images/message/Bro. Marvin March 24.png'
-import liveAndShare from '../images/message/BRO. Bong Easter Sunday.png'
-
 import LoveYourNeighbor from '../images/message/Royal Law April 7 2024.png'
 import FaithAndDeed from '../images/message/04.14.24 - Faith & Deeds.png'
 import RestrainYourTongue from '../images/message/04-21 Restrain Your Tongue.png'
-// import ValuesOfWisdom from '../images/message/The Values of Wisdom.png'
 import inHisTime from '../images/message/inhistime.png';
 import togetherness from '../images/message/07.14.2024 - Togetherness - Bro. Boni Somook.png'
+import faithful from '../images/message/08.04.2024 - Faithful to the End - Bro. Ted Matira.png'
+
 // import rightVsWrong from '../images/Right vs Wrong Debunking False Ideas.png'
 // import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
 // import membership from '../images/02-25-2024 - Membership.png'
@@ -19,9 +17,20 @@ import togetherness from '../images/message/07.14.2024 - Togetherness - Bro. Bon
 // import manSinDeath from '../images/Man, Sin, and Death.png'
 // import discipleship from '../images/Discipleship.png'
 // import relationship from "../images/1-21-2024 - Let's Talk About Relationship.png"
+// import liveAndShare from '../images/message/BRO. Bong Easter Sunday.png'
+// import ValuesOfWisdom from '../images/message/The Values of Wisdom.png'
 import togetherTwo from '../images/message/07.28.2024 - Bro. Boni Somook.png'
 
 const allMessage = [
+  {
+      messageTitle: 'Faithful To The End',
+      videoUrl: "https://www.youtube.com/watch?v=0gAJ9aOM0vc",
+      imgUrl: faithful,
+      messageBy: 'Ptr. Ted Matira',
+      datePosted: 'Aug 04, 2024',
+      imageSlide: 'https://www.canva.com/design/DAGMtnEEXRE/T_9aFb4nSB1BPilqeGj8fQ/view?utm_content=DAGMtnEEXRE&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      description: 'Though you have not seen him, you love him; and even though you do not see him now, you believe in him and are filled with an inexpressible and glorious joy, 9 for you are receiving the end result of your faith, the salvation of your souls.'
+  },
   {
     messageTitle: 'Togetherness Pt.2',
     videoUrl: "https://www.youtube.com/watch?v=p7oyaDtWx10",
@@ -95,15 +104,15 @@ const allMessage = [
       imageSlide: 'https://www.canva.com/design/DAGAM6-Fdl0/BZXlDxApXVmI4fG6ypKjKw/view?utm_content=DAGAM6-Fdl0&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: '“Now let the fear of the Lord be on you. Judge carefully, for with the Lord our God there is no injustice or partiality or bribery.”'
     },
-    {
-      messageTitle: 'Live and Share',
-      videoUrl: "https://www.youtube.com/watch?v=qulJzmvWjtY",
-      imgUrl: liveAndShare,
-      messageBy: 'Bong Aguiao',
-      datePosted: 'March 17, 2024',
-      imageSlide: 'https://www.canva.com/design/DAF_uLqK3gk/elct-xN-nl7m1ZuIQFnv0A/view?utm_content=DAF_uLqK3gk&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: 'Go and make disciple of all nations baptizing them in the name of the Father, the Son and the Holy Spirit'
-    },
+    // {
+    //   messageTitle: 'Live and Share',
+    //   videoUrl: "https://www.youtube.com/watch?v=qulJzmvWjtY",
+    //   imgUrl: liveAndShare,
+    //   messageBy: 'Bong Aguiao',
+    //   datePosted: 'March 17, 2024',
+    //   imageSlide: 'https://www.canva.com/design/DAF_uLqK3gk/elct-xN-nl7m1ZuIQFnv0A/view?utm_content=DAF_uLqK3gk&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //   description: 'Go and make disciple of all nations baptizing them in the name of the Father, the Son and the Holy Spirit'
+    // },
   //   {
   //     messageTitle: 'The Value of Wisdom',
   //     videoUrl: "https://www.youtube.com/watch?v=pwznH6zOhvY",

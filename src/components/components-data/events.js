@@ -2,7 +2,7 @@
 // import mothersDay from '../../images/mothersday.png'
 // import escapeRoom from '../../images/Easter Escape Room.pptx.png'
 // import camping from '../../images/outing/Church.png'
-import kidsFunDay from '../../images/events/Fun Day.png'
+import kidsFunDay from '../../images/events/kids.png'
 // import anniversary from '../../images/events/anniversary.jpg'
 // import camping from '../../images/events/Couple’s.png'
 
@@ -27,13 +27,13 @@ const events = [
     //     time: 'Sunday 10:00 AM'
     // },
     {
-        id: 2,
+        id: 0,
         imgUrl: kidsFunDay,
-        eventMonths: 'Aug',
-        eventDays: '24',
-        eventTitle: "Kid's Fun Day",
-        description: "Fun & Creative Activities for the kids",
-        time: 'No time yet.'
+        eventMonths: 'Sept',
+        eventDays: '14',
+        eventTitle: "Be like Jesus",
+        description: `Memory verse I Peter 2:21`,
+        time: '9:00 am to 11:30 am.'
     }
        
 ]
