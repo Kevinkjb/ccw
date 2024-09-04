@@ -38,7 +38,7 @@ const ContactForm = () => {
     
         setErrors({});
         emailjs
-          .sendForm('service_u1ky2u6', 'template_f81silx', form.current, {
+          .sendForm('service_ucykcb8', 'template_6ywljui', form.current, {
             publicKey: 'eja84i-pVFqt5ioAL',
           })
           .then(
@@ -73,7 +73,7 @@ const ContactForm = () => {
                 {errors.message && <p className='error-message'>{errors.message}</p>}
             </div>
             <div className="btn-container">
-                <button className="form-btn">Submit</button>
+                <button type='submit' className="form-btn">Submit</button>
             </div>
             {successMessage && <p className='success-message'>{successMessage}</p>}
         </form>
