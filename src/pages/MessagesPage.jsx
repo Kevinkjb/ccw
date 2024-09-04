@@ -2,14 +2,15 @@ import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 import AllMessages from "../components/messages/AllMessages"
 import WhyLookForLiving from '../images/message/Why do you look for the living among the dead.png'
-import ExposingSin from '../images/message/Bro. Marvin March 24.png'
+
 import LoveYourNeighbor from '../images/message/Royal Law April 7 2024.png'
 import FaithAndDeed from '../images/message/04.14.24 - Faith & Deeds.png'
 import RestrainYourTongue from '../images/message/04-21 Restrain Your Tongue.png'
 import inHisTime from '../images/message/inhistime.png';
 import togetherness from '../images/message/07.14.2024 - Togetherness - Bro. Boni Somook.png'
 import faithful from '../images/message/08.04.2024 - Faithful to the End - Bro. Ted Matira.png'
-
+import alienated from '../images/message/08.10.2024 - Alienated to this World - Bro. Marvin Risto.png'
+// import ExposingSin from '../images/message/Bro. Marvin March 24.png'
 // import rightVsWrong from '../images/Right vs Wrong Debunking False Ideas.png'
 // import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
 // import membership from '../images/02-25-2024 - Membership.png'
@@ -22,6 +23,15 @@ import faithful from '../images/message/08.04.2024 - Faithful to the End - Bro. 
 import togetherTwo from '../images/message/07.28.2024 - Bro. Boni Somook.png'
 
 const allMessage = [
+    {
+      messageTitle: 'Alienated to this World',
+      videoUrl: "https://www.youtube.com/watch?v=4k3lhPcg4IY",
+      imgUrl: alienated,
+      messageBy: 'Bro. Marvin Risto',
+      datePosted: 'Aug 11, 2024',
+      imageSlide: 'https://www.canva.com/design/DAGNedD8itM/JAOS4-l3k6NGkxo5FG3BdA/view?utm_content=DAGNedD8itM&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      description: '1 John 2: 15 Do not love the world or anything in the world. If anyone loves the world, love for the Father is not in them. 16 For everything in the world—the lust of the flesh, the lust of the eyes, and the pride of life—comes not from the Father but from the world. 17 The world and its desires pass away, but whoever does the will of God lives forever.'
+  },
   {
       messageTitle: 'Faithful To The End',
       videoUrl: "https://www.youtube.com/watch?v=0gAJ9aOM0vc",
@@ -95,15 +105,15 @@ const allMessage = [
       imageSlide: 'https://www.canva.com/design/DAGA7C3TuKs/VTZo3jT-ca_E7Xv1SJRYIw/view?utm_content=DAGA7C3TuKs&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: 'In their fright the women bowed down with their faces to the ground, but the men said to them, “Why do you look for the living among the dead?'
     },
-    {
-      messageTitle: 'Exposing the Sin of Partiality',
-      videoUrl: "https://www.youtube.com/watch?v=zMimW6xPe_c",
-      imgUrl: ExposingSin,
-      messageBy: 'Marvin Risto',
-      datePosted: 'March 24, 2024',
-      imageSlide: 'https://www.canva.com/design/DAGAM6-Fdl0/BZXlDxApXVmI4fG6ypKjKw/view?utm_content=DAGAM6-Fdl0&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: '“Now let the fear of the Lord be on you. Judge carefully, for with the Lord our God there is no injustice or partiality or bribery.”'
-    },
+    // {
+    //   messageTitle: 'Exposing the Sin of Partiality',
+    //   videoUrl: "https://www.youtube.com/watch?v=zMimW6xPe_c",
+    //   imgUrl: ExposingSin,
+    //   messageBy: 'Marvin Risto',
+    //   datePosted: 'March 24, 2024',
+    //   imageSlide: 'https://www.canva.com/design/DAGAM6-Fdl0/BZXlDxApXVmI4fG6ypKjKw/view?utm_content=DAGAM6-Fdl0&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //   description: '“Now let the fear of the Lord be on you. Judge carefully, for with the Lord our God there is no injustice or partiality or bribery.”'
+    // },
     // {
     //   messageTitle: 'Live and Share',
     //   videoUrl: "https://www.youtube.com/watch?v=qulJzmvWjtY",

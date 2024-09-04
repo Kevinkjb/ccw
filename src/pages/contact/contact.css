@@ -120,6 +120,23 @@
     margin-left: 5rem;
   }
 
+  /* Validation Error and Success Messages */
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 5px;
+    display: block;
+    font-weight: 500;
+}
+
+.success-message {
+    color: green;
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: bold;
+    display: block;
+}
+
 /* Contact Info Section Layout */
 
 /* CONTACT PAGE */
