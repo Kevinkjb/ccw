@@ -5,7 +5,7 @@ import alienated from "../../images/message/Suffering for God's Glory.png"
 const latestMessage = [
     {
         messageTitle: "Suffering for God's Glory ",
-        videoUrl: "https://www.youtube.com/watch?v=Zj-47kpNdnE",
+        videoUrl: "https://www.youtube.com/watch?v=gFz4PlZ4E3o",
         imgUrl: alienated,
         messageBy: 'Bro. Rodolfo Aguiao',
         datePosted: 'Sept 01, 2024',
