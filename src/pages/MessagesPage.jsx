@@ -2,7 +2,7 @@ import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 import AllMessages from "../components/messages/AllMessages"
 import WhyLookForLiving from '../images/message/Why do you look for the living among the dead.png'
-
+import suffering from "../images/message/Suffering for God's Glory.png"
 import LoveYourNeighbor from '../images/message/Royal Law April 7 2024.png'
 import FaithAndDeed from '../images/message/04.14.24 - Faith & Deeds.png'
 import RestrainYourTongue from '../images/message/04-21 Restrain Your Tongue.png'
@@ -23,6 +23,15 @@ import alienated from '../images/message/08.10.2024 - Alienated to this World - 
 import togetherTwo from '../images/message/07.28.2024 - Bro. Boni Somook.png'
 
 const allMessage = [
+    {
+      messageTitle: "Suffering for God's Glory ",
+      videoUrl: "https://www.youtube.com/watch?v=gFz4PlZ4E3o",
+      imgUrl: suffering,
+      messageBy: 'Bro. Rodolfo Aguiao',
+      datePosted: 'Sept 01, 2024',
+      imageSlide: 'https://www.canva.com/design/DAGPhypDufE/Uut3-3RCZN12sIpygpDwhg/view?utm_content=DAGPhypDufE&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      description: '1 Peter 3:17 Remember, it is better to suffer for doing good, if that is what God wants, than to suffer for doing wrong!'
+    },
     {
       messageTitle: 'Alienated to this World',
       videoUrl: "https://www.youtube.com/watch?v=4k3lhPcg4IY",

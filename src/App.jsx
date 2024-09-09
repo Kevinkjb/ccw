@@ -8,6 +8,7 @@ import GivePage from './pages/give/GivePage';
 import ContactPage from './pages/contact/ContactPage';
 
 import Navbar from './components/navbar/Navbar';
+import RentalPage from './pages/rentals/RentalPage';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <Route path="/messages" element={<MessagesPage/>}/>
             <Route path="/give" element={<GivePage/>}/>
             <Route path="/contact" element={<ContactPage/>}/>
+            <Route path="/rentals" element={<RentalPage/>}/>
 
           </Routes>
     </>

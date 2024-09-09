@@ -1,16 +1,16 @@
 
-import alienated from "../../images/message/Suffering for God's Glory.png"
+import newHope from "../../images/message/Sept 08 Message.png"
 
 
 const latestMessage = [
     {
-        messageTitle: "Suffering for God's Glory ",
-        videoUrl: "https://www.youtube.com/watch?v=gFz4PlZ4E3o",
-        imgUrl: alienated,
-        messageBy: 'Bro. Rodolfo Aguiao',
-        datePosted: 'Sept 01, 2024',
-        imageSlide: 'https://www.canva.com/design/DAGPhypDufE/Uut3-3RCZN12sIpygpDwhg/view?utm_content=DAGPhypDufE&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-        description: '1 Peter 3:17 Remember, it is better to suffer for doing good, if that is what God wants, than to suffer for doing wrong!'
+        messageTitle: "New Hope to Real-World Believers",
+        videoUrl: "https://www.youtube.com/watch?v=4Zx44Tk4DPs",
+        imgUrl: newHope,
+        messageBy: 'Bro. Harry Nietes',
+        datePosted: 'Sept 08, 2024',
+        imageSlide: 'https://www.canva.com/design/DAGQL1u-eWg/GrU9gKdXcU3KkVOpwTPOvg/view?utm_content=DAGQL1u-eWg&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+        description: '1 Peter 4:1a “Therefore, since Christ has suffered in the flesh, arm yourselves also with the same purpose. '
     }
 ]
 
