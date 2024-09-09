@@ -7,7 +7,7 @@ const AllMessages = ({video, image, description, message, imageSlide}) => {
       <div className="messages-container">
         <div className="messages-slide">
             <a href={imageSlide}>
-            <img className='messages-img' src={image} alt="sample" />
+            <img className='messages-img' src={image} alt="Message" />
             </a>
             
             <div className="messages-details">
