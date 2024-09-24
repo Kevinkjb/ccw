@@ -5,7 +5,13 @@ import './rental-page.css'
 import { useState } from "react"
 import { CiCirclePlus, CiCircleMinus   } from "react-icons/ci";
 import Footer from '../../components/footer/Footer';
-import facility from '../../components/components-data/pdf-files/CCW Facility Rental (2024).pdf.pdf'
+import facility from '../../components/components-data/pdf-files/CCW Facility Rental (2024).pdf.pdf';
+import imageOne from './images/CCW Facility Rental (2024)(1).png'
+
+import imageThree from './images/CCW Facility Rental (2024)(3).png'
+import imageFour from './images/rental2.png'
+import imageFive from './images/image1.jpg'
+import imageTwo from './images//image2.jpg'
 const FaqItem = ({answer, question}) => {
     const [show, setShow] = useState(false);
     const toggleItem = () =>{
@@ -104,11 +110,21 @@ const RentalPage = () => {
       </div>
     {/* RENTAL GALLERY IMAGE */}
       <div className="rental-gallery">
-        <div className="image-one"></div>
-        <div className="image-two"></div>
-        <div className="image-three"></div>
-        <div className="image-four"></div>
-        <div className="image-five"></div>
+        <div className="image-one">
+          <img className='rental-image-one' src={imageOne} alt="Rental Image One" />
+        </div>
+        <div className="image-two">
+          <img className='rental-image-one' src={imageTwo} alt="Rental Image Two" />
+        </div>
+        <div className="image-three">
+          <img className='rental-image-one' src={imageThree} alt="Rental Image Three" />
+        </div>
+        <div className="image-four">
+          <img className='rental-image-one' src={imageFour} alt="Rental Image Four" />
+        </div>
+        <div className="image-five">
+          <img className='rental-image-one' src={imageFive} alt="Rental Image Five" />
+        </div>
       </div>
     {/* RENTAL RATES SECTION  */}
     <div className="rental-rates">
