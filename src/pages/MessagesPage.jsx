@@ -10,6 +10,7 @@ import inHisTime from '../images/message/inhistime.png';
 import togetherness from '../images/message/07.14.2024 - Togetherness - Bro. Boni Somook.png'
 import faithful from '../images/message/08.04.2024 - Faithful to the End - Bro. Ted Matira.png'
 import alienated from '../images/message/08.10.2024 - Alienated to this World - Bro. Marvin Risto.png'
+import newHope from '../images/message/Sept 08 Message.png'
 // import ExposingSin from '../images/message/Bro. Marvin March 24.png'
 // import rightVsWrong from '../images/Right vs Wrong Debunking False Ideas.png'
 // import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
@@ -23,6 +24,15 @@ import alienated from '../images/message/08.10.2024 - Alienated to this World - 
 import togetherTwo from '../images/message/07.28.2024 - Bro. Boni Somook.png'
 
 const allMessage = [
+    {
+      messageTitle: "New Hope to Real-World Believers",
+      videoUrl: "https://www.youtube.com/watch?v=4Zx44Tk4DPs",
+      imgUrl: newHope,
+      messageBy: 'Bro. Harry Nietes',
+      datePosted: 'Sept 08, 2024',
+      imageSlide: 'https://www.canva.com/design/DAGQL1u-eWg/GrU9gKdXcU3KkVOpwTPOvg/view?utm_content=DAGQL1u-eWg&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      description: '1 Peter 4:1a “Therefore, since Christ has suffered in the flesh, arm yourselves also with the same purpose. '
+    },
     {
       messageTitle: "Suffering for God's Glory ",
       videoUrl: "https://www.youtube.com/watch?v=gFz4PlZ4E3o",

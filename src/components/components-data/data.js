@@ -1,16 +1,16 @@
 
-import newHope from "../../images/message/Sept 08 Message.png"
+import father from "../../images/message/1 Peter 55-11.png"
 
 
 const latestMessage = [
     {
-        messageTitle: "New Hope to Real-World Believers",
-        videoUrl: "https://www.youtube.com/watch?v=4Zx44Tk4DPs",
-        imgUrl: newHope,
-        messageBy: 'Bro. Harry Nietes',
-        datePosted: 'Sept 08, 2024',
-        imageSlide: 'https://www.canva.com/design/DAGQL1u-eWg/GrU9gKdXcU3KkVOpwTPOvg/view?utm_content=DAGQL1u-eWg&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-        description: '1 Peter 4:1a “Therefore, since Christ has suffered in the flesh, arm yourselves also with the same purpose. '
+        messageTitle: "Sharer of God’s Eternal Glory",
+        videoUrl: "https://www.youtube.com/watch?v=THr7wMOLFG0",
+        imgUrl: father,
+        messageBy: 'Bro. Bong Aquiao',
+        datePosted: 'Oct 06, 2024',
+        imageSlide: 'https://www.canva.com/design/DAGSz5_jcNs/YIr3wtLdZwEdp4Ck3rLIpw/view?utm_content=DAGSz5_jcNs&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+        description: 'So humble yourselves under the mighty power of God, and at the right time he will lift you up in honor.'
     }
 ]
 
