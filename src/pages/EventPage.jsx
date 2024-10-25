@@ -11,8 +11,8 @@ const EventPage = () => {
       <WeeklySchedule/>
       <div className="events-page">
         <Events/>
-        </div>
-        <Footer/>
+      </div>
+      <Footer/>
     </div>
   )
 }

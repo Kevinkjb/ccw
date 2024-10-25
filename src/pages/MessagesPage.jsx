@@ -4,9 +4,9 @@ import AllMessages from "../components/messages/AllMessages"
 // import WhyLookForLiving from '../images/message/Why do you look for the living among the dead.png'
 import suffering from "../images/message/Suffering for God's Glory.png"
 // import LoveYourNeighbor from '../images/message/Royal Law April 7 2024.png'
-import FaithAndDeed from '../images/message/04.14.24 - Faith & Deeds.png'
-import RestrainYourTongue from '../images/message/04-21 Restrain Your Tongue.png'
-import inHisTime from '../images/message/inhistime.png';
+// import FaithAndDeed from '../images/message/04.14.24 - Faith & Deeds.png'
+// import RestrainYourTongue from '../images/message/04-21 Restrain Your Tongue.png'
+// import inHisTime from '../images/message/inhistime.png';
 import togetherness from '../images/message/07.14.2024 - Togetherness - Bro. Boni Somook.png'
 import faithful from '../images/message/08.04.2024 - Faithful to the End - Bro. Ted Matira.png'
 import alienated from '../images/message/08.10.2024 - Alienated to this World - Bro. Marvin Risto.png'
@@ -69,7 +69,7 @@ const allMessage = [
       messageBy: 'Bro. Marvin Risto',
       datePosted: 'Aug 11, 2024',
       imageSlide: 'https://www.canva.com/design/DAGNedD8itM/JAOS4-l3k6NGkxo5FG3BdA/view?utm_content=DAGNedD8itM&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: '1 John 2: 15 Do not love the world or anything in the world. If anyone loves the world, love for the Father is not in them. 16 For everything in the world—the lust of the flesh, the lust of the eyes, and the pride of life—comes not from the Father but from the world. 17 The world and its desires pass away, but whoever does the will of God lives forever.'
+      description: '1 John 2: 15 Do not love the world or anything in the world. If anyone loves the world, love for the Father is not in them. '
   },
   {
       messageTitle: 'Faithful To The End',
@@ -97,35 +97,37 @@ const allMessage = [
       datePosted: 'July 14, 2024',
       imageSlide: 'https://www.canva.com/design/DAGK8FCT9DM/_7DbXYHoc6tmvtRb6d0kfA/view?utm_content=DAGK8FCT9DM&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: 'Now that you have purified yourselves by obeying the truth so that you have sincere love for each other, love one another deeply, from the heart.'
-    },
-    {
-      messageTitle: 'In His Time',
-      videoUrl: "https://www.youtube.com/watch?v=HN7pFGzeqdw",
-      imgUrl: inHisTime,
-      messageBy: 'Sis. Loverlee Matira',
-      datePosted: 'May 26, 2024',
-      imageSlide: 'https://www.canva.com/design/DAGGVwOH8WA/jElDUuSF5IEQIBcW7pH4Mw/view?utm_content=DAGGVwOH8WA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: 'Be patient, then, brothers and sisters, until the Lord’s coming. See how the farmer waits for the land to yield its valuable crop, patiently waiting for the autumn and spring rains.'
-    },
-
-    {
-      messageTitle: 'Restrain Your Tongue',
-      videoUrl: "https://www.youtube.com/watch?v=xYaWlaXb1S4",
-      imgUrl: RestrainYourTongue,
-      messageBy: 'Sis. Mabel Somook',
-      datePosted: 'April 20, 2024',
-      imageSlide: 'https://www.canva.com/design/DAGC4YghT0A/V1GC8ej1WrPhaBsYEvbbAA/view?utm_content=DAGC4YghT0A&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: 'Do not let any unwholesome talk come out of your mouths, but only what is helpful for building others up according to their needs, that it may benefit those who listen.'
-  },
-    {
-      messageTitle: 'Faith & Deeds',
-      videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/779467414112191",
-      imgUrl: FaithAndDeed,
-      messageBy: 'Bro. Joshua & Sis. Jazzlee',
-      datePosted: 'April 14, 2024',
-      imageSlide: 'https://www.canva.com/design/DAGCWi9wLvA/b8R0vsnnoi1mLgxwPE1XVw/view?utm_content=DAGCWi9wLvA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: 'What good is it, my brothers and sisters, if someone claims to have faith but has no deeds? Can such faith save them?'
     }
+  //   ,
+  //   {
+  //     messageTitle: 'In His Time',
+  //     videoUrl: "https://www.youtube.com/watch?v=HN7pFGzeqdw",
+  //     imgUrl: inHisTime,
+  //     messageBy: 'Sis. Loverlee Matira',
+  //     datePosted: 'May 26, 2024',
+  //     imageSlide: 'https://www.canva.com/design/DAGGVwOH8WA/jElDUuSF5IEQIBcW7pH4Mw/view?utm_content=DAGGVwOH8WA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+  //     description: 'Be patient, then, brothers and sisters, until the Lord’s coming. See how the farmer waits for the land to yield its valuable crop, patiently waiting for the autumn and spring rains.'
+  //   },
+
+  //   {
+  //     messageTitle: 'Restrain Your Tongue',
+  //     videoUrl: "https://www.youtube.com/watch?v=xYaWlaXb1S4",
+  //     imgUrl: RestrainYourTongue,
+  //     messageBy: 'Sis. Mabel Somook',
+  //     datePosted: 'April 20, 2024',
+  //     imageSlide: 'https://www.canva.com/design/DAGC4YghT0A/V1GC8ej1WrPhaBsYEvbbAA/view?utm_content=DAGC4YghT0A&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+  //     description: 'Do not let any unwholesome talk come out of your mouths, but only what is helpful for building others up according to their needs, that it may benefit those who listen.'
+  // }
+  // ,
+  //   {
+  //     messageTitle: 'Faith & Deeds',
+  //     videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/779467414112191",
+  //     imgUrl: FaithAndDeed,
+  //     messageBy: 'Bro. Joshua & Sis. Jazzlee',
+  //     datePosted: 'April 14, 2024',
+  //     imageSlide: 'https://www.canva.com/design/DAGCWi9wLvA/b8R0vsnnoi1mLgxwPE1XVw/view?utm_content=DAGCWi9wLvA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+  //     description: 'What good is it, my brothers and sisters, if someone claims to have faith but has no deeds? Can such faith save them?'
+  //   }
     // ,
     // {
     //   messageTitle: 'Royal Law: Love Your Neighbor',
