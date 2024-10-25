@@ -10,7 +10,9 @@ import vision from '../images/gallery/worship.jpg'
 import Footer from "../components/footer/Footer"
 
 
+
 const HomePage = () => {
+
   return (
     <div className="main">
       <HeroSection heroTitle="Church of Christ"/>
@@ -54,11 +56,12 @@ const HomePage = () => {
         <div className="title-container">
           <h3 className='events-title'>Events</h3>
         </div>
-        <div className="events-item">
-        {eventsData.filter((item, index) => index < 1).map((item,index) => (
-          <Events key={index} />
-        ))}
-        </div>
+            <div className="events-item">
+
+            {eventsData.filter((item, index) => index < 1).map((item,index) => (
+              <Events key={index} />
+            ))}
+            </div>
       </div>
       <Footer/>
 

@@ -1,9 +1,9 @@
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 import AllMessages from "../components/messages/AllMessages"
-import WhyLookForLiving from '../images/message/Why do you look for the living among the dead.png'
+// import WhyLookForLiving from '../images/message/Why do you look for the living among the dead.png'
 import suffering from "../images/message/Suffering for God's Glory.png"
-import LoveYourNeighbor from '../images/message/Royal Law April 7 2024.png'
+// import LoveYourNeighbor from '../images/message/Royal Law April 7 2024.png'
 import FaithAndDeed from '../images/message/04.14.24 - Faith & Deeds.png'
 import RestrainYourTongue from '../images/message/04-21 Restrain Your Tongue.png'
 import inHisTime from '../images/message/inhistime.png';
@@ -22,8 +22,28 @@ import newHope from '../images/message/Sept 08 Message.png'
 // import liveAndShare from '../images/message/BRO. Bong Easter Sunday.png'
 // import ValuesOfWisdom from '../images/message/The Values of Wisdom.png'
 import togetherTwo from '../images/message/07.28.2024 - Bro. Boni Somook.png'
+import father from '../images/message/1 Peter 55-11.png'
+import grateful from '../images/message/10-13-2024 - Not So Grateful.png'
 
 const allMessage = [
+    {
+      messageTitle: "Not So Grateful",
+      videoUrl: "https://www.youtube.com/watch?v=Ni8-PZLFDE4",
+      imgUrl: grateful,
+      messageBy: 'Bro. Ted Matira',
+      datePosted: 'Oct 13, 2024',
+      imageSlide: 'https://www.canva.com/design/DAGTeCC7roA/BF-AZsSdobVIYux3aLY51g/view?utm_content=DAGTeCC7roA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      description: "In everything give thanks; for this is God's will for you in Christ Jesus."
+    },
+    {
+      messageTitle: "Sharer of God’s Eternal Glory",
+      videoUrl: "https://www.youtube.com/watch?v=THr7wMOLFG0",
+      imgUrl: father,
+      messageBy: 'Bro. Bong Aguiao',
+      datePosted: 'Oct 06, 2024',
+      imageSlide: 'https://www.canva.com/design/DAGSz5_jcNs/YIr3wtLdZwEdp4Ck3rLIpw/view?utm_content=DAGSz5_jcNs&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      description: 'So humble yourselves under the mighty power of God, and at the right time he will lift you up in honor.'
+    },
     {
       messageTitle: "New Hope to Real-World Believers",
       videoUrl: "https://www.youtube.com/watch?v=4Zx44Tk4DPs",
@@ -105,25 +125,27 @@ const allMessage = [
       datePosted: 'April 14, 2024',
       imageSlide: 'https://www.canva.com/design/DAGCWi9wLvA/b8R0vsnnoi1mLgxwPE1XVw/view?utm_content=DAGCWi9wLvA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: 'What good is it, my brothers and sisters, if someone claims to have faith but has no deeds? Can such faith save them?'
-    },
-    {
-      messageTitle: 'Royal Law: Love Your Neighbor',
-      videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/459224226527193",
-      imgUrl: LoveYourNeighbor,
-      messageBy: 'Chris Sampayan',
-      datePosted: 'April 07, 2024',
-      imageSlide: 'https://www.canva.com/design/DAGBqtMdvM0/bKYr3rmT0ixvMXrcW4UQwg/view?utm_content=DAGBqtMdvM0&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: 'If you really keep the royal law found in Scripture, “Love your neighbor as yourself,” you are doing right.'
-    },
-    {
-      messageTitle: 'Why Do You Look For The Living Among The Dead',
-      videoUrl: "https://www.youtube.com/watch?v=Vx0k90z6Epg",
-      imgUrl: WhyLookForLiving,
-      messageBy: 'Marvin Risto',
-      datePosted: 'March 31, 2024',
-      imageSlide: 'https://www.canva.com/design/DAGA7C3TuKs/VTZo3jT-ca_E7Xv1SJRYIw/view?utm_content=DAGA7C3TuKs&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: 'In their fright the women bowed down with their faces to the ground, but the men said to them, “Why do you look for the living among the dead?'
-    },
+    }
+    // ,
+    // {
+    //   messageTitle: 'Royal Law: Love Your Neighbor',
+    //   videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/459224226527193",
+    //   imgUrl: LoveYourNeighbor,
+    //   messageBy: 'Chris Sampayan',
+    //   datePosted: 'April 07, 2024',
+    //   imageSlide: 'https://www.canva.com/design/DAGBqtMdvM0/bKYr3rmT0ixvMXrcW4UQwg/view?utm_content=DAGBqtMdvM0&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //   description: 'If you really keep the royal law found in Scripture, “Love your neighbor as yourself,” you are doing right.'
+    // }
+    // ,
+    // {
+    //   messageTitle: 'Why Do You Look For The Living Among The Dead',
+    //   videoUrl: "https://www.youtube.com/watch?v=Vx0k90z6Epg",
+    //   imgUrl: WhyLookForLiving,
+    //   messageBy: 'Marvin Risto',
+    //   datePosted: 'March 31, 2024',
+    //   imageSlide: 'https://www.canva.com/design/DAGA7C3TuKs/VTZo3jT-ca_E7Xv1SJRYIw/view?utm_content=DAGA7C3TuKs&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //   description: 'In their fright the women bowed down with their faces to the ground, but the men said to them, “Why do you look for the living among the dead?'
+    // },
     // {
     //   messageTitle: 'Exposing the Sin of Partiality',
     //   videoUrl: "https://www.youtube.com/watch?v=zMimW6xPe_c",
