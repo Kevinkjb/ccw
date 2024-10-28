@@ -7,7 +7,7 @@ import suffering from "../images/message/Suffering for God's Glory.png"
 // import FaithAndDeed from '../images/message/04.14.24 - Faith & Deeds.png'
 // import RestrainYourTongue from '../images/message/04-21 Restrain Your Tongue.png'
 // import inHisTime from '../images/message/inhistime.png';
-import togetherness from '../images/message/07.14.2024 - Togetherness - Bro. Boni Somook.png'
+// import togetherness from '../images/message/07.14.2024 - Togetherness - Bro. Boni Somook.png'
 import faithful from '../images/message/08.04.2024 - Faithful to the End - Bro. Ted Matira.png'
 import alienated from '../images/message/08.10.2024 - Alienated to this World - Bro. Marvin Risto.png'
 import newHope from '../images/message/Sept 08 Message.png'
@@ -24,8 +24,18 @@ import newHope from '../images/message/Sept 08 Message.png'
 import togetherTwo from '../images/message/07.28.2024 - Bro. Boni Somook.png'
 import father from '../images/message/1 Peter 55-11.png'
 import grateful from '../images/message/10-13-2024 - Not So Grateful.png'
+import Living from '../images/message/10-20-2024-Leading a Godly Life.pptx.png'
 
 const allMessage = [
+    {
+        messageTitle: "Leading A Godly Life",
+        videoUrl: "https://www.youtube.com/watch?v=MYaqLpfFDlg",
+        imgUrl: Living,
+        messageBy: 'Bro. Harry Nietes',
+        datePosted: 'Oct 20, 2024',
+        imageSlide: 'https://www.canva.com/design/DAGUIFAFVxw/_ff-UvaSKPraumhcqy_Dbw/view?utm_content=DAGUIFAFVxw&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+        description: "We need to acknowledge that we can't do it on our own. God can help in every aspect of our lives and need His wisdom to make the right decisions. We need His strength to face our challenges. We need to recognize our need for it."
+    },
     {
       messageTitle: "Not So Grateful",
       videoUrl: "https://www.youtube.com/watch?v=Ni8-PZLFDE4",
@@ -89,15 +99,15 @@ const allMessage = [
     imageSlide: 'https://www.canva.com/design/DAGMQKx-TY8/dh89DTX04y3kBVx9wPzL1w/view?utm_content=DAGMQKx-TY8&utm_campaign=designshare&utm_medium=link&utm_source=editor',
     description: 'Now that you have purified yourselves by obeying the truth so that you have sincere love for each other, love one another deeply, from the heart.'
   },
-    {
-      messageTitle: 'Togetherness',
-      videoUrl: "https://www.youtube.com/watch?v=PBrBWzaYgVg",
-      imgUrl: togetherness,
-      messageBy: 'Bro. Boni Somook',
-      datePosted: 'July 14, 2024',
-      imageSlide: 'https://www.canva.com/design/DAGK8FCT9DM/_7DbXYHoc6tmvtRb6d0kfA/view?utm_content=DAGK8FCT9DM&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: 'Now that you have purified yourselves by obeying the truth so that you have sincere love for each other, love one another deeply, from the heart.'
-    }
+    // {
+    //   messageTitle: 'Togetherness',
+    //   videoUrl: "https://www.youtube.com/watch?v=PBrBWzaYgVg",
+    //   imgUrl: togetherness,
+    //   messageBy: 'Bro. Boni Somook',
+    //   datePosted: 'July 14, 2024',
+    //   imageSlide: 'https://www.canva.com/design/DAGK8FCT9DM/_7DbXYHoc6tmvtRb6d0kfA/view?utm_content=DAGK8FCT9DM&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //   description: 'Now that you have purified yourselves by obeying the truth so that you have sincere love for each other, love one another deeply, from the heart.'
+    // }
   //   ,
   //   {
   //     messageTitle: 'In His Time',

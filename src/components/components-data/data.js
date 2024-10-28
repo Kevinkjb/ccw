@@ -1,16 +1,16 @@
 
-import Living from "../../images/message/10-20-2024-Leading a Godly Life.pptx.png"
+import wakeUp from "../../images/message/Pay Attention to God's Word.png"
 
 
 const latestMessage = [
     {
-        messageTitle: "Leading A Godly Life",
-        videoUrl: "https://www.youtube.com/watch?v=MYaqLpfFDlg",
-        imgUrl: Living,
-        messageBy: 'Bro. Harry Nietes',
-        datePosted: 'Oct 20, 2024',
-        imageSlide: 'https://www.canva.com/design/DAGUIFAFVxw/_ff-UvaSKPraumhcqy_Dbw/view?utm_content=DAGUIFAFVxw&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-        description: "We need to acknowledge that we can't do it on our own. God can help in every aspect of our lives and need His wisdom to make the right decisions. We need His strength to face our challenges. We need to recognize our need for it."
+        messageTitle: "Wake Up! Pay Attention to God’s Word.",
+        videoUrl: "https://www.youtube.com/live/vjZjSmpo0ZM",
+        imgUrl: wakeUp,
+        messageBy: 'Bro. Rodolfo Aguiao',
+        datePosted: 'Oct 27, 2024',
+        imageSlide: 'https://www.canva.com/design/DAGUumpIEh4/ZJS8HxQmrSB2_H3i43cwpA/view?utm_content=DAGUumpIEh4&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+        description: "It is matter of life and death; by this Word you must be tried and judged. "
     }
 ]
 
