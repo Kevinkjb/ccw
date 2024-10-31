@@ -5,7 +5,7 @@ import wakeUp from "../../images/message/Pay Attention to God's Word.png"
 const latestMessage = [
     {
         messageTitle: "Wake Up! Pay Attention to God’s Word.",
-        videoUrl: "https://www.youtube.com/live/vjZjSmpo0ZM",
+        videoUrl: "https://www.youtube.com/watch?v=qPdP2CeLDwE",
         imgUrl: wakeUp,
         messageBy: 'Bro. Rodolfo Aguiao',
         datePosted: 'Oct 27, 2024',
