@@ -21,12 +21,23 @@ import newHope from '../images/message/Sept 08 Message.png'
 // import relationship from "../images/1-21-2024 - Let's Talk About Relationship.png"
 // import liveAndShare from '../images/message/BRO. Bong Easter Sunday.png'
 // import ValuesOfWisdom from '../images/message/The Values of Wisdom.png'
-import togetherTwo from '../images/message/07.28.2024 - Bro. Boni Somook.png'
+// import togetherTwo from '../images/message/07.28.2024 - Bro. Boni Somook.png'
 import father from '../images/message/1 Peter 55-11.png'
 import grateful from '../images/message/10-13-2024 - Not So Grateful.png'
 import Living from '../images/message/10-20-2024-Leading a Godly Life.pptx.png'
+import wakeUp from "../images/message/Pay Attention to God's Word.png"
+
 
 const allMessage = [
+      {
+        messageTitle: "Wake Up! Pay Attention to God’s Word.",
+        videoUrl: "https://www.youtube.com/watch?v=qPdP2CeLDwE",
+        imgUrl: wakeUp,
+        messageBy: 'Bro. Rodolfo Aguiao',
+        datePosted: 'Oct 27, 2024',
+        imageSlide: 'https://www.canva.com/design/DAGUumpIEh4/ZJS8HxQmrSB2_H3i43cwpA/view?utm_content=DAGUumpIEh4&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+        description: "It is matter of life and death; by this Word you must be tried and judged. "
+    },
     {
         messageTitle: "Leading A Godly Life",
         videoUrl: "https://www.youtube.com/watch?v=MYaqLpfFDlg",
@@ -89,16 +100,17 @@ const allMessage = [
       datePosted: 'Aug 04, 2024',
       imageSlide: 'https://www.canva.com/design/DAGMtnEEXRE/T_9aFb4nSB1BPilqeGj8fQ/view?utm_content=DAGMtnEEXRE&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: 'Though you have not seen him, you love him; and even though you do not see him now, you believe in him and are filled with an inexpressible and glorious joy, 9 for you are receiving the end result of your faith, the salvation of your souls.'
-  },
-  {
-    messageTitle: 'Togetherness Pt.2',
-    videoUrl: "https://www.youtube.com/watch?v=p7oyaDtWx10",
-    imgUrl: togetherTwo,
-    messageBy: 'Bro. Boni Somook',
-    datePosted: 'July 28, 2024',
-    imageSlide: 'https://www.canva.com/design/DAGMQKx-TY8/dh89DTX04y3kBVx9wPzL1w/view?utm_content=DAGMQKx-TY8&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-    description: 'Now that you have purified yourselves by obeying the truth so that you have sincere love for each other, love one another deeply, from the heart.'
-  },
+  }
+  // ,
+  // {
+  //   messageTitle: 'Togetherness Pt.2',
+  //   videoUrl: "https://www.youtube.com/watch?v=p7oyaDtWx10",
+  //   imgUrl: togetherTwo,
+  //   messageBy: 'Bro. Boni Somook',
+  //   datePosted: 'July 28, 2024',
+  //   imageSlide: 'https://www.canva.com/design/DAGMQKx-TY8/dh89DTX04y3kBVx9wPzL1w/view?utm_content=DAGMQKx-TY8&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+  //   description: 'Now that you have purified yourselves by obeying the truth so that you have sincere love for each other, love one another deeply, from the heart.'
+  // },
     // {
     //   messageTitle: 'Togetherness',
     //   videoUrl: "https://www.youtube.com/watch?v=PBrBWzaYgVg",
