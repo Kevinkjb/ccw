@@ -54,6 +54,10 @@ const WeeklySchedule = () => {
                         <h2>WED</h2>
                     </div>
                     <div className='service-info'>
+                        <p className='service-text'>Womens Senior</p>
+                        <p className='schedule-time'>Connect with Sis. Cora</p>
+                    </div>
+                    <div className='service-info'>
                         <p className='service-text'>Prayer Meeting</p>
                         <p className='schedule-time'>at 6:00 PM</p>
                     </div>
@@ -96,6 +100,10 @@ const WeeklySchedule = () => {
                     </div>
                 </div>
             </div>
+        </div>
+        <div className="more-info-events">
+            <p className='more-info-title'>Do you want to join a small group?</p>
+            <p className='more-info-text'>Connect with Bro. Ted to join a Home Bible Study Group</p>
         </div>
     </div>
 

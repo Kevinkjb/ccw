@@ -276,6 +276,23 @@
     border-radius: 15px;
 }
 
+/* MORE INFO SECTION */
+.more-info-events{
+    margin: 4rem 0 2rem 0;
+    text-align: center;
+    padding: 1rem;
+}
+.more-info-title{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #1f628e;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.more-info-text{
+    font-size: 1.3rem;
+}
+
 @media screen and (max-width: 1870px) {
     .weekly-content{
         display: grid;
@@ -543,5 +560,21 @@
     }
     .schedule-text{
         font-size: 1.2rem;
+    }
+
+    .more-info-events{
+        margin: 4rem 0 2rem 0;
+        text-align: center;
+        padding: 1rem;
+    }
+    .more-info-title{
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        color: #1f628e;
+        font-weight: 500;
+    }
+    .more-info-text{
+        font-size: 1.1rem;
+        margin-top: 1rem;
     }
 }

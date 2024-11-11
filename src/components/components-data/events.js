@@ -2,7 +2,8 @@
 // import mothersDay from '../../images/mothersday.png'
 // import escapeRoom from '../../images/Easter Escape Room.pptx.png'
 // import camping from '../../images/outing/Church.png'
-import kidsFunDay from '../../images/events/kids.png'
+// import kidsFunDay from '../../images/events/kids.png'
+import christmas from '../../images/events/inexpressible.png'
 // import anniversary from '../../images/events/anniversary.jpg'
 // import camping from '../../images/events/Couple’s.png'
 
@@ -28,12 +29,16 @@ const events = [
     // },
     {
         id: 0,
-        imgUrl: kidsFunDay,
-        eventMonths: 'Sept',
-        eventDays: '14',
-        eventTitle: "Be like Jesus",
-        description: `Memory verse I Peter 2:21`,
-        time: '9:00 am to 11:30 am.'
+        imgUrl: christmas,
+        eventMonths: 'Dec',
+        eventDays: '22',
+        eventTitle: "Inexpressible Joy",
+        description: `
+        Church of Christ Wetaskiwin, 
+        Christmas Celebration
+        4708 50 Avenue Wetaskiwin, AB
+        `,
+        time: '10:00AM'
     }
        
 ]
