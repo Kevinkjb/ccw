@@ -26,9 +26,19 @@ import father from '../images/message/1 Peter 55-11.png'
 import grateful from '../images/message/10-13-2024 - Not So Grateful.png'
 import Living from '../images/message/10-20-2024-Leading a Godly Life.pptx.png'
 import wakeUp from "../images/message/Pay Attention to God's Word.png"
+import beOnGuard from '../images/message/11-03-2024 - 2 Peter 119 - 23.png'
 
 
 const allMessage = [
+        {
+          messageTitle: "Grow Unstoppably And Be On Guard",
+          videoUrl: "https://www.youtube.com/watch?v=4dQP4zAu3yQ",
+          imgUrl: beOnGuard,
+          messageBy: 'Bro. Amador Jr Tan',
+          datePosted: 'Nov 03, 2024',
+          imageSlide: 'https://www.canva.com/design/DAGVcE8fhBA/-yMsdDaHHDm8Na5aOQfBuA/view?utm_content=DAGVcE8fhBA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+          description: "Because of that experience, we have even greater confidence in the message proclaimed by the prophets. You must pay close attention to what they wrote, for their words are like a lamp shining in a dark place—until the Day dawns, and Christ the Morning Star shines in your hearts."
+      },
       {
         messageTitle: "Wake Up! Pay Attention to God’s Word.",
         videoUrl: "https://www.youtube.com/watch?v=qPdP2CeLDwE",
