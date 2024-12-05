@@ -9,7 +9,7 @@ import suffering from "../images/message/Suffering for God's Glory.png"
 // import inHisTime from '../images/message/inhistime.png';
 // import togetherness from '../images/message/07.14.2024 - Togetherness - Bro. Boni Somook.png'
 // import faithful from '../images/message/08.04.2024 - Faithful to the End - Bro. Ted Matira.png'
-import alienated from '../images/message/08.10.2024 - Alienated to this World - Bro. Marvin Risto.png'
+// import alienated from '../images/message/08.10.2024 - Alienated to this World - Bro. Marvin Risto.png'
 import newHope from '../images/message/Sept 08 Message.png'
 // import ExposingSin from '../images/message/Bro. Marvin March 24.png'
 // import rightVsWrong from '../images/Right vs Wrong Debunking False Ideas.png'
@@ -28,9 +28,19 @@ import Living from '../images/message/10-20-2024-Leading a Godly Life.pptx.png'
 import wakeUp from "../images/message/Pay Attention to God's Word.png"
 import beOnGuard from '../images/message/11-03-2024 - 2 Peter 119 - 23.png'
 import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
+import beOnGuardThree from '../images/message/Nov 17, 2024 Message.png'
 
 
 const allMessage = [
+        {
+          messageTitle: "Escaped The Defilements Of The World",
+          videoUrl: "https://youtube.com/live/Xjtm1OPEFFU",
+          imgUrl: beOnGuardThree,
+          messageBy: 'Bro. Harry Nietes',
+          datePosted: 'Nov 17, 2024',
+          imageSlide: 'https://www.canva.com/design/DAGWwXM6uxw/90Vzm2YBPaAowqF8Otojfg/view?utm_content=DAGWwXM6uxw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h56a9c9c5be',
+          description: "And when people escape from the wickedness of the world by knowing our Lord and Savior Jesus Christ and then get tangled up and enslaved by sin again, they are worse off than before."
+        },
         {
           messageTitle: "Apostasy and God’s deliverance of the godly",
           videoUrl: "https://www.youtube.com/live/IOy8-ruEfM0",
@@ -102,16 +112,17 @@ const allMessage = [
       datePosted: 'Sept 01, 2024',
       imageSlide: 'https://www.canva.com/design/DAGPhypDufE/Uut3-3RCZN12sIpygpDwhg/view?utm_content=DAGPhypDufE&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: '1 Peter 3:17 Remember, it is better to suffer for doing good, if that is what God wants, than to suffer for doing wrong!'
-    },
-    {
-      messageTitle: 'Alienated to this World',
-      videoUrl: "https://www.youtube.com/watch?v=4k3lhPcg4IY",
-      imgUrl: alienated,
-      messageBy: 'Bro. Marvin Risto',
-      datePosted: 'Aug 11, 2024',
-      imageSlide: 'https://www.canva.com/design/DAGNedD8itM/JAOS4-l3k6NGkxo5FG3BdA/view?utm_content=DAGNedD8itM&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: '1 John 2: 15 Do not love the world or anything in the world. If anyone loves the world, love for the Father is not in them. '
-  }
+    }
+    // ,
+    // {
+    //   messageTitle: 'Alienated to this World',
+    //   videoUrl: "https://www.youtube.com/watch?v=4k3lhPcg4IY",
+    //   imgUrl: alienated,
+    //   messageBy: 'Bro. Marvin Risto',
+    //   datePosted: 'Aug 11, 2024',
+    //   imageSlide: 'https://www.canva.com/design/DAGNedD8itM/JAOS4-l3k6NGkxo5FG3BdA/view?utm_content=DAGNedD8itM&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //   description: '1 John 2: 15 Do not love the world or anything in the world. If anyone loves the world, love for the Father is not in them. '
+    // }
   // ,
   // {
   //     messageTitle: 'Faithful To The End',

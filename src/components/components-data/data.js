@@ -1,16 +1,16 @@
 
-import beOnGuardThree from "../../images/message/Nov 17, 2024 Message.png"
+import LiveGodsGlory from "../../images/message/12.01.2024 - 2 Peter 3.png"
 
 
 const latestMessage = [
     {
-        messageTitle: "Escaped The Defilements Of The World",
-        videoUrl: "https://youtube.com/live/Xjtm1OPEFFU",
-        imgUrl: beOnGuardThree,
-        messageBy: 'Bro. Harry Nietes',
-        datePosted: 'Nov 17, 2024',
-        imageSlide: 'https://www.canva.com/design/DAGWwXM6uxw/90Vzm2YBPaAowqF8Otojfg/view?utm_content=DAGWwXM6uxw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h56a9c9c5be',
-        description: "And when people escape from the wickedness of the world by knowing our Lord and Savior Jesus Christ and then get tangled up and enslaved by sin again, they are worse off than before."
+        messageTitle: "A Lived-Out Life For God's Glory",
+        videoUrl: "https://www.youtube.com/watch?v=o_ZbKf-wjMA",
+        imgUrl: LiveGodsGlory,
+        messageBy: 'Bro. Ted Matira and Jun Tan',
+        datePosted: 'Dec 01, 2024',
+        imageSlide: 'https://www.canva.com/design/DAGYEYbnJmc/eFBpjaj-VcZwsuUCNYCPSA/view?utm_content=DAGYEYbnJmc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb5f3aee4ca',
+        description: `Live a life with legacy a legacy for God’s glory`
     }
 ]
 

@@ -1,0 +1,3 @@
+Database Name: Local Database
+User Name: guest
+Project Name: Oct 06 2024
