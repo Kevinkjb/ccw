@@ -70,7 +70,7 @@ const Footer = () => {
                 </p>
                 <p>(403) 913-4713</p>
             </div>
-            <a className='direction-map' href="https://maps.app.goo.gl/bhFEkdqXwV6LmPmE6" target='_blank'>
+            <a className='direction-map' href="https://maps.app.goo.gl/cTMe6gbqpGVe3SJ38" target='_blank'>
                 <button className="get-direction-btn">
                     Get Direction
                 </button>

@@ -13,9 +13,11 @@ const ContactPage = () => {
           <div className="contact-map">
             <iframe 
               className="google-map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2402.850641394132!2d-113.36976342271596!3d52.969101202882136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53754e3ec9dc9ca5%3A0x348d82b68ebdb998!2sLifegate%20Community%20Church!5e0!3m2!1sen!2sca!4v1708322480177!5m2!1sen!2sca" 
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4805.686629374867!2d-113.367113!3d52.969233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53754f152e24f2a3%3A0x81f16da56f5a061a!2sChurch%20of%20Christ%20Wetaskiwin!5e0!3m2!1sen!2sca!4v1733376205482!5m2!1sen!2sca" 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
+              
+              
               >
             </iframe>
           </div>
