@@ -28,9 +28,12 @@
 }
 .nav-item{
     display: flex;
+    align-items: center;
 }
 .nav-list{
     list-style: none;
+        display: flex;
+    align-items: center;
 }
 .nav-link{
     color: #22263E;
@@ -41,6 +44,7 @@
     font-weight: 500;
     transition: all .3s ease;
     letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
 }
 .nav-link:hover{
     color: #B58810;
@@ -60,6 +64,73 @@
 }
 .burger-item{
     font-size: 1.5rem;
+}
+
+/* COMPANY */
+.company{
+    font-size: 13px;
+    position: relative;
+    right: 9rem;
+    top: 1.5rem;
+
+}
+.nav-drop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.company-container{
+    position: absolute;
+    padding: 13px;
+    width: 10rem;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    background-color: #fff;
+    color: hsl(0, 0%, 41%);
+    z-index: 9999;
+    
+}
+
+.dropdown-icon{
+    width: 11px;
+    height: 7px;
+    margin-left: 8px;
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+    color: #22263E;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all .3s ease;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    cursor: pointer;
+}
+.company-box{
+    width: 10rem;
+    margin: 0 auto;
+}
+.news-link{
+    color: #22263E;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all .3s ease;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.news-link:hover{
+    color: #B58810;
+    cursor: pointer;
 }
 @media screen and (max-width: 1200px){
 

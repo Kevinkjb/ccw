@@ -11,6 +11,7 @@ import Navbar from './components/navbar/Navbar';
 import RentalPage from './pages/rentals/RentalPage';
 
 
+
 function App() {
 
   return (
