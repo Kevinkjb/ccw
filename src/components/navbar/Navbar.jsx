@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
 import { useState } from 'react';
 import './navbar.css';
-import logo from '../../images/logo/logo.png';
+import logo from '../../images/logo/logo 2.webp';
 import { useEffect, useRef} from 'react';
 import arrowDown from './images/icon-arrow-down.svg';
 import arrowUp from './images/icon-arrow-up.svg';
