@@ -5,7 +5,7 @@ import InexpressibleJoy from "../../images/message/Inexpressible Joy.pdf.png"
 const latestMessage = [
     {
         messageTitle: "Inexpressible Joy",
-        videoUrl: "https://www.youtube.com/live/Ko_SrNH1XZI",
+        videoUrl: "https://www.youtube.com/watch?v=0fxgQoIBdNI",
         imgUrl: InexpressibleJoy,
         messageBy: 'Bro. Jun Tan',
         datePosted: 'Dec 22, 2024',
