@@ -1,16 +1,16 @@
 
-import LiveGodsGlory from "../../images/message/12.01.2024 - 2 Peter 3.png"
+import InexpressibleJoy from "../../images/message/Inexpressible Joy.pdf.png"
 
 
 const latestMessage = [
     {
-        messageTitle: "A Lived-Out Life For God's Glory",
-        videoUrl: "https://www.youtube.com/watch?v=o_ZbKf-wjMA",
-        imgUrl: LiveGodsGlory,
-        messageBy: 'Bro. Ted Matira and Jun Tan',
-        datePosted: 'Dec 01, 2024',
-        imageSlide: 'https://www.canva.com/design/DAGYEYbnJmc/eFBpjaj-VcZwsuUCNYCPSA/view?utm_content=DAGYEYbnJmc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb5f3aee4ca',
-        description: `Live a life with legacy a legacy for God’s glory`
+        messageTitle: "Inexpressible Joy",
+        videoUrl: "https://www.youtube.com/live/Ko_SrNH1XZI",
+        imgUrl: InexpressibleJoy,
+        messageBy: 'Bro. Jun Tan',
+        datePosted: 'Dec 22, 2024',
+        imageSlide: 'https://www.canva.com/design/DAGaCBym_Ao/xbKsqLheSnzS0-NFR94Psw/view?utm_content=DAGaCBym_Ao&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfe10f2e670',
+        description: `Through divine revelation, incarnation and faith in Christ the Son of the living God, makes one have joy and unique joy in Him that is inexpressible.`
     }
 ]
 

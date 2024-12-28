@@ -1,8 +1,17 @@
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
+import father from '../images/message/1 Peter 55-11.png'
+import grateful from '../images/message/10-13-2024 - Not So Grateful.png'
+import Living from '../images/message/10-20-2024-Leading a Godly Life.pptx.png'
+import wakeUp from "../images/message/Pay Attention to God's Word.png"
+import beOnGuard from '../images/message/11-03-2024 - 2 Peter 119 - 23.png'
+import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
+import beOnGuardThree from '../images/message/Nov 17, 2024 Message.png'
+import LiveGodsGlory from '../images/message/12.01.2024 - 2 Peter 3.png'
+import newHope from '../images/message/Sept 08 Message.png'
 import AllMessages from "../components/messages/AllMessages"
 // import WhyLookForLiving from '../images/message/Why do you look for the living among the dead.png'
-import suffering from "../images/message/Suffering for God's Glory.png"
+// import suffering from "../images/message/Suffering for God's Glory.png"
 // import LoveYourNeighbor from '../images/message/Royal Law April 7 2024.png'
 // import FaithAndDeed from '../images/message/04.14.24 - Faith & Deeds.png'
 // import RestrainYourTongue from '../images/message/04-21 Restrain Your Tongue.png'
@@ -10,7 +19,6 @@ import suffering from "../images/message/Suffering for God's Glory.png"
 // import togetherness from '../images/message/07.14.2024 - Togetherness - Bro. Boni Somook.png'
 // import faithful from '../images/message/08.04.2024 - Faithful to the End - Bro. Ted Matira.png'
 // import alienated from '../images/message/08.10.2024 - Alienated to this World - Bro. Marvin Risto.png'
-import newHope from '../images/message/Sept 08 Message.png'
 // import ExposingSin from '../images/message/Bro. Marvin March 24.png'
 // import rightVsWrong from '../images/Right vs Wrong Debunking False Ideas.png'
 // import basicTruth from '../images/02-04-2024 - Basic Truths of Christianity.png'
@@ -22,16 +30,18 @@ import newHope from '../images/message/Sept 08 Message.png'
 // import liveAndShare from '../images/message/BRO. Bong Easter Sunday.png'
 // import ValuesOfWisdom from '../images/message/The Values of Wisdom.png'
 // import togetherTwo from '../images/message/07.28.2024 - Bro. Boni Somook.png'
-import father from '../images/message/1 Peter 55-11.png'
-import grateful from '../images/message/10-13-2024 - Not So Grateful.png'
-import Living from '../images/message/10-20-2024-Leading a Godly Life.pptx.png'
-import wakeUp from "../images/message/Pay Attention to God's Word.png"
-import beOnGuard from '../images/message/11-03-2024 - 2 Peter 119 - 23.png'
-import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
-import beOnGuardThree from '../images/message/Nov 17, 2024 Message.png'
 
 
 const allMessage = [
+        {
+          messageTitle: "A Lived-Out Life For God's Glory",
+          videoUrl: "https://www.youtube.com/watch?v=o_ZbKf-wjMA",
+          imgUrl: LiveGodsGlory,
+          messageBy: 'Bro. Ted Matira and Jun Tan',
+          datePosted: 'Dec 01, 2024',
+          imageSlide: 'https://www.canva.com/design/DAGYEYbnJmc/eFBpjaj-VcZwsuUCNYCPSA/view?utm_content=DAGYEYbnJmc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb5f3aee4ca',
+          description: `Live a life with legacy a legacy for God’s glory`
+        },
         {
           messageTitle: "Escaped The Defilements Of The World",
           videoUrl: "https://youtube.com/live/Xjtm1OPEFFU",
@@ -103,16 +113,17 @@ const allMessage = [
       datePosted: 'Sept 08, 2024',
       imageSlide: 'https://www.canva.com/design/DAGQL1u-eWg/GrU9gKdXcU3KkVOpwTPOvg/view?utm_content=DAGQL1u-eWg&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: '1 Peter 4:1a “Therefore, since Christ has suffered in the flesh, arm yourselves also with the same purpose. '
-    },
-    {
-      messageTitle: "Suffering for God's Glory ",
-      videoUrl: "https://www.youtube.com/watch?v=gFz4PlZ4E3o",
-      imgUrl: suffering,
-      messageBy: 'Bro. Rodolfo Aguiao',
-      datePosted: 'Sept 01, 2024',
-      imageSlide: 'https://www.canva.com/design/DAGPhypDufE/Uut3-3RCZN12sIpygpDwhg/view?utm_content=DAGPhypDufE&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: '1 Peter 3:17 Remember, it is better to suffer for doing good, if that is what God wants, than to suffer for doing wrong!'
     }
+    // ,
+    // {
+    //   messageTitle: "Suffering for God's Glory ",
+    //   videoUrl: "https://www.youtube.com/watch?v=gFz4PlZ4E3o",
+    //   imgUrl: suffering,
+    //   messageBy: 'Bro. Rodolfo Aguiao',
+    //   datePosted: 'Sept 01, 2024',
+    //   imageSlide: 'https://www.canva.com/design/DAGPhypDufE/Uut3-3RCZN12sIpygpDwhg/view?utm_content=DAGPhypDufE&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //   description: '1 Peter 3:17 Remember, it is better to suffer for doing good, if that is what God wants, than to suffer for doing wrong!'
+    // }
     // ,
     // {
     //   messageTitle: 'Alienated to this World',
