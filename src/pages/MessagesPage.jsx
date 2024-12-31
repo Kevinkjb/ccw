@@ -8,8 +8,9 @@ import beOnGuard from '../images/message/11-03-2024 - 2 Peter 119 - 23.png'
 import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
 import beOnGuardThree from '../images/message/Nov 17, 2024 Message.png'
 import LiveGodsGlory from '../images/message/12.01.2024 - 2 Peter 3.png'
-import newHope from '../images/message/Sept 08 Message.png'
+// import newHope from '../images/message/Sept 08 Message.png'
 import AllMessages from "../components/messages/AllMessages"
+import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
 // import WhyLookForLiving from '../images/message/Why do you look for the living among the dead.png'
 // import suffering from "../images/message/Suffering for God's Glory.png"
 // import LoveYourNeighbor from '../images/message/Royal Law April 7 2024.png'
@@ -33,6 +34,15 @@ import AllMessages from "../components/messages/AllMessages"
 
 
 const allMessage = [
+      {
+          messageTitle: "Inexpressible Joy",
+          videoUrl: "https://www.youtube.com/watch?v=0fxgQoIBdNI",
+          imgUrl: InexpressibleJoy,
+          messageBy: 'Bro. Jun Tan',
+          datePosted: 'Dec 22, 2024',
+          imageSlide: 'https://www.canva.com/design/DAGaCBym_Ao/xbKsqLheSnzS0-NFR94Psw/view?utm_content=DAGaCBym_Ao&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfe10f2e670',
+          description: `Through divine revelation, incarnation and faith in Christ the Son of the living God, makes one have joy and unique joy in Him that is inexpressible.`
+      },
         {
           messageTitle: "A Lived-Out Life For God's Glory",
           videoUrl: "https://www.youtube.com/watch?v=o_ZbKf-wjMA",
@@ -104,16 +114,17 @@ const allMessage = [
       datePosted: 'Oct 06, 2024',
       imageSlide: 'https://www.canva.com/design/DAGSz5_jcNs/YIr3wtLdZwEdp4Ck3rLIpw/view?utm_content=DAGSz5_jcNs&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: 'So humble yourselves under the mighty power of God, and at the right time he will lift you up in honor.'
-    },
-    {
-      messageTitle: "New Hope to Real-World Believers",
-      videoUrl: "https://www.youtube.com/watch?v=4Zx44Tk4DPs",
-      imgUrl: newHope,
-      messageBy: 'Bro. Harry Nietes',
-      datePosted: 'Sept 08, 2024',
-      imageSlide: 'https://www.canva.com/design/DAGQL1u-eWg/GrU9gKdXcU3KkVOpwTPOvg/view?utm_content=DAGQL1u-eWg&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: '1 Peter 4:1a “Therefore, since Christ has suffered in the flesh, arm yourselves also with the same purpose. '
     }
+    // ,
+    // {
+    //   messageTitle: "New Hope to Real-World Believers",
+    //   videoUrl: "https://www.youtube.com/watch?v=4Zx44Tk4DPs",
+    //   imgUrl: newHope,
+    //   messageBy: 'Bro. Harry Nietes',
+    //   datePosted: 'Sept 08, 2024',
+    //   imageSlide: 'https://www.canva.com/design/DAGQL1u-eWg/GrU9gKdXcU3KkVOpwTPOvg/view?utm_content=DAGQL1u-eWg&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //   description: '1 Peter 4:1a “Therefore, since Christ has suffered in the flesh, arm yourselves also with the same purpose. '
+    // }
     // ,
     // {
     //   messageTitle: "Suffering for God's Glory ",

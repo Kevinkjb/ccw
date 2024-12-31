@@ -1,16 +1,16 @@
 
-import InexpressibleJoy from "../../images/message/Inexpressible Joy.pdf.png"
+import GoTell from "../../images/message/Go and Tell.pptx.png"
 
 
 const latestMessage = [
     {
-        messageTitle: "Inexpressible Joy",
-        videoUrl: "https://www.youtube.com/watch?v=0fxgQoIBdNI",
-        imgUrl: InexpressibleJoy,
-        messageBy: 'Bro. Jun Tan',
-        datePosted: 'Dec 22, 2024',
-        imageSlide: 'https://www.canva.com/design/DAGaCBym_Ao/xbKsqLheSnzS0-NFR94Psw/view?utm_content=DAGaCBym_Ao&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfe10f2e670',
-        description: `Through divine revelation, incarnation and faith in Christ the Son of the living God, makes one have joy and unique joy in Him that is inexpressible.`
+        messageTitle: "Go Tell",
+        videoUrl: "https://www.youtube.com/watch?v=10jPeudvy2I",
+        imgUrl: GoTell,
+        messageBy: 'Bro. Boni Somook',
+        datePosted: 'Dec 29, 2024',
+        imageSlide: 'https://www.canva.com/design/DAGasHbaZ8c/fNqLDXmJDocEzsa6eOKNZQ/view?utm_content=DAGasHbaZ8c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1c52dca35e',
+        description: `So that those who believe in the son shall have eternal life and be raised in the last day.`
     }
 ]
 
