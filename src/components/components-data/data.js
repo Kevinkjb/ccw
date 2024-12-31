@@ -4,7 +4,7 @@ import GoTell from "../../images/message/Go and Tell.pptx.png"
 
 const latestMessage = [
     {
-        messageTitle: "Go Tell",
+        messageTitle: "Go and Tell",
         videoUrl: "https://www.youtube.com/watch?v=10jPeudvy2I",
         imgUrl: GoTell,
         messageBy: 'Bro. Boni Somook',
