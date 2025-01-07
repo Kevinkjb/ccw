@@ -1,7 +1,7 @@
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 // import father from '../images/message/1 Peter 55-11.png'
-import GoTell from '../images/message/Jan 05, 2024 - Sunday Message.png'
+import GoTell from '../images/message/Go and Tell.pptx.png'
 import grateful from '../images/message/10-13-2024 - Not So Grateful.png'
 import Living from '../images/message/10-20-2024-Leading a Godly Life.pptx.png'
 import wakeUp from "../images/message/Pay Attention to God's Word.png"
