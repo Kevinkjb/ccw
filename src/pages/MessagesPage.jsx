@@ -1,6 +1,7 @@
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
-import father from '../images/message/1 Peter 55-11.png'
+// import father from '../images/message/1 Peter 55-11.png'
+import GoTell from '../images/message/Jan 05, 2024 - Sunday Message.png'
 import grateful from '../images/message/10-13-2024 - Not So Grateful.png'
 import Living from '../images/message/10-20-2024-Leading a Godly Life.pptx.png'
 import wakeUp from "../images/message/Pay Attention to God's Word.png"
@@ -34,6 +35,15 @@ import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
 
 
 const allMessage = [
+      {
+          messageTitle: "Go and Tell",
+          videoUrl: "https://www.youtube.com/watch?v=10jPeudvy2I",
+          imgUrl: GoTell,
+          messageBy: 'Bro. Boni Somook',
+          datePosted: 'Dec 29, 2024',
+          imageSlide: 'https://www.canva.com/design/DAGasHbaZ8c/fNqLDXmJDocEzsa6eOKNZQ/view?utm_content=DAGasHbaZ8c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1c52dca35e',
+          description: `So that those who believe in the son shall have eternal life and be raised in the last day.`
+      },
       {
           messageTitle: "Inexpressible Joy",
           videoUrl: "https://www.youtube.com/watch?v=0fxgQoIBdNI",
@@ -105,16 +115,17 @@ const allMessage = [
       datePosted: 'Oct 13, 2024',
       imageSlide: 'https://www.canva.com/design/DAGTeCC7roA/BF-AZsSdobVIYux3aLY51g/view?utm_content=DAGTeCC7roA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
       description: "In everything give thanks; for this is God's will for you in Christ Jesus."
-    },
-    {
-      messageTitle: "Sharer of God’s Eternal Glory",
-      videoUrl: "https://www.youtube.com/watch?v=THr7wMOLFG0",
-      imgUrl: father,
-      messageBy: 'Bro. Bong Aguiao',
-      datePosted: 'Oct 06, 2024',
-      imageSlide: 'https://www.canva.com/design/DAGSz5_jcNs/YIr3wtLdZwEdp4Ck3rLIpw/view?utm_content=DAGSz5_jcNs&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: 'So humble yourselves under the mighty power of God, and at the right time he will lift you up in honor.'
     }
+    // ,
+    // {
+    //   messageTitle: "Sharer of God’s Eternal Glory",
+    //   videoUrl: "https://www.youtube.com/watch?v=THr7wMOLFG0",
+    //   imgUrl: father,
+    //   messageBy: 'Bro. Bong Aguiao',
+    //   datePosted: 'Oct 06, 2024',
+    //   imageSlide: 'https://www.canva.com/design/DAGSz5_jcNs/YIr3wtLdZwEdp4Ck3rLIpw/view?utm_content=DAGSz5_jcNs&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //   description: 'So humble yourselves under the mighty power of God, and at the right time he will lift you up in honor.'
+    // }
     // ,
     // {
     //   messageTitle: "New Hope to Real-World Believers",

@@ -1,16 +1,16 @@
 
-import GoTell from "../../images/message/Go and Tell.pptx.png"
+import Credibility from "../../images/message/Jan 05, 2024 - Sunday Message.png"
 
 
 const latestMessage = [
     {
-        messageTitle: "Go and Tell",
-        videoUrl: "https://www.youtube.com/watch?v=10jPeudvy2I",
-        imgUrl: GoTell,
-        messageBy: 'Bro. Boni Somook',
-        datePosted: 'Dec 29, 2024',
-        imageSlide: 'https://www.canva.com/design/DAGasHbaZ8c/fNqLDXmJDocEzsa6eOKNZQ/view?utm_content=DAGasHbaZ8c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1c52dca35e',
-        description: `So that those who believe in the son shall have eternal life and be raised in the last day.`
+        messageTitle: "The Credibility of the Eyewitnesses",
+        videoUrl: "https://www.youtube.com/watch?v=qy_Z-ClypUs",
+        imgUrl: Credibility,
+        messageBy: 'Bro. Bong Aguiao',
+        datePosted: 'Jan 05, 2025',
+        imageSlide: '',
+        description: `Until we all reach unity in the faith and in the knowledge of the Son of God and become mature, attaining to the whole measure of the fullness of Christ.`
     }
 ]
 
