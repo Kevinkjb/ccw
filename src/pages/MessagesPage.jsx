@@ -2,16 +2,18 @@ import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 // import father from '../images/message/1 Peter 55-11.png'
 import GoTell from '../images/message/Go and Tell.pptx.png'
-import grateful from '../images/message/10-13-2024 - Not So Grateful.png'
-import Living from '../images/message/10-20-2024-Leading a Godly Life.pptx.png'
+// import grateful from '../images/message/10-13-2024 - Not So Grateful.png'
+// import Living from '../images/message/10-20-2024-Leading a Godly Life.pptx.png'
 import wakeUp from "../images/message/Pay Attention to God's Word.png"
 import beOnGuard from '../images/message/11-03-2024 - 2 Peter 119 - 23.png'
 import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
 import beOnGuardThree from '../images/message/Nov 17, 2024 Message.png'
 import LiveGodsGlory from '../images/message/12.01.2024 - 2 Peter 3.png'
+import Credibility from '../images/message/Jan 05, 2024 - Sunday Message.png'
 // import newHope from '../images/message/Sept 08 Message.png'
 import AllMessages from "../components/messages/AllMessages"
 import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
+import Appeal from '../images/message/01.12.2025 - The Appeals to the Believers (1 John 23-17) - Bro. Jun Tan.png'
 // import WhyLookForLiving from '../images/message/Why do you look for the living among the dead.png'
 // import suffering from "../images/message/Suffering for God's Glory.png"
 // import LoveYourNeighbor from '../images/message/Royal Law April 7 2024.png'
@@ -35,6 +37,25 @@ import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
 
 
 const allMessage = [
+      {
+          messageTitle: "The Appeals to the Believers",
+          videoUrl: "https://youtu.be/Nj69hwtiqeE",
+          imgUrl: Appeal,
+          messageBy: 'Bro. Jun Tan',
+          datePosted: 'Jan 12, 2025',
+          imageSlide: 'https://www.canva.com/design/DAGcAZoVenE/20R4FIAu_2oDF4mOFVYpGw/view?utm_content=DAGcAZoVenE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h311254812f',
+          description: `To assure the believer that they have eternal life in Jesus Christ who has come in the flesh and refute those who denied Jesus Christ as the Messiah`
+      },
+      {
+          messageTitle: "The Credibility of the Eyewitnesses",
+          videoUrl: "https://www.youtube.com/watch?v=qy_Z-ClypUs",
+          imgUrl: Credibility,
+          messageBy: 'Bro. Bong Aguiao',
+          datePosted: 'Jan 05, 2025',
+          imageSlide: '',
+          description: `Until we all reach unity in the faith and in the knowledge of the Son of God and become mature, attaining to the whole measure of the fullness of Christ.`
+      }
+    ,
       {
           messageTitle: "Go and Tell",
           videoUrl: "https://www.youtube.com/watch?v=10jPeudvy2I",
@@ -97,25 +118,27 @@ const allMessage = [
         datePosted: 'Oct 27, 2024',
         imageSlide: 'https://www.canva.com/design/DAGUumpIEh4/ZJS8HxQmrSB2_H3i43cwpA/view?utm_content=DAGUumpIEh4&utm_campaign=designshare&utm_medium=link&utm_source=editor',
         description: "It is matter of life and death; by this Word you must be tried and judged. "
-    },
-    {
-        messageTitle: "Leading A Godly Life",
-        videoUrl: "https://www.youtube.com/watch?v=MYaqLpfFDlg",
-        imgUrl: Living,
-        messageBy: 'Bro. Harry Nietes',
-        datePosted: 'Oct 20, 2024',
-        imageSlide: 'https://www.canva.com/design/DAGUIFAFVxw/_ff-UvaSKPraumhcqy_Dbw/view?utm_content=DAGUIFAFVxw&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-        description: "We need to acknowledge that we can't do it on our own. God can help in every aspect of our lives and need His wisdom to make the right decisions. We need His strength to face our challenges. We need to recognize our need for it."
-    },
-    {
-      messageTitle: "Not So Grateful",
-      videoUrl: "https://www.youtube.com/watch?v=Ni8-PZLFDE4",
-      imgUrl: grateful,
-      messageBy: 'Bro. Ted Matira',
-      datePosted: 'Oct 13, 2024',
-      imageSlide: 'https://www.canva.com/design/DAGTeCC7roA/BF-AZsSdobVIYux3aLY51g/view?utm_content=DAGTeCC7roA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-      description: "In everything give thanks; for this is God's will for you in Christ Jesus."
     }
+    // ,
+    // {
+    //     messageTitle: "Leading A Godly Life",
+    //     videoUrl: "https://www.youtube.com/watch?v=MYaqLpfFDlg",
+    //     imgUrl: Living,
+    //     messageBy: 'Bro. Harry Nietes',
+    //     datePosted: 'Oct 20, 2024',
+    //     imageSlide: 'https://www.canva.com/design/DAGUIFAFVxw/_ff-UvaSKPraumhcqy_Dbw/view?utm_content=DAGUIFAFVxw&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //     description: "We need to acknowledge that we can't do it on our own. God can help in every aspect of our lives and need His wisdom to make the right decisions. We need His strength to face our challenges. We need to recognize our need for it."
+    // }
+    // ,
+    // {
+    //   messageTitle: "Not So Grateful",
+    //   videoUrl: "https://www.youtube.com/watch?v=Ni8-PZLFDE4",
+    //   imgUrl: grateful,
+    //   messageBy: 'Bro. Ted Matira',
+    //   datePosted: 'Oct 13, 2024',
+    //   imageSlide: 'https://www.canva.com/design/DAGTeCC7roA/BF-AZsSdobVIYux3aLY51g/view?utm_content=DAGTeCC7roA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //   description: "In everything give thanks; for this is God's will for you in Christ Jesus."
+    // }
     // ,
     // {
     //   messageTitle: "Sharer of God’s Eternal Glory",
