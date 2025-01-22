@@ -3,7 +3,7 @@
 // import escapeRoom from '../../images/Easter Escape Room.pptx.png'
 // import camping from '../../images/outing/Church.png'
 // import kidsFunDay from '../../images/events/kids.png'
-import christmas from '../../images/events/inexpressible.png'
+import valetines from '../../images/events/Valentines.jpg'
 // import anniversary from '../../images/events/anniversary.jpg'
 // import camping from '../../images/events/Couple’s.png'
 
@@ -29,16 +29,15 @@ const events = [
     // },
     {
         id: 0,
-        imgUrl: christmas,
-        eventMonths: 'Dec',
-        eventDays: '22',
-        eventTitle: "Inexpressible Joy",
+        imgUrl: valetines,
+        eventMonths: 'Feb',
+        eventDays: '15',
+        eventTitle: "Love and Worship",
         description: `
-        Church of Christ Wetaskiwin, 
-        Christmas Celebration
-        4708 50 Avenue Wetaskiwin, AB
+        The most important thing you will never do is 
+        learn the magnificent, marvelous, matchless love of God for you.
         `,
-        time: '10:00AM'
+        time: '6:00PM'
     }
        
 ]
