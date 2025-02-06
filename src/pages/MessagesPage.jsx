@@ -4,7 +4,7 @@ import Footer from "../components/footer/Footer"
 import GoTell from '../images/message/Go and Tell.pptx.png'
 // import grateful from '../images/message/10-13-2024 - Not So Grateful.png'
 // import Living from '../images/message/10-20-2024-Leading a Godly Life.pptx.png'
-import wakeUp from "../images/message/Pay Attention to God's Word.png"
+// import wakeUp from "../images/message/Pay Attention to God's Word.png"
 import beOnGuard from '../images/message/11-03-2024 - 2 Peter 119 - 23.png'
 import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
 import beOnGuardThree from '../images/message/Nov 17, 2024 Message.png'
@@ -37,6 +37,15 @@ import Appeal from '../images/message/01.12.2025 - The Appeals to the Believers 
 
 
 const allMessage = [
+      {
+          messageTitle: "The Credibility of the Eyewitnesses",
+          videoUrl: "https://youtu.be/oPVRjttEfw4",
+          imgUrl: Credibility,
+          messageBy: 'Bro. Ted Matira',
+          datePosted: 'Jan 12, 2025',
+          imageSlide: 'https://www.canva.com/design/DAGbvun4cgc/LZpdts0Me6iIZV8M82UKBw/view?utm_content=DAGbvun4cgc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h65cdffa334',
+          description: `That which was from the beginning, which we have heard, which we have seen with our eyes, which we have looked at and our hands have touched—this we proclaim concerning the Word of life. `
+      },
       {
           messageTitle: "The Appeals to the Believers",
           videoUrl: "https://youtu.be/Nj69hwtiqeE",
@@ -109,16 +118,17 @@ const allMessage = [
           datePosted: 'Nov 03, 2024',
           imageSlide: 'https://www.canva.com/design/DAGVcE8fhBA/-yMsdDaHHDm8Na5aOQfBuA/view?utm_content=DAGVcE8fhBA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
           description: "Because of that experience, we have even greater confidence in the message proclaimed by the prophets. You must pay close attention to what they wrote, for their words are like a lamp shining in a dark place—until the Day dawns, and Christ the Morning Star shines in your hearts."
-      },
-      {
-        messageTitle: "Wake Up! Pay Attention to God’s Word.",
-        videoUrl: "https://www.youtube.com/watch?v=qPdP2CeLDwE",
-        imgUrl: wakeUp,
-        messageBy: 'Bro. Rodolfo Aguiao',
-        datePosted: 'Oct 27, 2024',
-        imageSlide: 'https://www.canva.com/design/DAGUumpIEh4/ZJS8HxQmrSB2_H3i43cwpA/view?utm_content=DAGUumpIEh4&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-        description: "It is matter of life and death; by this Word you must be tried and judged. "
-    }
+      }
+    //   ,
+    //   {
+    //     messageTitle: "Wake Up! Pay Attention to God’s Word.",
+    //     videoUrl: "https://www.youtube.com/watch?v=qPdP2CeLDwE",
+    //     imgUrl: wakeUp,
+    //     messageBy: 'Bro. Rodolfo Aguiao',
+    //     datePosted: 'Oct 27, 2024',
+    //     imageSlide: 'https://www.canva.com/design/DAGUumpIEh4/ZJS8HxQmrSB2_H3i43cwpA/view?utm_content=DAGUumpIEh4&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+    //     description: "It is matter of life and death; by this Word you must be tried and judged. "
+    // }
     // ,
     // {
     //     messageTitle: "Leading A Godly Life",

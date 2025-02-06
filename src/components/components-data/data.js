@@ -1,16 +1,16 @@
 
-import Credibility from '../../images/message/01.12.2025 - The Credibility of Eye Witnesses (1 John 11-22) - Bro. Ted Matira.png'
 
+import NewLifeChrist from '../../images/message/Cream Purple Abstract Thesis Defense Presentation.png'
 
 const latestMessage = [
     {
-        messageTitle: "The Credibility of the Eyewitnesses",
-        videoUrl: "https://youtu.be/oPVRjttEfw4",
-        imgUrl: Credibility,
-        messageBy: 'Bro. Ted Matira',
-        datePosted: 'Jan 12, 2025',
-        imageSlide: 'https://www.canva.com/design/DAGbvun4cgc/LZpdts0Me6iIZV8M82UKBw/view?utm_content=DAGbvun4cgc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h65cdffa334',
-        description: `That which was from the beginning, which we have heard, which we have seen with our eyes, which we have looked at and our hands have touched—this we proclaim concerning the Word of life. `
+        messageTitle: "A New Life In Christ",
+        videoUrl: "https://www.youtube.com/live/ZIYMyeEQciw",
+        imgUrl: NewLifeChrist,
+        messageBy: 'Bro. Harry Nietes',
+        datePosted: 'Feb 02, 2025',
+        imageSlide: 'https://www.canva.com/design/DAGdzfNlfMo/ceGiW_mGBW26X-L9xGOqZA/view?utm_content=DAGdzfNlfMo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h20d0128b46',
+        description: `See how very much our Father loves us, for he calls us his children, and that is what we are! But the people who belong to this world don’t recognize that we are God’s children because they don’t know him.`
     }
 ]
 
