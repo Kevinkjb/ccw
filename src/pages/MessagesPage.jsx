@@ -1,19 +1,21 @@
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
-// import father from '../images/message/1 Peter 55-11.png'
 import GoTell from '../images/message/Go and Tell.pptx.png'
-// import grateful from '../images/message/10-13-2024 - Not So Grateful.png'
-// import Living from '../images/message/10-20-2024-Leading a Godly Life.pptx.png'
-// import wakeUp from "../images/message/Pay Attention to God's Word.png"
-import beOnGuard from '../images/message/11-03-2024 - 2 Peter 119 - 23.png'
 import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
 import beOnGuardThree from '../images/message/Nov 17, 2024 Message.png'
 import LiveGodsGlory from '../images/message/12.01.2024 - 2 Peter 3.png'
 import Credibility from '../images/message/Jan 05, 2024 - Sunday Message.png'
-// import newHope from '../images/message/Sept 08 Message.png'
+import NewLifeChrist from '../images/message/Cream Purple Abstract Thesis Defense Presentation.png'
+
 import AllMessages from "../components/messages/AllMessages"
 import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
 import Appeal from '../images/message/01.12.2025 - The Appeals to the Believers (1 John 23-17) - Bro. Jun Tan.png'
+// import newHope from '../images/message/Sept 08 Message.png'
+// import father from '../images/message/1 Peter 55-11.png'
+// import grateful from '../images/message/10-13-2024 - Not So Grateful.png'
+// import Living from '../images/message/10-20-2024-Leading a Godly Life.pptx.png'
+// import wakeUp from "../images/message/Pay Attention to God's Word.png"
+// import beOnGuard from '../images/message/11-03-2024 - 2 Peter 119 - 23.png'
 // import WhyLookForLiving from '../images/message/Why do you look for the living among the dead.png'
 // import suffering from "../images/message/Suffering for God's Glory.png"
 // import LoveYourNeighbor from '../images/message/Royal Law April 7 2024.png'
@@ -37,6 +39,15 @@ import Appeal from '../images/message/01.12.2025 - The Appeals to the Believers 
 
 
 const allMessage = [
+      {
+          messageTitle: "A New Life In Christ",
+          videoUrl: "https://www.youtube.com/live/ZIYMyeEQciw",
+          imgUrl: NewLifeChrist,
+          messageBy: 'Bro. Harry Nietes',
+          datePosted: 'Feb 02, 2025',
+          imageSlide: 'https://www.canva.com/design/DAGdzfNlfMo/ceGiW_mGBW26X-L9xGOqZA/view?utm_content=DAGdzfNlfMo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h20d0128b46',
+          description: `See how very much our Father loves us, for he calls us his children, and that is what we are! But the people who belong to this world don’t recognize that we are God’s children because they don’t know him.`
+      },
       {
           messageTitle: "The Credibility of the Eyewitnesses",
           videoUrl: "https://youtu.be/oPVRjttEfw4",
@@ -109,16 +120,17 @@ const allMessage = [
           datePosted: 'Nov 10, 2024',
           imageSlide: 'https://www.canva.com/design/DAGWFyli4EE/M3NF-2EyH1AGZeKTRKcQTQ/view?utm_content=DAGWFyli4EE&utm_campaign=designshare&utm_medium=link&utm_source=editor',
           description: "Be on guard and take responsibility of your spiritual health, study the word and follow the Lord Jesus by helping people  know Him through the Scripture In order to believe in Him and be saved."
-        },
-        {
-          messageTitle: "Grow Unstoppably And Be On Guard",
-          videoUrl: "https://www.youtube.com/watch?v=4dQP4zAu3yQ",
-          imgUrl: beOnGuard,
-          messageBy: 'Bro. Amador Jr Tan',
-          datePosted: 'Nov 03, 2024',
-          imageSlide: 'https://www.canva.com/design/DAGVcE8fhBA/-yMsdDaHHDm8Na5aOQfBuA/view?utm_content=DAGVcE8fhBA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-          description: "Because of that experience, we have even greater confidence in the message proclaimed by the prophets. You must pay close attention to what they wrote, for their words are like a lamp shining in a dark place—until the Day dawns, and Christ the Morning Star shines in your hearts."
-      }
+        }
+      //   ,
+      //   {
+      //     messageTitle: "Grow Unstoppably And Be On Guard",
+      //     videoUrl: "https://www.youtube.com/watch?v=4dQP4zAu3yQ",
+      //     imgUrl: beOnGuard,
+      //     messageBy: 'Bro. Amador Jr Tan',
+      //     datePosted: 'Nov 03, 2024',
+      //     imageSlide: 'https://www.canva.com/design/DAGVcE8fhBA/-yMsdDaHHDm8Na5aOQfBuA/view?utm_content=DAGVcE8fhBA&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+      //     description: "Because of that experience, we have even greater confidence in the message proclaimed by the prophets. You must pay close attention to what they wrote, for their words are like a lamp shining in a dark place—until the Day dawns, and Christ the Morning Star shines in your hearts."
+      // }
     //   ,
     //   {
     //     messageTitle: "Wake Up! Pay Attention to God’s Word.",
