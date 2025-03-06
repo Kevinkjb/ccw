@@ -3,9 +3,10 @@
 // import escapeRoom from '../../images/Easter Escape Room.pptx.png'
 // import camping from '../../images/outing/Church.png'
 // import kidsFunDay from '../../images/events/kids.png'
-import valetines from '../../images/events/Valentines.jpg'
+// import valetines from '../../images/events/Valentines.jpg'
 // import anniversary from '../../images/events/anniversary.jpg'
 // import camping from '../../images/events/Couple’s.png'
+import kidsFunDay from '../../images/events/Kids fun day.jpg'
 
 
 const events = [
@@ -29,15 +30,14 @@ const events = [
     // },
     {
         id: 0,
-        imgUrl: valetines,
-        eventMonths: 'Feb',
-        eventDays: '15',
-        eventTitle: "Love and Worship",
+        imgUrl: kidsFunDay,
+        eventMonths: 'Mar',
+        eventDays: '29',
+        eventTitle: "Kids Fun Day",
         description: `
-        The most important thing you will never do is 
-        learn the magnificent, marvelous, matchless love of God for you.
+        Love like Jesus 1 John 3:16
         `,
-        time: '6:00PM'
+        time: '9:30AM - 11:30AM'
     }
        
 ]
