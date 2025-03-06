@@ -1,12 +1,12 @@
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 import GoTell from '../images/message/Go and Tell.pptx.png'
-import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
+// import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
 import beOnGuardThree from '../images/message/Nov 17, 2024 Message.png'
 import LiveGodsGlory from '../images/message/12.01.2024 - 2 Peter 3.png'
 import Credibility from '../images/message/Jan 05, 2024 - Sunday Message.png'
 import NewLifeChrist from '../images/message/Cream Purple Abstract Thesis Defense Presentation.png'
-
+import KnowingGod from '../images/message/Sunday Sermon.png'
 import AllMessages from "../components/messages/AllMessages"
 import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
 import Appeal from '../images/message/01.12.2025 - The Appeals to the Believers (1 John 23-17) - Bro. Jun Tan.png'
@@ -39,6 +39,15 @@ import Appeal from '../images/message/01.12.2025 - The Appeals to the Believers 
 
 
 const allMessage = [
+      {
+          messageTitle: "Knowing God Through Love",
+          videoUrl: "https://www.youtube.com/watch?v=z3M1kwVH_uY",
+          imgUrl: KnowingGod,
+          messageBy: 'Bro. Bong Aguiao',
+          datePosted: 'Feb 09, 2025',
+          imageSlide: 'https://www.canva.com/design/DAGee6ThwRc/nmP9eyC8rJKHk1Hz6Dlgeg/view?utm_content=DAGee6ThwRc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb50bcba3f4',
+          description: ` Dear friends, let us continue to love one another, for love comes from God. Anyone who loves is a child of God and knows God. 8 But anyone who does not love does not know God, for God is love.`
+      },
       {
           messageTitle: "A New Life In Christ",
           videoUrl: "https://www.youtube.com/live/ZIYMyeEQciw",
@@ -111,16 +120,17 @@ const allMessage = [
           datePosted: 'Nov 17, 2024',
           imageSlide: 'https://www.canva.com/design/DAGWwXM6uxw/90Vzm2YBPaAowqF8Otojfg/view?utm_content=DAGWwXM6uxw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h56a9c9c5be',
           description: "And when people escape from the wickedness of the world by knowing our Lord and Savior Jesus Christ and then get tangled up and enslaved by sin again, they are worse off than before."
-        },
-        {
-          messageTitle: "Apostasy and God’s deliverance of the godly",
-          videoUrl: "https://www.youtube.com/live/IOy8-ruEfM0",
-          imgUrl: beOnGuardTwo,
-          messageBy: 'Bro. Amador Jr Tan',
-          datePosted: 'Nov 10, 2024',
-          imageSlide: 'https://www.canva.com/design/DAGWFyli4EE/M3NF-2EyH1AGZeKTRKcQTQ/view?utm_content=DAGWFyli4EE&utm_campaign=designshare&utm_medium=link&utm_source=editor',
-          description: "Be on guard and take responsibility of your spiritual health, study the word and follow the Lord Jesus by helping people  know Him through the Scripture In order to believe in Him and be saved."
         }
+        // ,
+        // {
+        //   messageTitle: "Apostasy and God’s deliverance of the godly",
+        //   videoUrl: "https://www.youtube.com/live/IOy8-ruEfM0",
+        //   imgUrl: beOnGuardTwo,
+        //   messageBy: 'Bro. Amador Jr Tan',
+        //   datePosted: 'Nov 10, 2024',
+        //   imageSlide: 'https://www.canva.com/design/DAGWFyli4EE/M3NF-2EyH1AGZeKTRKcQTQ/view?utm_content=DAGWFyli4EE&utm_campaign=designshare&utm_medium=link&utm_source=editor',
+        //   description: "Be on guard and take responsibility of your spiritual health, study the word and follow the Lord Jesus by helping people  know Him through the Scripture In order to believe in Him and be saved."
+        // }
       //   ,
       //   {
       //     messageTitle: "Grow Unstoppably And Be On Guard",
