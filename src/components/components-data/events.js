@@ -7,6 +7,7 @@
 // import anniversary from '../../images/events/anniversary.jpg'
 // import camping from '../../images/events/Couple’s.png'
 import kidsFunDay from '../../images/events/Kids fun day.jpg'
+import churchCamp from '../../images/events/Camp.jpg'
 
 
 const events = [
@@ -38,6 +39,20 @@ const events = [
         Love like Jesus 1 John 3:16
         `,
         time: '9:30AM - 11:30AM'
+    },
+    {
+        id: 1,
+        imgUrl: churchCamp,
+        eventMonths: 'May',
+        eventDays: '09',
+        eventTitle: "Family Camp",
+        description: `
+        Come and join us!
+
+        Aligning To Our Greater Purpose
+        Ephesians 1:10-14
+        `,
+        time: ''
     }
        
 ]

@@ -78,6 +78,9 @@ const Footer = () => {
 
         </div>
       </section>
+    <div className="copyright-footer">
+        <p className='charity-number'>Registered Canadian Charity # | Church of Christ Wetaskiwin © 2024 | Design and Developed <a href="" style={{color: '#fff'}}>Rayden Web Studio</a></p>
+    </div>
     </div>
   )
 }

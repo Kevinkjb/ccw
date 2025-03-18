@@ -2,12 +2,13 @@ import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 import GoTell from '../images/message/Go and Tell.pptx.png'
 // import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
-import beOnGuardThree from '../images/message/Nov 17, 2024 Message.png'
+// import beOnGuardThree from '../images/message/Nov 17, 2024 Message.png'
 import LiveGodsGlory from '../images/message/12.01.2024 - 2 Peter 3.png'
 import Credibility from '../images/message/Jan 05, 2024 - Sunday Message.png'
 import NewLifeChrist from '../images/message/Cream Purple Abstract Thesis Defense Presentation.png'
 import KnowingGod from '../images/message/Sunday Sermon.png'
 import AllMessages from "../components/messages/AllMessages"
+import LoveAndTruth from '../images/message/When Love Collides.png'
 import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
 import Appeal from '../images/message/01.12.2025 - The Appeals to the Believers (1 John 23-17) - Bro. Jun Tan.png'
 // import newHope from '../images/message/Sept 08 Message.png'
@@ -39,6 +40,15 @@ import Appeal from '../images/message/01.12.2025 - The Appeals to the Believers 
 
 
 const allMessage = [
+      {
+          messageTitle: "When Love & Truth Collides",
+          videoUrl: "https://www.youtube.com/watch?v=tgKzqRtP5e4&t=3232s",
+          imgUrl: LoveAndTruth,
+          messageBy: 'Bro. Ted Matira',
+          datePosted: 'March 02, 2025',
+          imageSlide: 'https://www.canva.com/design/DAGgddP_wIs/0Gv574jRCbz-hdHlWQgnpA/view?utm_content=DAGgddP_wIs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1a3232b4d4',
+          description: `It has given me great joy to find some of your children walking in the truth, just as the Father commanded us.`
+      },
       {
           messageTitle: "Knowing God Through Love",
           videoUrl: "https://www.youtube.com/watch?v=z3M1kwVH_uY",
@@ -111,16 +121,17 @@ const allMessage = [
           datePosted: 'Dec 01, 2024',
           imageSlide: 'https://www.canva.com/design/DAGYEYbnJmc/eFBpjaj-VcZwsuUCNYCPSA/view?utm_content=DAGYEYbnJmc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb5f3aee4ca',
           description: `Live a life with legacy a legacy for God’s glory`
-        },
-        {
-          messageTitle: "Escaped The Defilements Of The World",
-          videoUrl: "https://youtube.com/live/Xjtm1OPEFFU",
-          imgUrl: beOnGuardThree,
-          messageBy: 'Bro. Harry Nietes',
-          datePosted: 'Nov 17, 2024',
-          imageSlide: 'https://www.canva.com/design/DAGWwXM6uxw/90Vzm2YBPaAowqF8Otojfg/view?utm_content=DAGWwXM6uxw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h56a9c9c5be',
-          description: "And when people escape from the wickedness of the world by knowing our Lord and Savior Jesus Christ and then get tangled up and enslaved by sin again, they are worse off than before."
         }
+        // ,
+        // {
+        //   messageTitle: "Escaped The Defilements Of The World",
+        //   videoUrl: "https://youtube.com/live/Xjtm1OPEFFU",
+        //   imgUrl: beOnGuardThree,
+        //   messageBy: 'Bro. Harry Nietes',
+        //   datePosted: 'Nov 17, 2024',
+        //   imageSlide: 'https://www.canva.com/design/DAGWwXM6uxw/90Vzm2YBPaAowqF8Otojfg/view?utm_content=DAGWwXM6uxw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h56a9c9c5be',
+        //   description: "And when people escape from the wickedness of the world by knowing our Lord and Savior Jesus Christ and then get tangled up and enslaved by sin again, they are worse off than before."
+        // }
         // ,
         // {
         //   messageTitle: "Apostasy and God’s deliverance of the godly",
