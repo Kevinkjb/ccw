@@ -79,7 +79,7 @@ const Footer = () => {
         </div>
       </section>
     <div className="copyright-footer">
-        <p className='charity-number'>Registered Canadian Charity # | Church of Christ Wetaskiwin © 2024 | Design and Developed <a href="" style={{color: '#fff'}}>Rayden Web Studio</a></p>
+        <p className='charity-number'>Registered Canadian Charity #73322 6153 RR0001 | Church of Christ Wetaskiwin © 2012 | Design and Developed <a href="https://raydenwebstudio.com/" target='_blank' style={{color: '#fff'}}>Rayden Web Studio</a></p>
     </div>
     </div>
   )
