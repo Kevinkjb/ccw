@@ -7,7 +7,7 @@ import logo from '../../images/logo/logo 2.webp';
 import { useEffect, useRef} from 'react';
 import arrowDown from './images/icon-arrow-down.svg';
 import arrowUp from './images/icon-arrow-up.svg';
-import NewsLetter from '../components-data/pdf-files/Issue-1_December-2024.pdf';
+import NewsLetter from '../components-data/pdf-files/APRIL 2025 (1080 x 1280 px).pdf';
 // eslint-disable-next-line react/prop-types
 const CompanyToggle = ({companyDropDown}) =>{
   if(!companyDropDown){
