@@ -3,11 +3,12 @@ import Footer from "../components/footer/Footer"
 import GoTell from '../images/message/Go and Tell.pptx.png'
 // import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
 // import beOnGuardThree from '../images/message/Nov 17, 2024 Message.png'
-import LiveGodsGlory from '../images/message/12.01.2024 - 2 Peter 3.png'
+// import LiveGodsGlory from '../images/message/12.01.2024 - 2 Peter 3.png'
 import Credibility from '../images/message/Jan 05, 2024 - Sunday Message.png'
 import NewLifeChrist from '../images/message/Cream Purple Abstract Thesis Defense Presentation.png'
 import KnowingGod from '../images/message/Sunday Sermon.png'
 import AllMessages from "../components/messages/AllMessages"
+import ReasonWhy from '../images/message/March16Message.png'
 import LoveAndTruth from '../images/message/When Love Collides.png'
 import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
 import Appeal from '../images/message/01.12.2025 - The Appeals to the Believers (1 John 23-17) - Bro. Jun Tan.png'
@@ -40,6 +41,15 @@ import Appeal from '../images/message/01.12.2025 - The Appeals to the Believers 
 
 
 const allMessage = [
+      {
+          messageTitle: "Here's The Reason Why",
+          videoUrl: "https://youtube.com/live/xNxB-HF13pE",
+          imgUrl: ReasonWhy,
+          messageBy: 'Bro. Boni Somook',
+          datePosted: 'March 16, 2025',
+          imageSlide: 'https://www.canva.com/design/DAGh2L3mdHc/U0EWMR4ENA-Bvoe9bh9RoA/view?utm_content=DAGh2L3mdHc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbaee692903',
+          description: `Dear friends, although I was very eager to write to you about the salvation we share, I felt compelled to write and urge you to CONTEND FOR THE FAITH that was once for all entrusted to God’s holy people.`
+      },
       {
           messageTitle: "When Love & Truth Collides",
           videoUrl: "https://www.youtube.com/watch?v=tgKzqRtP5e4&t=3232s",
@@ -112,16 +122,17 @@ const allMessage = [
           datePosted: 'Dec 22, 2024',
           imageSlide: 'https://www.canva.com/design/DAGaCBym_Ao/xbKsqLheSnzS0-NFR94Psw/view?utm_content=DAGaCBym_Ao&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfe10f2e670',
           description: `Through divine revelation, incarnation and faith in Christ the Son of the living God, makes one have joy and unique joy in Him that is inexpressible.`
-      },
-        {
-          messageTitle: "A Lived-Out Life For God's Glory",
-          videoUrl: "https://www.youtube.com/watch?v=o_ZbKf-wjMA",
-          imgUrl: LiveGodsGlory,
-          messageBy: 'Bro. Ted Matira and Jun Tan',
-          datePosted: 'Dec 01, 2024',
-          imageSlide: 'https://www.canva.com/design/DAGYEYbnJmc/eFBpjaj-VcZwsuUCNYCPSA/view?utm_content=DAGYEYbnJmc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb5f3aee4ca',
-          description: `Live a life with legacy a legacy for God’s glory`
-        }
+      }
+      // ,
+      //   {
+      //     messageTitle: "A Lived-Out Life For God's Glory",
+      //     videoUrl: "https://www.youtube.com/watch?v=o_ZbKf-wjMA",
+      //     imgUrl: LiveGodsGlory,
+      //     messageBy: 'Bro. Ted Matira and Jun Tan',
+      //     datePosted: 'Dec 01, 2024',
+      //     imageSlide: 'https://www.canva.com/design/DAGYEYbnJmc/eFBpjaj-VcZwsuUCNYCPSA/view?utm_content=DAGYEYbnJmc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb5f3aee4ca',
+      //     description: `Live a life with legacy a legacy for God’s glory`
+      //   }
         // ,
         // {
         //   messageTitle: "Escaped The Defilements Of The World",
