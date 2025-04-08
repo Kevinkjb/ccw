@@ -10,7 +10,8 @@ import KnowingGod from '../images/message/Sunday Sermon.png'
 import AllMessages from "../components/messages/AllMessages"
 import ReasonWhy from '../images/message/March16Message.png'
 import LoveAndTruth from '../images/message/When Love Collides.png'
-import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
+import RemainFaithful from '../images/message/March30Message.png'
+// import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
 import Appeal from '../images/message/01.12.2025 - The Appeals to the Believers (1 John 23-17) - Bro. Jun Tan.png'
 // import newHope from '../images/message/Sept 08 Message.png'
 // import father from '../images/message/1 Peter 55-11.png'
@@ -41,6 +42,15 @@ import Appeal from '../images/message/01.12.2025 - The Appeals to the Believers 
 
 
 const allMessage = [
+      {
+          messageTitle: "A Call To Remain Faithful",
+          videoUrl: "https://www.youtube.com/watch?v=YbOvJ8zP3K0",
+          imgUrl: RemainFaithful,
+          messageBy: 'Bro. Bong Aguiao',
+          datePosted: 'March 30, 2025',
+          imageSlide: 'https://www.canva.com/design/DAGjJIk_Nfo/IXtayrbpi6fZy6rzQLaxQw/view?utm_content=DAGjJIk_Nfo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h73cf7d00fa',
+          description: `But you, dear friends, must build each other up in your most holy faith, How do we do build each other up? By his Holy Word, by knowing more of Jesus Christ.`
+      },
       {
           messageTitle: "Here's The Reason Why",
           videoUrl: "https://youtube.com/live/xNxB-HF13pE",
@@ -113,16 +123,17 @@ const allMessage = [
           datePosted: 'Dec 29, 2024',
           imageSlide: 'https://www.canva.com/design/DAGasHbaZ8c/fNqLDXmJDocEzsa6eOKNZQ/view?utm_content=DAGasHbaZ8c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1c52dca35e',
           description: `So that those who believe in the son shall have eternal life and be raised in the last day.`
-      },
-      {
-          messageTitle: "Inexpressible Joy",
-          videoUrl: "https://www.youtube.com/watch?v=0fxgQoIBdNI",
-          imgUrl: InexpressibleJoy,
-          messageBy: 'Bro. Jun Tan',
-          datePosted: 'Dec 22, 2024',
-          imageSlide: 'https://www.canva.com/design/DAGaCBym_Ao/xbKsqLheSnzS0-NFR94Psw/view?utm_content=DAGaCBym_Ao&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfe10f2e670',
-          description: `Through divine revelation, incarnation and faith in Christ the Son of the living God, makes one have joy and unique joy in Him that is inexpressible.`
       }
+      // ,
+      // {
+      //     messageTitle: "Inexpressible Joy",
+      //     videoUrl: "https://www.youtube.com/watch?v=0fxgQoIBdNI",
+      //     imgUrl: InexpressibleJoy,
+      //     messageBy: 'Bro. Jun Tan',
+      //     datePosted: 'Dec 22, 2024',
+      //     imageSlide: 'https://www.canva.com/design/DAGaCBym_Ao/xbKsqLheSnzS0-NFR94Psw/view?utm_content=DAGaCBym_Ao&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfe10f2e670',
+      //     description: `Through divine revelation, incarnation and faith in Christ the Son of the living God, makes one have joy and unique joy in Him that is inexpressible.`
+      // }
       // ,
       //   {
       //     messageTitle: "A Lived-Out Life For God's Glory",

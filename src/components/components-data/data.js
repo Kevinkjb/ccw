@@ -1,16 +1,16 @@
 
 
-import RemainFaithful from '../../images/message/March30Message.png'
+import RemainFaithful from '../../images/message/To the only God.png'
 
 const latestMessage = [
     {
-        messageTitle: "A Call To Remain Faithful",
-        videoUrl: "https://www.youtube.com/watch?v=YbOvJ8zP3K0",
+        messageTitle: "To the only God",
+        videoUrl: "https://youtube.com/live/chR5WiX1-QY",
         imgUrl: RemainFaithful,
-        messageBy: 'Bro. Bong Aguiao',
-        datePosted: 'March 30, 2025',
-        imageSlide: 'https://www.canva.com/design/DAGjJIk_Nfo/IXtayrbpi6fZy6rzQLaxQw/view?utm_content=DAGjJIk_Nfo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h73cf7d00fa',
-        description: `But you, dear friends, must build each other up in your most holy faith, How do we do build each other up? By his Holy Word, by knowing more of Jesus Christ.`
+        messageBy: 'Bro. Ted Matira',
+        datePosted: 'April 06, 2025',
+        imageSlide: 'https://www.canva.com/design/DAGjtL2IfYo/218RbOFdU5FiO53OoLlVDA/view?utm_content=DAGjtL2IfYo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8da36c95e1',
+        description: `Now all glory to God, who is able to keep you from falling away and will bring you with great joy into his glorious presence without a single fault`
     }
 ]
 
