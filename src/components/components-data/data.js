@@ -5,7 +5,7 @@ import RemainFaithful from '../../images/message/To the only God.png'
 const latestMessage = [
     {
         messageTitle: "To the only God",
-        videoUrl: "https://youtube.com/live/chR5WiX1-QY",
+        videoUrl: "https://youtu.be/SCLtXwSF5nI",
         imgUrl: RemainFaithful,
         messageBy: 'Bro. Ted Matira',
         datePosted: 'April 06, 2025',
