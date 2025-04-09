@@ -4,6 +4,7 @@
     box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
     position: relative;
     z-index: 1;
+    font-family: 'Poppins', sans-serif;
 }
 .schedule-container::before{
     content: "";
@@ -239,7 +240,7 @@
 }
 .shepherding-text,
 .young-text{
-    font-size: 2rem;
+    font-size: 1.65rem;
     font-weight: 600;
     line-height: 1.2;
     text-transform: uppercase;
@@ -278,7 +279,7 @@
 
 /* MORE INFO SECTION */
 .more-info-events{
-    margin: 4rem 0 2rem 0;
+    margin: 4rem 0 0 0;
     text-align: center;
     padding: 1rem;
 }
@@ -291,6 +292,24 @@
 }
 .more-info-text{
     font-size: 1.3rem;
+}
+.more-number{
+    width: 10rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #B58810;
+    border: 1px solid #B58810;
+    color: #fff;
+    transition: all .1s ease;
+    cursor: pointer;
+    font-weight: 600;
+}
+.more-number:hover{
+    width: 11rem;
+    background-color: transparent;
+    color: #B58810;
 }
 
 @media screen and (max-width: 1870px) {
