@@ -1,6 +1,6 @@
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
-import GoTell from '../images/message/Go and Tell.pptx.png'
+// import GoTell from '../images/message/Go and Tell.pptx.png'
 // import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
 // import beOnGuardThree from '../images/message/Nov 17, 2024 Message.png'
 // import LiveGodsGlory from '../images/message/12.01.2024 - 2 Peter 3.png'
@@ -13,6 +13,8 @@ import LoveAndTruth from '../images/message/When Love Collides.png'
 import RemainFaithful from '../images/message/March30Message.png'
 // import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
 import Appeal from '../images/message/01.12.2025 - The Appeals to the Believers (1 John 23-17) - Bro. Jun Tan.png'
+import toOnlyGod from '../images/message/To the only God.png'
+import commitedExcellence from '../images/message/04.13.2025 - Commitment to Excellence - Bro. Ted Matira.png'
 // import newHope from '../images/message/Sept 08 Message.png'
 // import father from '../images/message/1 Peter 55-11.png'
 // import grateful from '../images/message/10-13-2024 - Not So Grateful.png'
@@ -42,6 +44,24 @@ import Appeal from '../images/message/01.12.2025 - The Appeals to the Believers 
 
 
 const allMessage = [
+    {
+        messageTitle: "A Commitment to Excellence",
+        videoUrl: "https://www.youtube.com/live/qJsCXIrEnvw",
+        imgUrl: commitedExcellence,
+        messageBy: 'Bro. Ted Matira',
+        datePosted: 'April 13, 2025',
+        imageSlide: 'https://www.canva.com/design/DAGkYcBrOfA/a1d81pWpTbJkCjBtBgUACQ/view?utm_content=DAGkYcBrOfA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1a026e1188',
+        description: `Finally, brothers and sisters, whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable—if anything is excellent or praiseworthy—think about such things.`
+    },
+      {
+          messageTitle: "To the only God",
+          videoUrl: "https://youtu.be/SCLtXwSF5nI",
+          imgUrl: toOnlyGod,
+          messageBy: 'Bro. Ted Matira',
+          datePosted: 'April 06, 2025',
+          imageSlide: 'https://www.canva.com/design/DAGjtL2IfYo/218RbOFdU5FiO53OoLlVDA/view?utm_content=DAGjtL2IfYo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8da36c95e1',
+          description: `Now all glory to God, who is able to keep you from falling away and will bring you with great joy into his glorious presence without a single fault`
+      },
       {
           messageTitle: "A Call To Remain Faithful",
           videoUrl: "https://www.youtube.com/watch?v=YbOvJ8zP3K0",
@@ -104,26 +124,27 @@ const allMessage = [
           datePosted: 'Jan 12, 2025',
           imageSlide: 'https://www.canva.com/design/DAGcAZoVenE/20R4FIAu_2oDF4mOFVYpGw/view?utm_content=DAGcAZoVenE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h311254812f',
           description: `To assure the believer that they have eternal life in Jesus Christ who has come in the flesh and refute those who denied Jesus Christ as the Messiah`
-      },
-      {
-          messageTitle: "The Credibility of the Eyewitnesses",
-          videoUrl: "https://www.youtube.com/watch?v=qy_Z-ClypUs",
-          imgUrl: Credibility,
-          messageBy: 'Bro. Bong Aguiao',
-          datePosted: 'Jan 05, 2025',
-          imageSlide: '',
-          description: `Until we all reach unity in the faith and in the knowledge of the Son of God and become mature, attaining to the whole measure of the fullness of Christ.`
       }
-    ,
-      {
-          messageTitle: "Go and Tell",
-          videoUrl: "https://www.youtube.com/watch?v=10jPeudvy2I",
-          imgUrl: GoTell,
-          messageBy: 'Bro. Boni Somook',
-          datePosted: 'Dec 29, 2024',
-          imageSlide: 'https://www.canva.com/design/DAGasHbaZ8c/fNqLDXmJDocEzsa6eOKNZQ/view?utm_content=DAGasHbaZ8c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1c52dca35e',
-          description: `So that those who believe in the son shall have eternal life and be raised in the last day.`
-      }
+    //   ,
+    //   {
+    //       messageTitle: "The Credibility of the Eyewitnesses",
+    //       videoUrl: "https://www.youtube.com/watch?v=qy_Z-ClypUs",
+    //       imgUrl: Credibility,
+    //       messageBy: 'Bro. Bong Aguiao',
+    //       datePosted: 'Jan 05, 2025',
+    //       imageSlide: '',
+    //       description: `Until we all reach unity in the faith and in the knowledge of the Son of God and become mature, attaining to the whole measure of the fullness of Christ.`
+    //   }
+    // ,
+    //   {
+    //       messageTitle: "Go and Tell",
+    //       videoUrl: "https://www.youtube.com/watch?v=10jPeudvy2I",
+    //       imgUrl: GoTell,
+    //       messageBy: 'Bro. Boni Somook',
+    //       datePosted: 'Dec 29, 2024',
+    //       imageSlide: 'https://www.canva.com/design/DAGasHbaZ8c/fNqLDXmJDocEzsa6eOKNZQ/view?utm_content=DAGasHbaZ8c&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1c52dca35e',
+    //       description: `So that those who believe in the son shall have eternal life and be raised in the last day.`
+    //   }
       // ,
       // {
       //     messageTitle: "Inexpressible Joy",

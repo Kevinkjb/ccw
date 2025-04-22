@@ -1,16 +1,16 @@
 
 
-import RemainFaithful from '../../images/message/To the only God.png'
+import reflection from '../../images/message/Easter Reflection.png'
 
 const latestMessage = [
     {
-        messageTitle: "To the only God",
-        videoUrl: "https://youtu.be/SCLtXwSF5nI",
-        imgUrl: RemainFaithful,
+        messageTitle: "Easter Reflection",
+        videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/3982864418526940",
+        imgUrl: reflection,
         messageBy: 'Bro. Ted Matira',
-        datePosted: 'April 06, 2025',
-        imageSlide: 'https://www.canva.com/design/DAGjtL2IfYo/218RbOFdU5FiO53OoLlVDA/view?utm_content=DAGjtL2IfYo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8da36c95e1',
-        description: `Now all glory to God, who is able to keep you from falling away and will bring you with great joy into his glorious presence without a single fault`
+        datePosted: 'April 20, 2025',
+        imageSlide: 'https://www.canva.com/design/DAGlIrkqMFQ/Iv-DXejUeG25vSCbOaG0zQ/view?utm_content=DAGlIrkqMFQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86d0f0cc7d',
+        description: `But on the first day of the week, at early dawn, the women went to the tomb bringing the spices which they had prepared [to finish anointing the body]. 2 And they found the [large, circular] stone rolled back from the tomb, 3 but when they went inside, they did not find the body of the Lord Jesus.`
     }
 ]
 

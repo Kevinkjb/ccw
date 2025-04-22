@@ -8,27 +8,27 @@
 // import camping from '../../images/events/Couple’s.png'
 // import kidsFunDay from '../../images/events/Kids fun day.jpg'
 import churchCamp from '../../images/events/Camp.jpg'
-import youthMovie from '../../images/events/Good Friday Movie Night.pdf.png'
+// import youthMovie from '../../images/events/Good Friday Movie Night.pdf.png'
 
 
 const events = [
-    {
-        id: 0,
-        imgUrl: youthMovie,
-        eventMonths: 'Apr',
-        eventDays: '18',
-        eventTitle: "Good Friday Movie Night",
-        description: `
-            All youths invited
-            Free movie screening and popcorn
-            Concessions will be available for purchase (cash only)
+    // {
+    //     id: 0,
+    //     imgUrl: youthMovie,
+    //     eventMonths: 'Apr',
+    //     eventDays: '18',
+    //     eventTitle: "Good Friday Movie Night",
+    //     description: `
+    //         All youths invited
+    //         Free movie screening and popcorn
+    //         Concessions will be available for purchase (cash only)
 
-            April 18, 2025 @ 5:30 PM
-            Movie starts @ 6:00 PM
-            4708 50 Avenue Wetaskiwin, AB
-        `,
-        time: 'Friday @ 5:30PM'
-    },
+    //         April 18, 2025 @ 5:30 PM
+    //         Movie starts @ 6:00 PM
+    //         4708 50 Avenue Wetaskiwin, AB
+    //     `,
+    //     time: 'Friday @ 5:30PM'
+    // },
     // {
     //     id: 1,
     //     imgUrl: anniversary,
