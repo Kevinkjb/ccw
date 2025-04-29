@@ -1,9 +1,5 @@
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
-// import GoTell from '../images/message/Go and Tell.pptx.png'
-// import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
-// import beOnGuardThree from '../images/message/Nov 17, 2024 Message.png'
-// import LiveGodsGlory from '../images/message/12.01.2024 - 2 Peter 3.png'
 import Credibility from '../images/message/Jan 05, 2024 - Sunday Message.png'
 import NewLifeChrist from '../images/message/Cream Purple Abstract Thesis Defense Presentation.png'
 import KnowingGod from '../images/message/Sunday Sermon.png'
@@ -11,10 +7,15 @@ import AllMessages from "../components/messages/AllMessages"
 import ReasonWhy from '../images/message/March16Message.png'
 import LoveAndTruth from '../images/message/When Love Collides.png'
 import RemainFaithful from '../images/message/March30Message.png'
-// import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
-import Appeal from '../images/message/01.12.2025 - The Appeals to the Believers (1 John 23-17) - Bro. Jun Tan.png'
 import toOnlyGod from '../images/message/To the only God.png'
 import commitedExcellence from '../images/message/04.13.2025 - Commitment to Excellence - Bro. Ted Matira.png'
+import reflection from '../images/message/Easter Reflection.png'
+// import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
+// import GoTell from '../images/message/Go and Tell.pptx.png'
+// import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
+// import beOnGuardThree from '../images/message/Nov 17, 2024 Message.png'
+// import LiveGodsGlory from '../images/message/12.01.2024 - 2 Peter 3.png'
+// import Appeal from '../images/message/01.12.2025 - The Appeals to the Believers (1 John 23-17) - Bro. Jun Tan.png'
 // import newHope from '../images/message/Sept 08 Message.png'
 // import father from '../images/message/1 Peter 55-11.png'
 // import grateful from '../images/message/10-13-2024 - Not So Grateful.png'
@@ -44,6 +45,15 @@ import commitedExcellence from '../images/message/04.13.2025 - Commitment to Exc
 
 
 const allMessage = [
+    {
+          messageTitle: "Easter Reflection",
+          videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/3982864418526940",
+          imgUrl: reflection,
+          messageBy: 'Bro. Ted Matira',
+          datePosted: 'April 20, 2025',
+          imageSlide: 'https://www.canva.com/design/DAGlIrkqMFQ/Iv-DXejUeG25vSCbOaG0zQ/view?utm_content=DAGlIrkqMFQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86d0f0cc7d',
+          description: `But on the first day of the week, at early dawn, the women went to the tomb bringing the spices which they had prepared [to finish anointing the body]. 2 And they found the [large, circular] stone rolled back from the tomb, 3 but when they went inside, they did not find the body of the Lord Jesus.`
+      },
     {
         messageTitle: "A Commitment to Excellence",
         videoUrl: "https://www.youtube.com/live/qJsCXIrEnvw",
@@ -115,16 +125,17 @@ const allMessage = [
           datePosted: 'Jan 12, 2025',
           imageSlide: 'https://www.canva.com/design/DAGbvun4cgc/LZpdts0Me6iIZV8M82UKBw/view?utm_content=DAGbvun4cgc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h65cdffa334',
           description: `That which was from the beginning, which we have heard, which we have seen with our eyes, which we have looked at and our hands have touched—this we proclaim concerning the Word of life. `
-      },
-      {
-          messageTitle: "The Appeals to the Believers",
-          videoUrl: "https://youtu.be/Nj69hwtiqeE",
-          imgUrl: Appeal,
-          messageBy: 'Bro. Jun Tan',
-          datePosted: 'Jan 12, 2025',
-          imageSlide: 'https://www.canva.com/design/DAGcAZoVenE/20R4FIAu_2oDF4mOFVYpGw/view?utm_content=DAGcAZoVenE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h311254812f',
-          description: `To assure the believer that they have eternal life in Jesus Christ who has come in the flesh and refute those who denied Jesus Christ as the Messiah`
       }
+      // ,
+      // {
+      //     messageTitle: "The Appeals to the Believers",
+      //     videoUrl: "https://youtu.be/Nj69hwtiqeE",
+      //     imgUrl: Appeal,
+      //     messageBy: 'Bro. Jun Tan',
+      //     datePosted: 'Jan 12, 2025',
+      //     imageSlide: 'https://www.canva.com/design/DAGcAZoVenE/20R4FIAu_2oDF4mOFVYpGw/view?utm_content=DAGcAZoVenE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h311254812f',
+      //     description: `To assure the believer that they have eternal life in Jesus Christ who has come in the flesh and refute those who denied Jesus Christ as the Messiah`
+      // }
     //   ,
     //   {
     //       messageTitle: "The Credibility of the Eyewitnesses",
