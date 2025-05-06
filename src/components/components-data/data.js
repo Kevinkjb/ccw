@@ -1,16 +1,16 @@
 
 
-import excellentSpirit from '../../images/message/April 27, 2025 Message.png'
+import excellentSpirit from '../../images/message/05.04.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
 
 const latestMessage = [
     {
-        messageTitle: "How to have an Excellent Spirit?",
-        videoUrl: "https://www.youtube.com/watch?v=BEL5N2YT2yE",
+        messageTitle: "Excellence in Stewardship",
+        videoUrl: "https://www.youtube.com/watch?v=QpAyjnUMBaA",
         imgUrl: excellentSpirit,
-        messageBy: 'Bro. Harry Nietes',
-        datePosted: 'April 27, 2025',
-        imageSlide: 'https://www.canva.com/design/DAGlxKSEXHY/Q7o9DrydcB20L3YgIxK47g/view?utm_content=DAGlxKSEXHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h394c5ee045',
-        description: `Then I said to them, “You see the trouble we are in: Jerusalem lies in ruins, and its gates have been burned with fire. Come, let us rebuild the wall of Jerusalem, and we will no longer be in disgrace.”`
+        messageBy: 'Bro. Boni Somook',
+        datePosted: 'May 04, 2025',
+        imageSlide: 'https://www.canva.com/design/DAGmfkSTgdY/16iChraUu63_fmkpaVZs8Q/view?utm_content=DAGmfkSTgdY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4624752cf8',
+        description: `His master replied, Well done, good and faithful servant! You have been faithful with a few things; I will put you in charge of many things. Come and share your master’s happiness!`
     }
 ]
 

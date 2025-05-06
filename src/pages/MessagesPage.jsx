@@ -1,6 +1,6 @@
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
-import Credibility from '../images/message/Jan 05, 2024 - Sunday Message.png'
+// import Credibility from '../images/message/Jan 05, 2024 - Sunday Message.png'
 import NewLifeChrist from '../images/message/Cream Purple Abstract Thesis Defense Presentation.png'
 import KnowingGod from '../images/message/Sunday Sermon.png'
 import AllMessages from "../components/messages/AllMessages"
@@ -10,6 +10,7 @@ import RemainFaithful from '../images/message/March30Message.png'
 import toOnlyGod from '../images/message/To the only God.png'
 import commitedExcellence from '../images/message/04.13.2025 - Commitment to Excellence - Bro. Ted Matira.png'
 import reflection from '../images/message/Easter Reflection.png'
+import excellentSpirit from '../images/message/April 27, 2025 Message.png'
 // import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
 // import GoTell from '../images/message/Go and Tell.pptx.png'
 // import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
@@ -45,6 +46,15 @@ import reflection from '../images/message/Easter Reflection.png'
 
 
 const allMessage = [
+    {
+          messageTitle: "How to have an Excellent Spirit?",
+          videoUrl: "https://www.youtube.com/watch?v=BEL5N2YT2yE",
+          imgUrl: excellentSpirit,
+          messageBy: 'Bro. Harry Nietes',
+          datePosted: 'April 27, 2025',
+          imageSlide: 'https://www.canva.com/design/DAGlxKSEXHY/Q7o9DrydcB20L3YgIxK47g/view?utm_content=DAGlxKSEXHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h394c5ee045',
+          description: `Then I said to them, “You see the trouble we are in: Jerusalem lies in ruins, and its gates have been burned with fire. Come, let us rebuild the wall of Jerusalem, and we will no longer be in disgrace.”`
+      },
     {
           messageTitle: "Easter Reflection",
           videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/3982864418526940",
@@ -116,16 +126,17 @@ const allMessage = [
           datePosted: 'Feb 02, 2025',
           imageSlide: 'https://www.canva.com/design/DAGdzfNlfMo/ceGiW_mGBW26X-L9xGOqZA/view?utm_content=DAGdzfNlfMo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h20d0128b46',
           description: `See how very much our Father loves us, for he calls us his children, and that is what we are! But the people who belong to this world don’t recognize that we are God’s children because they don’t know him.`
-      },
-      {
-          messageTitle: "The Credibility of the Eyewitnesses",
-          videoUrl: "https://youtu.be/oPVRjttEfw4",
-          imgUrl: Credibility,
-          messageBy: 'Bro. Ted Matira',
-          datePosted: 'Jan 12, 2025',
-          imageSlide: 'https://www.canva.com/design/DAGbvun4cgc/LZpdts0Me6iIZV8M82UKBw/view?utm_content=DAGbvun4cgc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h65cdffa334',
-          description: `That which was from the beginning, which we have heard, which we have seen with our eyes, which we have looked at and our hands have touched—this we proclaim concerning the Word of life. `
       }
+      // ,
+      // {
+      //     messageTitle: "The Credibility of the Eyewitnesses",
+      //     videoUrl: "https://youtu.be/oPVRjttEfw4",
+      //     imgUrl: Credibility,
+      //     messageBy: 'Bro. Ted Matira',
+      //     datePosted: 'Jan 12, 2025',
+      //     imageSlide: 'https://www.canva.com/design/DAGbvun4cgc/LZpdts0Me6iIZV8M82UKBw/view?utm_content=DAGbvun4cgc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h65cdffa334',
+      //     description: `That which was from the beginning, which we have heard, which we have seen with our eyes, which we have looked at and our hands have touched—this we proclaim concerning the Word of life. `
+      // }
       // ,
       // {
       //     messageTitle: "The Appeals to the Believers",
