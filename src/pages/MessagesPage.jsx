@@ -1,7 +1,7 @@
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 // import Credibility from '../images/message/Jan 05, 2024 - Sunday Message.png'
-import NewLifeChrist from '../images/message/Cream Purple Abstract Thesis Defense Presentation.png'
+// import NewLifeChrist from '../images/message/Cream Purple Abstract Thesis Defense Presentation.png'
 import KnowingGod from '../images/message/Sunday Sermon.png'
 import AllMessages from "../components/messages/AllMessages"
 import ReasonWhy from '../images/message/March16Message.png'
@@ -11,6 +11,7 @@ import toOnlyGod from '../images/message/To the only God.png'
 import commitedExcellence from '../images/message/04.13.2025 - Commitment to Excellence - Bro. Ted Matira.png'
 import reflection from '../images/message/Easter Reflection.png'
 import excellentSpirit from '../images/message/April 27, 2025 Message.png'
+import excellentStewardship from '../images/message/05.04.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
 // import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
 // import GoTell from '../images/message/Go and Tell.pptx.png'
 // import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
@@ -46,6 +47,15 @@ import excellentSpirit from '../images/message/April 27, 2025 Message.png'
 
 
 const allMessage = [
+  {
+          messageTitle: "Excellence in Stewardship",
+          videoUrl: "https://www.youtube.com/watch?v=QpAyjnUMBaA",
+          imgUrl: excellentStewardship,
+          messageBy: 'Bro. Boni Somook',
+          datePosted: 'May 04, 2025',
+          imageSlide: 'https://www.canva.com/design/DAGmfkSTgdY/16iChraUu63_fmkpaVZs8Q/view?utm_content=DAGmfkSTgdY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4624752cf8',
+          description: `His master replied, Well done, good and faithful servant! You have been faithful with a few things; I will put you in charge of many things. Come and share your master’s happiness!`
+      },
     {
           messageTitle: "How to have an Excellent Spirit?",
           videoUrl: "https://www.youtube.com/watch?v=BEL5N2YT2yE",
@@ -117,16 +127,17 @@ const allMessage = [
           datePosted: 'Feb 09, 2025',
           imageSlide: 'https://www.canva.com/design/DAGee6ThwRc/nmP9eyC8rJKHk1Hz6Dlgeg/view?utm_content=DAGee6ThwRc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb50bcba3f4',
           description: ` Dear friends, let us continue to love one another, for love comes from God. Anyone who loves is a child of God and knows God. 8 But anyone who does not love does not know God, for God is love.`
-      },
-      {
-          messageTitle: "A New Life In Christ",
-          videoUrl: "https://www.youtube.com/live/ZIYMyeEQciw",
-          imgUrl: NewLifeChrist,
-          messageBy: 'Bro. Harry Nietes',
-          datePosted: 'Feb 02, 2025',
-          imageSlide: 'https://www.canva.com/design/DAGdzfNlfMo/ceGiW_mGBW26X-L9xGOqZA/view?utm_content=DAGdzfNlfMo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h20d0128b46',
-          description: `See how very much our Father loves us, for he calls us his children, and that is what we are! But the people who belong to this world don’t recognize that we are God’s children because they don’t know him.`
       }
+      // ,
+      // {
+      //     messageTitle: "A New Life In Christ",
+      //     videoUrl: "https://www.youtube.com/live/ZIYMyeEQciw",
+      //     imgUrl: NewLifeChrist,
+      //     messageBy: 'Bro. Harry Nietes',
+      //     datePosted: 'Feb 02, 2025',
+      //     imageSlide: 'https://www.canva.com/design/DAGdzfNlfMo/ceGiW_mGBW26X-L9xGOqZA/view?utm_content=DAGdzfNlfMo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h20d0128b46',
+      //     description: `See how very much our Father loves us, for he calls us his children, and that is what we are! But the people who belong to this world don’t recognize that we are God’s children because they don’t know him.`
+      // }
       // ,
       // {
       //     messageTitle: "The Credibility of the Eyewitnesses",
