@@ -21,11 +21,14 @@
     z-index: 2;
   }
   .event-image{
-    width: 20rem;
+    width: 30rem;
+    height: 30rem;
+    max-width: 100%;
+    object-fit: contain;
     margin-bottom: 2rem;
   }
   .modal-content{
-    width: 30rem;
+    width: 35rem;
     max-width: 100%;
 
     background-color: white;

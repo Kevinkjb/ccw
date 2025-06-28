@@ -138,6 +138,7 @@ const allMessage = [
           imageSlide: 'https://www.canva.com/design/DAGee6ThwRc/nmP9eyC8rJKHk1Hz6Dlgeg/view?utm_content=DAGee6ThwRc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb50bcba3f4',
           description: ` Dear friends, let us continue to love one another, for love comes from God. Anyone who loves is a child of God and knows God. 8 But anyone who does not love does not know God, for God is love.`
       }
+      
       // ,
       // {
       //     messageTitle: "A New Life In Christ",
@@ -533,8 +534,10 @@ const MessagesPage = () => {
               message={item.messageBy}
               imageSlide={item.imageSlide}
             />
+            
           ))
         }
+
       </div>
     
 
