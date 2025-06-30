@@ -2,7 +2,7 @@ import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 // import Credibility from '../images/message/Jan 05, 2024 - Sunday Message.png'
 // import NewLifeChrist from '../images/message/Cream Purple Abstract Thesis Defense Presentation.png'
-import KnowingGod from '../images/message/Sunday Sermon.png'
+// import KnowingGod from '../images/message/Sunday Sermon.png'
 import AllMessages from "../components/messages/AllMessages"
 import ReasonWhy from '../images/message/March16Message.png'
 import LoveAndTruth from '../images/message/When Love Collides.png'
@@ -13,6 +13,7 @@ import reflection from '../images/message/Easter Reflection.png'
 import excellentSpirit from '../images/message/April 27, 2025 Message.png'
 import spiritOfExcellence from '../images/message/05.18.2025 - Spirit of Excellence Joseph - Bro. Marvin Risto.png'
 import excellentStewardship from '../images/message/05.04.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
+import excellenceStewardship2 from '../images/message/06.22.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
 // import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
 // import GoTell from '../images/message/Go and Tell.pptx.png'
 // import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
@@ -48,6 +49,15 @@ import excellentStewardship from '../images/message/05.04.2025 - Excellence in S
 
 
 const allMessage = [
+  {
+          messageTitle: "Excellence in Stewardship",
+          videoUrl: "https://www.youtube.com/watch?v=rM9WlUnNg3c",
+          imgUrl: excellenceStewardship2,
+          messageBy: 'Bro. Boni Somook',
+          datePosted: 'June 22, 2025',
+          imageSlide: 'https://www.canva.com/design/DAGrA7nGYRA/KogGgL8C7cKfCK8yINNa6Q/view?utm_content=DAGrA7nGYRA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3ee4ef5051',
+          description: `We are stewards of One who is EXCELLENT in every way, every time, and in anything.`
+      },
   {
       messageTitle: "Spirit of Excellence",
       videoUrl: "https://www.youtube.com/watch?v=MOWugjkAv3E",
@@ -128,16 +138,17 @@ const allMessage = [
           datePosted: 'March 02, 2025',
           imageSlide: 'https://www.canva.com/design/DAGgddP_wIs/0Gv574jRCbz-hdHlWQgnpA/view?utm_content=DAGgddP_wIs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1a3232b4d4',
           description: `It has given me great joy to find some of your children walking in the truth, just as the Father commanded us.`
-      },
-      {
-          messageTitle: "Knowing God Through Love",
-          videoUrl: "https://www.youtube.com/watch?v=z3M1kwVH_uY",
-          imgUrl: KnowingGod,
-          messageBy: 'Bro. Bong Aguiao',
-          datePosted: 'Feb 09, 2025',
-          imageSlide: 'https://www.canva.com/design/DAGee6ThwRc/nmP9eyC8rJKHk1Hz6Dlgeg/view?utm_content=DAGee6ThwRc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb50bcba3f4',
-          description: ` Dear friends, let us continue to love one another, for love comes from God. Anyone who loves is a child of God and knows God. 8 But anyone who does not love does not know God, for God is love.`
       }
+      // ,
+      // {
+      //     messageTitle: "Knowing God Through Love",
+      //     videoUrl: "https://www.youtube.com/watch?v=z3M1kwVH_uY",
+      //     imgUrl: KnowingGod,
+      //     messageBy: 'Bro. Bong Aguiao',
+      //     datePosted: 'Feb 09, 2025',
+      //     imageSlide: 'https://www.canva.com/design/DAGee6ThwRc/nmP9eyC8rJKHk1Hz6Dlgeg/view?utm_content=DAGee6ThwRc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb50bcba3f4',
+      //     description: ` Dear friends, let us continue to love one another, for love comes from God. Anyone who loves is a child of God and knows God. 8 But anyone who does not love does not know God, for God is love.`
+      // }
       
       // ,
       // {

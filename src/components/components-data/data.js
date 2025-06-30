@@ -1,16 +1,16 @@
 
 
-import excellenceStewardship from '../../images/message/06.22.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
+import excellenceGod from '../../images/message/June 29, 2025 - Sunday Service.png'
 
 const latestMessage = [
     {
-        messageTitle: "Excellence in Stewardship",
-        videoUrl: "https://www.youtube.com/watch?v=rM9WlUnNg3c",
-        imgUrl: excellenceStewardship,
-        messageBy: 'Bro. Boni Somook',
-        datePosted: 'June 22, 2025',
-        imageSlide: 'https://www.canva.com/design/DAGrA7nGYRA/KogGgL8C7cKfCK8yINNa6Q/view?utm_content=DAGrA7nGYRA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3ee4ef5051',
-        description: `We are stewards of One who is EXCELLENT in every way, every time, and in anything.`
+        messageTitle: "Excellence to Reflect God’s Glory and Greatness",
+        videoUrl: "https://www.youtube.com/watch?v=JOr91zOray8",
+        imgUrl: excellenceGod,
+        messageBy: 'Bro. Marvin Risto',
+        datePosted: 'June 29, 2025',
+        imageSlide: 'https://www.canva.com/design/DAGrsV0_YxY/6CFBExyPBLLAMtSnFBRI5A/view?utm_content=DAGrsV0_YxY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hee8c4fceaa',
+        description: `For I have come down from heaven not to do my will but to do the will of him who sent me.`
     }
 ]
 
