@@ -81,14 +81,7 @@
 
 /* GIVING VERSE RESPONSIVE SECTION */
 
-@media screen and (max-width: 1200px){
-    html, body{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-    }
-}
+
 @media screen and (max-width: 980px){
     .verse{
         font-size: 1.25rem;

@@ -115,14 +115,6 @@
 
 
 
-@media screen and (max-width: 1200px){
-    html, body{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-    }
-}
 
 @media screen and (max-width: 1180px) {
     .footer-section{
@@ -136,6 +128,16 @@
     }
 
 }
+@media screen and (max-width: 900px) {
+  .copyright-footer{
+    line-height: 1.8;
+    width: 35rem;
+    max-width: 100%;
+    text-align: center;
+}
+
+}
+
 
 @media screen and (max-width: 640px) {
     .footer-section{

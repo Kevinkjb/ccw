@@ -5,7 +5,7 @@ import Footer from "../components/footer/Footer"
 // import KnowingGod from '../images/message/Sunday Sermon.png'
 import AllMessages from "../components/messages/AllMessages"
 import ReasonWhy from '../images/message/March16Message.png'
-import LoveAndTruth from '../images/message/When Love Collides.png'
+// import LoveAndTruth from '../images/message/When Love Collides.png'
 import RemainFaithful from '../images/message/March30Message.png'
 import toOnlyGod from '../images/message/To the only God.png'
 import commitedExcellence from '../images/message/04.13.2025 - Commitment to Excellence - Bro. Ted Matira.png'
@@ -14,6 +14,7 @@ import excellentSpirit from '../images/message/April 27, 2025 Message.png'
 import spiritOfExcellence from '../images/message/05.18.2025 - Spirit of Excellence Joseph - Bro. Marvin Risto.png'
 import excellentStewardship from '../images/message/05.04.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
 import excellenceStewardship2 from '../images/message/06.22.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
+import excellenceGod from '../images/message/June 29, 2025 - Sunday Service.png'
 // import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
 // import GoTell from '../images/message/Go and Tell.pptx.png'
 // import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
@@ -49,6 +50,15 @@ import excellenceStewardship2 from '../images/message/06.22.2025 - Excellence in
 
 
 const allMessage = [
+      {
+          messageTitle: "Excellence to Reflect God’s Glory and Greatness",
+          videoUrl: "https://www.youtube.com/watch?v=JOr91zOray8",
+          imgUrl: excellenceGod,
+          messageBy: 'Bro. Marvin Risto',
+          datePosted: 'June 29, 2025',
+          imageSlide: 'https://www.canva.com/design/DAGrsV0_YxY/6CFBExyPBLLAMtSnFBRI5A/view?utm_content=DAGrsV0_YxY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hee8c4fceaa',
+          description: `For I have come down from heaven not to do my will but to do the will of him who sent me.`
+      },
   {
           messageTitle: "Excellence in Stewardship",
           videoUrl: "https://www.youtube.com/watch?v=rM9WlUnNg3c",
@@ -92,7 +102,7 @@ const allMessage = [
           messageBy: 'Bro. Ted Matira',
           datePosted: 'April 20, 2025',
           imageSlide: 'https://www.canva.com/design/DAGlIrkqMFQ/Iv-DXejUeG25vSCbOaG0zQ/view?utm_content=DAGlIrkqMFQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86d0f0cc7d',
-          description: `But on the first day of the week, at early dawn, the women went to the tomb bringing the spices which they had prepared [to finish anointing the body]. 2 And they found the [large, circular] stone rolled back from the tomb, 3 but when they went inside, they did not find the body of the Lord Jesus.`
+          description: `But on the first day of the week, at early dawn, the women went to the tomb bringing the spices which they had prepared [to finish anointing the body].`
       },
     {
         messageTitle: "A Commitment to Excellence",
@@ -129,16 +139,17 @@ const allMessage = [
           datePosted: 'March 16, 2025',
           imageSlide: 'https://www.canva.com/design/DAGh2L3mdHc/U0EWMR4ENA-Bvoe9bh9RoA/view?utm_content=DAGh2L3mdHc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbaee692903',
           description: `Dear friends, although I was very eager to write to you about the salvation we share, I felt compelled to write and urge you to CONTEND FOR THE FAITH that was once for all entrusted to God’s holy people.`
-      },
-      {
-          messageTitle: "When Love & Truth Collides",
-          videoUrl: "https://www.youtube.com/watch?v=tgKzqRtP5e4&t=3232s",
-          imgUrl: LoveAndTruth,
-          messageBy: 'Bro. Ted Matira',
-          datePosted: 'March 02, 2025',
-          imageSlide: 'https://www.canva.com/design/DAGgddP_wIs/0Gv574jRCbz-hdHlWQgnpA/view?utm_content=DAGgddP_wIs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1a3232b4d4',
-          description: `It has given me great joy to find some of your children walking in the truth, just as the Father commanded us.`
       }
+      // ,
+      // {
+      //     messageTitle: "When Love & Truth Collides",
+      //     videoUrl: "https://www.youtube.com/watch?v=tgKzqRtP5e4&t=3232s",
+      //     imgUrl: LoveAndTruth,
+      //     messageBy: 'Bro. Ted Matira',
+      //     datePosted: 'March 02, 2025',
+      //     imageSlide: 'https://www.canva.com/design/DAGgddP_wIs/0Gv574jRCbz-hdHlWQgnpA/view?utm_content=DAGgddP_wIs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1a3232b4d4',
+      //     description: `It has given me great joy to find some of your children walking in the truth, just as the Father commanded us.`
+      // }
       // ,
       // {
       //     messageTitle: "Knowing God Through Love",

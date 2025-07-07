@@ -31,6 +31,7 @@ const Navbar = () => {
   const [navToggle, setNavToggle] = useState(false)
   const [activeItem, setActiveItem] = useState(null);
   const [companyDropDown, setcompanyDropDown] = useState(false);
+  const [scroll, setScroll] = useState(false)
   const location = useLocation();
   const closeMobile = () =>{
     scrollToTop()
@@ -62,66 +63,78 @@ const Navbar = () => {
     setActiveItem(lastPath || 'item1'); // Default to 'item1' if no path
   }, [location.pathname]);
 
-  return (
-    <nav className='nav-container'>
-      <div className="main-nav ">
-        <div className="logo">
-          <Link className='brand' to="/">
-            <img className='logo-img' src={logo} alt="ccw logo" />
-          </Link>
-        </div>
-        <ul className={`nav-item ${navToggle ? 'active' : ''}`} ref={ref}>
-          <li className='nav-list'>
-            <Link 
-            className={activeItem === 'item1' ? 'active' : 'nav-link'}
-            to="/" 
-            onClick={closeMobile}>
-            Home
-            </Link>
-          </li>
-          <li className='nav-list'>
-            <Link 
-            className={activeItem === 'about' ? 'active' : 'nav-link'}
-            to="/about" 
-            onClick={closeMobile}>About</Link>
-          </li>
-          {/* <li className='nav-list'>
-            <Link 
-            className={activeItem === 'events' ? 'active' : 'nav-link'}
-            to="/events" 
-            onClick={closeMobile}>Events</Link>
-          </li> */}
-          <li className='nav-list'>
-            <Link 
-            className={activeItem === 'messages' ? 'active' : 'nav-link'}
-            to="/messages" 
-            onClick={closeMobile}>Messages</Link>
-          </li>
-          <li className='nav-list'>
-            <Link 
-            className={activeItem === 'give' ? 'active' : 'nav-link'}
-            to="/give" 
-            onClick={closeMobile}>Give</Link>
-          </li>
-          <div className="nav-drop">
 
-            <li className='dropdown' onClick={() => setcompanyDropDown(!companyDropDown)}>{`What's New`} <img className='dropdown-icon' src={!companyDropDown ? arrowDown : arrowUp} alt="dropdown"/></li>
-            <CompanyToggle companyDropDown={companyDropDown}/>
+function setScrolled() {
+  if(window.scrollY >= 10){
+    setScroll(true)
+  } else{
+    setScroll(false)
+  }
+}
+window.addEventListener("scroll", setScrolled)
+
+  return (
+    
+    
+      <div className={scroll ? 'nav-container sticky' : 'nav-container'}>
+        <nav className='navbar'>
+          <div className="logo">
+            <Link className='brand' to="/">
+              <img className='logo-img' src={logo} alt="ccw logo" />
+            </Link>
           </div>
-          <li className='nav-list'>
-            <Link 
-            className={activeItem === 'contact' ? 'active' : 'nav-link'}
-            to="/contact" 
-            onClick={closeMobile}>Contact Us</Link>
-          </li>
-        </ul>
-        <div className="burger-menu" onClick={() => setNavToggle(!navToggle)}>
-          {navToggle ? <IoCloseSharp className='burger-item'/> : <GiHamburgerMenu className='burger-item'/>}
-          
-          
-        </div>
+            <ul className={`nav-item ${navToggle ? 'active' : ''}`} ref={ref}>
+              <li className='nav-list'>
+                <Link 
+                className={activeItem === 'item1' ? 'active' : 'nav-link'}
+                to="/" 
+                onClick={closeMobile}>
+                Home
+                </Link>
+              </li>
+              <li className='nav-list'>
+                <Link 
+                className={activeItem === 'about' ? 'active' : 'nav-link'}
+                to="/about" 
+                onClick={closeMobile}>About</Link>
+              </li>
+              {/* <li className='nav-list'>
+                <Link 
+                className={activeItem === 'events' ? 'active' : 'nav-link'}
+                to="/events" 
+                onClick={closeMobile}>Events</Link>
+              </li> */}
+              <li className='nav-list'>
+                <Link 
+                className={activeItem === 'messages' ? 'active' : 'nav-link'}
+                to="/messages" 
+                onClick={closeMobile}>Messages</Link>
+              </li>
+              <li className='nav-list'>
+                <Link 
+                className={activeItem === 'give' ? 'active' : 'nav-link'}
+                to="/give" 
+                onClick={closeMobile}>Give</Link>
+              </li>
+              <div className="nav-drop">
+
+                <li className='dropdown' onClick={() => setcompanyDropDown(!companyDropDown)}>{`What's New`} <img className='dropdown-icon' src={!companyDropDown ? arrowDown : arrowUp} alt="dropdown"/></li>
+                <CompanyToggle companyDropDown={companyDropDown}/>
+              </div>
+              <li className='nav-list'>
+                <Link 
+                className={activeItem === 'contact' ? 'active' : 'nav-link'}
+                to="/contact" 
+                onClick={closeMobile}>Contact Us</Link>
+              </li>
+              
+            </ul>
+              <div className="burger-menu" onClick={() => setNavToggle(!navToggle)}>
+                {navToggle ? <IoCloseSharp className='burger-item'/> : <GiHamburgerMenu className='burger-item'/>}
+              </div>
+          </nav>
       </div>
-    </nav>
+   
   );
 };
 
