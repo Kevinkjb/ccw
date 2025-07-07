@@ -1,6 +1,6 @@
 
 .hero-container{
-  background-position: center;
+  background-position: 100% 70%;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../../images/hero/hero.jpg');
+  background-image: url('../../images/hero/camp.jpg');
   position: relative;
   z-index: 1;
   padding: 3rem;
@@ -154,6 +154,7 @@
   }
   .hero-container{
     height: 35rem;
+    background-position: center;
   }
   .title-section{
     width: 23rem;
