@@ -11,7 +11,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .nav-container.sticky{
-  color: white;
+  /* color: white; */
   transition: all .3s ease;
   height: 4.7rem;
   top: 0;
@@ -68,6 +68,8 @@
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 1px;
+    text-align: left;
+
 }
 /* BURGER MENU */
 .burger-menu{
@@ -78,29 +80,65 @@
     font-size: 1.5rem;
 }
 
-/* COMPANY */
-.company{
+/* DROPDOWN SECTION CSS */
+.event-box{
     font-size: 13px;
     position: relative;
-    right: 9rem;
-    top: 1.5rem;
+    right: 8.2rem;
+    top: 2.2rem;
 
+}
+.connect-box{
+    font-size: 1rem;
+    position: relative;
+    right: 7rem;
+    top: 2.2rem; 
+}
+.nav-box{
+    font-size: 1rem;
+    position: relative;
+    right: 7.5rem;
+    top: 2.2rem;
 }
 .nav-drop{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.company-container{
+.connect-items{
+    width: 100%;
+    margin: 0 auto;
+}
+.event-items{
+    width: 10rem;
+    margin: 0 auto;
+}
+.navbox-items{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.connect-container,
+.navbox-container,
+.event-container{
     position: absolute;
     padding: 13px;
     width: 10rem;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     background-color: #fff;
     color: hsl(0, 0%, 41%);
     z-index: 9999;
-    
+}
+
+.connect-container{
+    width: 18rem;
+}
+.navbox-container{
+    width: 14rem;
+}
+
+.event-container{
+    width: 10rem;
 }
 
 .dropdown-icon{
@@ -123,10 +161,7 @@
     list-style: none;
     cursor: pointer;
 }
-.company-box{
-    width: 10rem;
-    margin: 0 auto;
-}
+
 .news-link{
     color: #22263E;
     text-decoration: none;
@@ -143,10 +178,29 @@
     color: #B58810;
     cursor: pointer;
 }
+/* Wrapper that handles the animation */
+.dropdown-content-wrapper {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out, opacity 0.3s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+}
 
-@media screen and (max-width: 820px) {
+/* When open */
+.dropdown-content-wrapper.open {
+  max-height: 500px; /* or more if needed */
+  opacity: 1;
+  pointer-events: auto;
+}
 
-
+@media screen and (max-width: 870px) {
+    .nav-box{
+        right: 10rem;
+    }
+     .connect-box{
+        right: 13rem;
+    }
 
     .burger-menu{
         display: flex;
@@ -154,34 +208,102 @@
         align-items: center;
 
     }
-  .nav-item{
-    display: none;
+    .nav-item{
+        display: none;
+    }
+
+    .nav-item.active {
+        position: fixed; /* Fix the menu position */
+        top: 4.5rem; /* Offset from the fixed nav */
+        right: 0;
+        width: 100%;
+        height: calc(100% - 1rem); /* Adjust height */
+        background-color: #fff; /* Match the scrolled nav background */
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        flex-direction: column;
+        z-index: 999; /* Ensure it's above other content */
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 24px;
+        overflow-y: auto;
+        transition: all 0.3s ease-in-out;
+        padding-left: 0;
+        height: 60%;
+        color: black;
+        margin: 0;
+        padding: 1.5rem;
+    }
+.nav-drop {
+    width: 100%;
+    position: relative;
+  }
+  .nav-link{
+        padding: 1rem;
   }
 
+  .dropdown {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: #f5f5f5;
+  }
+
+  /* Dropdown containers */
+  .nav-box,
+  .event-box,
+  .connect-box {
+    position: static; /* So it flows naturally in mobile view */
+    width: 100%;
+    background-color: #fff;
+
+    box-shadow: none;
+
+
+  }
+
+  .navbox-items,
+  .event-items,
+  .connect-items {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1rem 0;
+    width: 100%;
+
+  }
+
+  .news-link {
+    width: 100%;
+    display: block;
+    color: #333;
+    text-decoration: none;
+  }
     .nav-item {
-        display: flex;
-        align-items: center;
-        padding:  2rem;
-        justify-content: space-around;
-        flex-direction: column;
-        position: absolute;
-        top: 4.2rem ;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+  }
+
+  .nav-list, .nav-drop {
+    width: 100%;
+    flex-direction: column;
+  }
+    .connect-container,
+    .navbox-container,
+    .event-container,
+    .nav-link {
+        position: static;
+
         width: 100%;
-        right: 0;
-        max-width: 100%;
-        height: 25rem;
-        background-color: #fff;
-        z-index: 999;
-        opacity: 0;
-        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+        box-shadow: none;
+  }
+  .active{
+    padding: 1rem;
+    width: 100%;
     }
-    .nav-item.active {
-        top: 4rem ; ; /* Show the menu when active */
-        opacity: 1;
-        right: 0;
-        width: 100%;
-        margin: 0;
-        color: black;
-      }
 
 }

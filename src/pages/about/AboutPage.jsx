@@ -28,7 +28,7 @@ const AboutPage = () => {
   return (
     <div>
       <section className="hero-section">
-        <h1 className='about-hero-title'>Who We Are</h1>
+        <h1 className='about-hero-title'>About Us</h1>
       </section>
       {/* ABOUT SECTION */}
         <div className='about-section'>

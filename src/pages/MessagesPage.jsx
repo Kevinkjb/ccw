@@ -1,11 +1,6 @@
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
-// import Credibility from '../images/message/Jan 05, 2024 - Sunday Message.png'
-// import NewLifeChrist from '../images/message/Cream Purple Abstract Thesis Defense Presentation.png'
-// import KnowingGod from '../images/message/Sunday Sermon.png'
 import AllMessages from "../components/messages/AllMessages"
-import ReasonWhy from '../images/message/March16Message.png'
-// import LoveAndTruth from '../images/message/When Love Collides.png'
 import RemainFaithful from '../images/message/March30Message.png'
 import toOnlyGod from '../images/message/To the only God.png'
 import commitedExcellence from '../images/message/04.13.2025 - Commitment to Excellence - Bro. Ted Matira.png'
@@ -15,6 +10,7 @@ import spiritOfExcellence from '../images/message/05.18.2025 - Spirit of Excelle
 import excellentStewardship from '../images/message/05.04.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
 import excellenceStewardship2 from '../images/message/06.22.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
 import excellenceGod from '../images/message/June 29, 2025 - Sunday Service.png'
+import excellenceGodPt2 from '../images/message/July 06 2025.png'
 // import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
 // import GoTell from '../images/message/Go and Tell.pptx.png'
 // import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
@@ -47,9 +43,22 @@ import excellenceGod from '../images/message/June 29, 2025 - Sunday Service.png'
 // import liveAndShare from '../images/message/BRO. Bong Easter Sunday.png'
 // import ValuesOfWisdom from '../images/message/The Values of Wisdom.png'
 // import togetherTwo from '../images/message/07.28.2024 - Bro. Boni Somook.png'
-
+// import ReasonWhy from '../images/message/March16Message.png'
+// import LoveAndTruth from '../images/message/When Love Collides.png'
+// import Credibility from '../images/message/Jan 05, 2024 - Sunday Message.png'
+// import NewLifeChrist from '../images/message/Cream Purple Abstract Thesis Defense Presentation.png'
+// import KnowingGod from '../images/message/Sunday Sermon.png'
 
 const allMessage = [
+   {
+          messageTitle: "Defining Excellence",
+          videoUrl: "https://youtu.be/A4tEs1RJNuA",
+          imgUrl: excellenceGodPt2,
+          messageBy: 'Bro. Rodolfo Aguiao',
+          datePosted: 'July 06, 2025',
+          imageSlide: 'https://www.canva.com/design/DAGsOLsshy8/_kqeLSv_AyqEFiPMdfsh9g/view?utm_content=DAGsOLsshy8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4d27f8db7b',
+          description: `Work willingly at whatever you do, as though you were working for the Lord rather than for people.`
+      },
       {
           messageTitle: "Excellence to Reflect God’s Glory and Greatness",
           videoUrl: "https://www.youtube.com/watch?v=JOr91zOray8",
@@ -130,16 +139,17 @@ const allMessage = [
           datePosted: 'March 30, 2025',
           imageSlide: 'https://www.canva.com/design/DAGjJIk_Nfo/IXtayrbpi6fZy6rzQLaxQw/view?utm_content=DAGjJIk_Nfo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h73cf7d00fa',
           description: `But you, dear friends, must build each other up in your most holy faith, How do we do build each other up? By his Holy Word, by knowing more of Jesus Christ.`
-      },
-      {
-          messageTitle: "Here's The Reason Why",
-          videoUrl: "https://youtube.com/live/xNxB-HF13pE",
-          imgUrl: ReasonWhy,
-          messageBy: 'Bro. Boni Somook',
-          datePosted: 'March 16, 2025',
-          imageSlide: 'https://www.canva.com/design/DAGh2L3mdHc/U0EWMR4ENA-Bvoe9bh9RoA/view?utm_content=DAGh2L3mdHc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbaee692903',
-          description: `Dear friends, although I was very eager to write to you about the salvation we share, I felt compelled to write and urge you to CONTEND FOR THE FAITH that was once for all entrusted to God’s holy people.`
       }
+      // ,
+      // {
+      //     messageTitle: "Here's The Reason Why",
+      //     videoUrl: "https://youtube.com/live/xNxB-HF13pE",
+      //     imgUrl: ReasonWhy,
+      //     messageBy: 'Bro. Boni Somook',
+      //     datePosted: 'March 16, 2025',
+      //     imageSlide: 'https://www.canva.com/design/DAGh2L3mdHc/U0EWMR4ENA-Bvoe9bh9RoA/view?utm_content=DAGh2L3mdHc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbaee692903',
+      //     description: `Dear friends, although I was very eager to write to you about the salvation we share, I felt compelled to write and urge you to CONTEND FOR THE FAITH that was once for all entrusted to God’s holy people.`
+      // }
       // ,
       // {
       //     messageTitle: "When Love & Truth Collides",

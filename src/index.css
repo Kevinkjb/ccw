@@ -6,6 +6,8 @@
   --text-light-color: rgba(0, 0, 0, .6);
   --text-color: #22263E;
   --text-shadow-color: #808080;
+  --white-color: #fff;
+  --error-color: red;
 }
 *{
   box-sizing: border-box;

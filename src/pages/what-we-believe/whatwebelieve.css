@@ -1,0 +1,75 @@
+.what-we-believe-container{
+    padding: 1rem;
+}
+
+.statement-container,
+.believe-section{
+    width: 70rem;
+    max-width: 100%;
+    margin: 0 auto;
+
+}
+.believe-statement-container{
+    margin: 5rem 0;
+}
+.statement-text{
+    width: 100%;
+    line-height: 1.8;
+    margin: 1.5rem auto;
+}
+.header-title-section{
+    width: 70rem;
+    max-width: 100%;
+    margin: 3rem auto 0 auto;
+
+}
+.statement-title{
+    font-size: 2rem;
+}
+.believe-text{
+    width: 100%;
+    line-height: 1.8;
+    margin: 1.5rem auto;
+}
+.ordinances-info{
+    width: 70rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.ordinances-info .ordinances-item{
+    width: 67rem;
+    max-width: 100%;
+    line-height: 1.8;
+    margin: 0 auto;
+        padding: 1rem;
+}
+.ordinances-list{
+    margin: 1rem 0;
+}
+.ordinances-text{
+    width: 100%;
+    max-width: 100%;
+    line-height: 1.8;
+}
+.ordinances-text b,
+.believe-text b{
+    font-size: 1.2rem;
+}
+
+.bible-link{
+    color: var(--main-theme-color);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 450px) {
+    .statement-title{
+        font-size: 1.5rem;
+
+    }
+    .statement-text,
+    .believe-text,
+    .ordinances-text,
+    .ordinances-list{
+        font-size: .9rem;
+    }
+}
