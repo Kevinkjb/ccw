@@ -219,6 +219,7 @@ const FirstTimeGuest = () => {
 
           {/* HOW DID YOU HEAR ABOUT US */}
           <div className="guest-input-box">
+            <p>How did you hear about us?</p>
             <div className="guest-box-container">
               {['Website', 'Social Media', 'Family/Friends', 'Other'].map((option, i) => (
                 <div className="guest-checkbox" key={i}>

@@ -13,6 +13,21 @@ const AcceptedJesusForm = () => {
         select_attend: '',
         user_city: ''
 });
+//   const handleCheckboxChange = (e, groupName) => {
+//     const value = e.target.value;
+//     const checked = e.target.checked;
+
+//     setFormData(prev => {
+//       const updatedArray = checked
+//         ? [...prev[groupName], value]
+//         : prev[groupName].filter(item => item !== value);
+
+//       return {
+//         ...prev,
+//         [groupName]: updatedArray
+//       };
+//     });
+//   };
 
 
   const handleChange = (e) => {
@@ -80,6 +95,12 @@ const validateForm = () => {
             <div className="guest-header-container">
                 <img style={{width: '40rem', maxWidth: '100%'}} className='yes-img' src={yesImage} alt="" />
             </div>
+            <p className='accepted-text'>
+               {` This is the most important decision of your life, and we’re so excited to walk with you on this new journey of faith. 
+                You’re not alone—let us help you take your next steps as you grow closer to God. 
+                Whether it's baptism, joining a Bible study, or connecting with a church family, 
+                we’re here for you. We invite you to reach out and take the next step today!`}
+            </p>
             <div className="guest-form">
                 <form className='guest-form-info' ref={form} onSubmit={sendEmail}>
 
@@ -164,6 +185,40 @@ const validateForm = () => {
                         </select>
                         {errors.select_attend && <p className="error-text">{errors.select_attend}</p>}
                     </div>
+                    {/* NEXT STEPS */}
+                    {/* <div className="guest-input-box">
+                    <p>Next Steps...</p>
+                    <div className="guest-next-container">
+                    <div className="guest-checkbox">
+                        <input
+                        type="checkbox"
+                        id="step_biblestudy"
+                        value="I'd like to join a Bible Study group"
+                        onChange={(e) => handleCheckboxChange(e, 'next_steps')}
+                        />
+                        <label htmlFor="step_biblestudy">{`Guide your walk with Jesus`}</label>
+                    </div>
+                    <div className="guest-checkbox">
+                        <input
+                        type="checkbox"
+                        id="step_ministry"
+                        value="I'd like to serve in a ministry"
+                        onChange={(e) => handleCheckboxChange(e, 'next_steps')}
+                        />
+                        <label htmlFor="step_ministry">{`I'd like to serve in a ministry`}</label>
+                    </div>
+                    <div className="guest-checkbox">
+                        <input
+                        type="checkbox"
+                        id="step_baptism"
+                        value="I'd like to be baptized"
+                        onChange={(e) => handleCheckboxChange(e, 'next_steps')}
+                        />
+                        <label htmlFor="step_baptism">{`I'd like to be baptized`}</label>
+                    </div>
+                    </div>
+                    {errors.next_steps && <p className="error-text">{errors.next_steps}</p>}
+                    </div> */}
 
                 <div className="guest-input">
                     <button type="submit" className="guest-button">Yes to Jesus</button>
