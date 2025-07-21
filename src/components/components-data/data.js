@@ -1,16 +1,16 @@
 
 
-import helpingOthers from '../../images/message/July 13, 2025.png'
+import pursuingExcellence from '../../images/message/Pursue Excellence in All We Do.png'
 
 const latestMessage = [
     {
         messageTitle: "Excellence In Helping Others",
-        videoUrl: "https://www.youtube.com/watch?v=vgW3qz6TBz0",
-        imgUrl: helpingOthers,
-        messageBy: 'Bro. Joshua and Sis. Jazzlee',
-        datePosted: 'July 13, 2025',
-        imageSlide: 'https://www.canva.com/design/DAGs09I8Ytk/xQeaQ1-dB2ZIAnd2JxQR1g/view?utm_content=DAGs09I8Ytk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h709295e6a3',
-        description: `IN HELPING OTHERS, EVEN THOSE THAT MESS UP, FALL SHORT OR ARE HARD TO LOVE.`
+        videoUrl: "https://www.youtube.com/watch?v=uEl9eA9apnA",
+        imgUrl: pursuingExcellence,
+        messageBy: 'Bro. Harry Nietes',
+        datePosted: 'July 20, 2025',
+        imageSlide: 'https://www.canva.com/design/DAGtoN6pJTo/byuOG-Gufp1YXPCY_3dVIw/view?utm_content=DAGtoN6pJTo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5dbc08fff6',
+        description: ` Excellence involves the highest standard of character, diligence and integrity in every aspect of our life. It comes from the heart shaped by devotion to what is true, worthy and persistent. `
     }
 ]
 

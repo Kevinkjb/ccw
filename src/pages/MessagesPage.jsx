@@ -1,7 +1,7 @@
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 import AllMessages from "../components/messages/AllMessages"
-import RemainFaithful from '../images/message/March30Message.png'
+// import RemainFaithful from '../images/message/March30Message.png'
 import toOnlyGod from '../images/message/To the only God.png'
 import commitedExcellence from '../images/message/04.13.2025 - Commitment to Excellence - Bro. Ted Matira.png'
 import reflection from '../images/message/Easter Reflection.png'
@@ -11,6 +11,7 @@ import excellentStewardship from '../images/message/05.04.2025 - Excellence in S
 import excellenceStewardship2 from '../images/message/06.22.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
 import excellenceGod from '../images/message/June 29, 2025 - Sunday Service.png'
 import excellenceGodPt2 from '../images/message/July 06 2025.png'
+import helpingOthers from '../images/message/July 13, 2025.png'
 // import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
 // import GoTell from '../images/message/Go and Tell.pptx.png'
 // import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
@@ -50,6 +51,15 @@ import excellenceGodPt2 from '../images/message/July 06 2025.png'
 // import KnowingGod from '../images/message/Sunday Sermon.png'
 
 const allMessage = [
+      {
+          messageTitle: "Excellence In Helping Others",
+          videoUrl: "https://www.youtube.com/watch?v=vgW3qz6TBz0",
+          imgUrl: helpingOthers,
+          messageBy: 'Bro. Joshua and Sis. Jazzlee',
+          datePosted: 'July 13, 2025',
+          imageSlide: 'https://www.canva.com/design/DAGs09I8Ytk/xQeaQ1-dB2ZIAnd2JxQR1g/view?utm_content=DAGs09I8Ytk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h709295e6a3',
+          description: `IN HELPING OTHERS, EVEN THOSE THAT MESS UP, FALL SHORT OR ARE HARD TO LOVE.`
+      },
    {
           messageTitle: "Defining Excellence",
           videoUrl: "https://youtu.be/A4tEs1RJNuA",
@@ -130,16 +140,17 @@ const allMessage = [
           datePosted: 'April 06, 2025',
           imageSlide: 'https://www.canva.com/design/DAGjtL2IfYo/218RbOFdU5FiO53OoLlVDA/view?utm_content=DAGjtL2IfYo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8da36c95e1',
           description: `Now all glory to God, who is able to keep you from falling away and will bring you with great joy into his glorious presence without a single fault`
-      },
-      {
-          messageTitle: "A Call To Remain Faithful",
-          videoUrl: "https://www.youtube.com/watch?v=YbOvJ8zP3K0",
-          imgUrl: RemainFaithful,
-          messageBy: 'Bro. Bong Aguiao',
-          datePosted: 'March 30, 2025',
-          imageSlide: 'https://www.canva.com/design/DAGjJIk_Nfo/IXtayrbpi6fZy6rzQLaxQw/view?utm_content=DAGjJIk_Nfo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h73cf7d00fa',
-          description: `But you, dear friends, must build each other up in your most holy faith, How do we do build each other up? By his Holy Word, by knowing more of Jesus Christ.`
       }
+      // ,
+      // {
+      //     messageTitle: "A Call To Remain Faithful",
+      //     videoUrl: "https://www.youtube.com/watch?v=YbOvJ8zP3K0",
+      //     imgUrl: RemainFaithful,
+      //     messageBy: 'Bro. Bong Aguiao',
+      //     datePosted: 'March 30, 2025',
+      //     imageSlide: 'https://www.canva.com/design/DAGjJIk_Nfo/IXtayrbpi6fZy6rzQLaxQw/view?utm_content=DAGjJIk_Nfo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h73cf7d00fa',
+      //     description: `But you, dear friends, must build each other up in your most holy faith, How do we do build each other up? By his Holy Word, by knowing more of Jesus Christ.`
+      // }
       // ,
       // {
       //     messageTitle: "Here's The Reason Why",
