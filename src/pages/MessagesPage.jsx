@@ -1,8 +1,7 @@
 import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 import AllMessages from "../components/messages/AllMessages"
-// import RemainFaithful from '../images/message/March30Message.png'
-import toOnlyGod from '../images/message/To the only God.png'
+
 import commitedExcellence from '../images/message/04.13.2025 - Commitment to Excellence - Bro. Ted Matira.png'
 import reflection from '../images/message/Easter Reflection.png'
 import excellentSpirit from '../images/message/April 27, 2025 Message.png'
@@ -12,6 +11,9 @@ import excellenceStewardship2 from '../images/message/06.22.2025 - Excellence in
 import excellenceGod from '../images/message/June 29, 2025 - Sunday Service.png'
 import excellenceGodPt2 from '../images/message/July 06 2025.png'
 import helpingOthers from '../images/message/July 13, 2025.png'
+import pursuingExcellence from '../images/message/Pursue Excellence in All We Do.png'
+// import RemainFaithful from '../images/message/March30Message.png'
+// import toOnlyGod from '../images/message/To the only God.png'
 // import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
 // import GoTell from '../images/message/Go and Tell.pptx.png'
 // import beOnGuardTwo from "../images/message/Apostasy and God’s deliverance of the godly.png"
@@ -51,6 +53,15 @@ import helpingOthers from '../images/message/July 13, 2025.png'
 // import KnowingGod from '../images/message/Sunday Sermon.png'
 
 const allMessage = [
+      {
+          messageTitle: "Excellence In Helping Others",
+          videoUrl: "https://www.youtube.com/watch?v=uEl9eA9apnA",
+          imgUrl: pursuingExcellence,
+          messageBy: 'Bro. Harry Nietes',
+          datePosted: 'July 20, 2025',
+          imageSlide: 'https://www.canva.com/design/DAGtoN6pJTo/byuOG-Gufp1YXPCY_3dVIw/view?utm_content=DAGtoN6pJTo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5dbc08fff6',
+          description: ` Excellence involves the highest standard of character, diligence and integrity in every aspect of our life. It comes from the heart shaped by devotion to what is true, worthy and persistent. `
+      },
       {
           messageTitle: "Excellence In Helping Others",
           videoUrl: "https://www.youtube.com/watch?v=vgW3qz6TBz0",
@@ -131,16 +142,17 @@ const allMessage = [
         datePosted: 'April 13, 2025',
         imageSlide: 'https://www.canva.com/design/DAGkYcBrOfA/a1d81pWpTbJkCjBtBgUACQ/view?utm_content=DAGkYcBrOfA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1a026e1188',
         description: `Finally, brothers and sisters, whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable—if anything is excellent or praiseworthy—think about such things.`
-    },
-      {
-          messageTitle: "To the only God",
-          videoUrl: "https://youtu.be/SCLtXwSF5nI",
-          imgUrl: toOnlyGod,
-          messageBy: 'Bro. Ted Matira',
-          datePosted: 'April 06, 2025',
-          imageSlide: 'https://www.canva.com/design/DAGjtL2IfYo/218RbOFdU5FiO53OoLlVDA/view?utm_content=DAGjtL2IfYo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8da36c95e1',
-          description: `Now all glory to God, who is able to keep you from falling away and will bring you with great joy into his glorious presence without a single fault`
-      }
+    }
+    // ,
+    //   {
+    //       messageTitle: "To the only God",
+    //       videoUrl: "https://youtu.be/SCLtXwSF5nI",
+    //       imgUrl: toOnlyGod,
+    //       messageBy: 'Bro. Ted Matira',
+    //       datePosted: 'April 06, 2025',
+    //       imageSlide: 'https://www.canva.com/design/DAGjtL2IfYo/218RbOFdU5FiO53OoLlVDA/view?utm_content=DAGjtL2IfYo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8da36c95e1',
+    //       description: `Now all glory to God, who is able to keep you from falling away and will bring you with great joy into his glorious presence without a single fault`
+    //   }
       // ,
       // {
       //     messageTitle: "A Call To Remain Faithful",
