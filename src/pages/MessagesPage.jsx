@@ -12,6 +12,7 @@ import excellenceGod from '../images/message/June 29, 2025 - Sunday Service.png'
 import excellenceGodPt2 from '../images/message/July 06 2025.png'
 import helpingOthers from '../images/message/July 13, 2025.png'
 import pursuingExcellence from '../images/message/Pursue Excellence in All We Do.png'
+import theBirthOfExcitingVision from '../images/message/The Birth of an exciting.png'
 // import RemainFaithful from '../images/message/March30Message.png'
 // import toOnlyGod from '../images/message/To the only God.png'
 // import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
@@ -53,6 +54,15 @@ import pursuingExcellence from '../images/message/Pursue Excellence in All We Do
 // import KnowingGod from '../images/message/Sunday Sermon.png'
 
 const allMessage = [
+      {
+          messageTitle: "The Birth of an Exciting Vision",
+          videoUrl: "https://youtu.be/HQblqQ4Z4xU",
+          imgUrl: theBirthOfExcitingVision,
+          messageBy: 'Bro. Ted Matira',
+          datePosted: 'July 27, 2025',
+          imageSlide: 'https://www.canva.com/design/DAGuMwK9g0A/Cr0g9fhY1AjlIPqxmDFhTQ/view?utm_content=DAGuMwK9g0A&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h055efca09e',
+          description: `You will be for me a kingdom of priests and a holy nation.’ These are the words you are to speak to the Israelites.”`
+      },
       {
           messageTitle: "Excellence In Helping Others",
           videoUrl: "https://www.youtube.com/watch?v=uEl9eA9apnA",

@@ -55,7 +55,7 @@ const HomePage = () => {
     </div>
       <div className="events">
         <div className="title-container">
-          <h3 className='events-title'>Events</h3>
+          <h3 className='events-title'>Upcoming Events</h3>
         </div>
             <div className="events-item">
 
