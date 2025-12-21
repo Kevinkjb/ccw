@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const AllMessages = ({video, image, description, message, imageSlide}) => {
+const AllMessages = ({video, image, description, message, imageSlide, title}) => {
 
   return (
 
@@ -11,6 +11,7 @@ const AllMessages = ({video, image, description, message, imageSlide}) => {
             </a>
             
             <div className="messages-details">
+              <h3 className='message-sub-title'>{title}</h3>
               <p className='messageBy'><span >Message By: </span>{message}</p>
               <div className="text-info">
                 <p ><strong>Description:</strong>  </p>
@@ -41,6 +42,7 @@ AllMessages.propTypes = {
     image: PropTypes.node,
     video: PropTypes.node,
     description: PropTypes.node,
+    title: PropTypes.node,
     message: PropTypes.node,
     imageSlide: PropTypes.none
 }
