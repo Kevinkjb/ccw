@@ -2,7 +2,12 @@ import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 import AllMessages from "../components/messages/AllMessages"
 
-import commitedExcellence from '../images/message/04.13.2025 - Commitment to Excellence - Bro. Ted Matira.png'
+import theLostArt from '../images/lostart-series/lostart1.png'
+import theLostArt6 from '../images/lostart-series/lostart6.png'
+import theLostArt5 from '../images/lostart-series/lostart5.png'
+import theLostArt4 from '../images/lostart-series/lostart4.png'
+import theLostArt3 from '../images/lostart-series/lostart3.png'
+import theLostArt2 from '../images/lostart-series/lostart2.png'
 import reflection from '../images/message/Easter Reflection.png'
 import excellentSpirit from '../images/message/April 27, 2025 Message.png'
 import spiritOfExcellence from '../images/message/05.18.2025 - Spirit of Excellence Joseph - Bro. Marvin Risto.png'
@@ -13,6 +18,7 @@ import excellenceGodPt2 from '../images/message/July 06 2025.png'
 import helpingOthers from '../images/message/July 13, 2025.png'
 import pursuingExcellence from '../images/message/Pursue Excellence in All We Do.png'
 import theBirthOfExcitingVision from '../images/message/The Birth of an exciting.png'
+// import commitedExcellence from '../images/message/04.13.2025 - Commitment to Excellence - Bro. Ted Matira.png'
 // import RemainFaithful from '../images/message/March30Message.png'
 // import toOnlyGod from '../images/message/To the only God.png'
 // import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
@@ -54,6 +60,70 @@ import theBirthOfExcitingVision from '../images/message/The Birth of an exciting
 // import KnowingGod from '../images/message/Sunday Sermon.png'
 
 const allMessage = [
+  // LOST ART SERIES
+      {
+        messageTitle: "The Lost Art of Disciple Making Part 1",
+        videoUrl: "https://youtu.be/lTKYxfM4X7k",
+        imgUrl: theLostArt,
+        messageBy: 'Bro. Boni Somook',
+        datePosted: 'Nov 02, 2025',
+        imageSlide: 'https://www.canva.com/design/DAG3j6bnbpk/a6aUY3b0-D4SlBjaquIiPg/view?utm_content=DAG3j6bnbpk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h236db2cbde',
+        description: `And the Word of God increased, and the number of disciples multiplied in Jerusalem greatly.`
+      },
+       {
+        messageTitle: "The Lost Art of Disciple Making Part 2",
+        videoUrl: "https://www.youtube.com/watch?v=nzAP4908lXY&t=642s",
+        imgUrl: theLostArt2,
+        messageBy: 'Bro. Harry Nietes',
+        datePosted: 'Nov 09, 2025',
+        imageSlide: 'https://www.canva.com/design/DAG4JnXnnMs/fRY7ihDZ0vwvyVhA2YIlTQ/edit?utm_content=DAG4JnXnnMs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
+        description: ` But you will receive power when the Holy Spirit comes upon you. And you will be my witnesses, telling people about me everywhere—in Jerusalem, throughout Judea, in Samaria, and to the ends of the earth.”`
+      }
+      ,
+      {
+        messageTitle: "The Lost Art of Disciple Making Part 3",
+        videoUrl: "https://www.youtube.com/watch?v=nzAP4908lXY&t=642s",
+        imgUrl: theLostArt3,
+        messageBy: 'Bro. Kevin Baguioso',
+        datePosted: 'Nov 16, 2025',
+        imageSlide: 'https://www.canva.com/design/DAG41h-swZY/fDpOI4LWsHwaPVj_AUQP2A/edit?utm_content=DAG41h-swZY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton',
+        description: `And now, just as you accepted Christ Jesus as your
+                      Lord, you must continue to follow him. Let your roots
+                      grow down into him and let your lives be built on
+                      him. Then your faith will grow strong in the truth you
+                      were taught, and you will overflow with thankfulness.`
+      }
+      ,
+      {
+        messageTitle: "The Lost Art of Disciple Making Part 4",
+        videoUrl: "https://www.youtube.com/watch?v=ZPO8gCLIBpU&t=1099s",
+        imgUrl: theLostArt4,
+        messageBy: 'Sis. Jazzlee Gabay',
+        datePosted: 'Nov 23, 2025',
+        imageSlide: 'https://www.canva.com/design/DAG5c-RXo_0/qQ788ZxO7EmtkjZgXoqbJg/view?utm_content=DAG5c-RXo_0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5a011e4178',
+        description: `Jesus went through all the towns and villages, teaching in their synagogues, proclaiming the good news of the kingdom and healing every disease and sickness. `
+      }
+      ,
+      {
+        messageTitle: "The Lost Art of Disciple Making Part 5",
+        videoUrl: "https://www.youtube.com/watch?v=cePLH9iYeq8&t=291s",
+        imgUrl: theLostArt5,
+        messageBy: 'Bro. Joshua Gabay',
+        datePosted: 'Nov 30, 2025',
+        imageSlide: 'https://www.canva.com/design/DAG6Bk8q404/OExYDfVt5ro0LBdPiqjv3w/view?utm_content=DAG6Bk8q404&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc089fbe495',
+        description: `“ So Christ himself gave the apostles, the prophets, the evangelists, the pastors and teachers, 12 to equip his people for works of service, so that the body of Christ may be built up”`
+      }
+      ,
+      {
+        messageTitle: "The Lost Art of Disciple Making Part 6",
+        videoUrl: "https://www.youtube.com/watch?v=XIgy00sbAeM",
+        imgUrl: theLostArt6,
+        messageBy: 'Bro. Marvin Risto',
+        datePosted: 'Dec 07, 2025',
+        imageSlide: 'https://www.canva.com/design/DAG6rqKbfHY/4jiGPKpIFuIZZbVZHoCjEw/view?utm_content=DAG6rqKbfHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb7d10d7d25',
+        description: ` And the things you have heard me say in the presence of many witnesses entrust to reliable people who will also be qualified to teach others`
+      }
+      ,
       {
           messageTitle: "The Birth of an Exciting Vision",
           videoUrl: "https://youtu.be/HQblqQ4Z4xU",
@@ -143,16 +213,17 @@ const allMessage = [
           datePosted: 'April 20, 2025',
           imageSlide: 'https://www.canva.com/design/DAGlIrkqMFQ/Iv-DXejUeG25vSCbOaG0zQ/view?utm_content=DAGlIrkqMFQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86d0f0cc7d',
           description: `But on the first day of the week, at early dawn, the women went to the tomb bringing the spices which they had prepared [to finish anointing the body].`
-      },
-    {
-        messageTitle: "A Commitment to Excellence",
-        videoUrl: "https://www.youtube.com/live/qJsCXIrEnvw",
-        imgUrl: commitedExcellence,
-        messageBy: 'Bro. Ted Matira',
-        datePosted: 'April 13, 2025',
-        imageSlide: 'https://www.canva.com/design/DAGkYcBrOfA/a1d81pWpTbJkCjBtBgUACQ/view?utm_content=DAGkYcBrOfA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1a026e1188',
-        description: `Finally, brothers and sisters, whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable—if anything is excellent or praiseworthy—think about such things.`
-    }
+      }
+    //   ,
+    // {
+    //     messageTitle: "A Commitment to Excellence",
+    //     videoUrl: "https://www.youtube.com/live/qJsCXIrEnvw",
+    //     imgUrl: commitedExcellence,
+    //     messageBy: 'Bro. Ted Matira',
+    //     datePosted: 'April 13, 2025',
+    //     imageSlide: 'https://www.canva.com/design/DAGkYcBrOfA/a1d81pWpTbJkCjBtBgUACQ/view?utm_content=DAGkYcBrOfA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1a026e1188',
+    //     description: `Finally, brothers and sisters, whatever is true, whatever is noble, whatever is right, whatever is pure, whatever is lovely, whatever is admirable—if anything is excellent or praiseworthy—think about such things.`
+    // }
     // ,
     //   {
     //       messageTitle: "To the only God",

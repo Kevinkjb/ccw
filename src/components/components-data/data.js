@@ -1,16 +1,16 @@
 
 
-import theLostArt from '../../images/message-images-november/Photo album.pdf.png'
+import understandingKingdom from '../../images/message-images-december/Understanding the Kingdom.png'
 
 const latestMessage = [
     {
-        messageTitle: "The Lost Art of Disciple Making",
-        videoUrl: "https://youtu.be/lTKYxfM4X7k",
-        imgUrl: theLostArt,
-        messageBy: 'Bro. Boni Somook',
-        datePosted: 'Nov 02, 2025',
-        imageSlide: 'https://www.canva.com/design/DAG3j6bnbpk/a6aUY3b0-D4SlBjaquIiPg/view?utm_content=DAG3j6bnbpk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h236db2cbde',
-        description: `And the Word of God increased, and the number of disciples multiplied in Jerusalem greatly.`
+        messageTitle: "Understanding the Kingdom",
+        videoUrl: "https://www.youtube.com/watch?v=sdR_L2F4VkM",
+        imgUrl: understandingKingdom,
+        messageBy: 'Bro. Ted Matira',
+        datePosted: 'Dec 14, 2025',
+        imageSlide: 'https://www.canva.com/design/DAG7WQ4-Um4/tnGZzCp4cGjpVp91__QsFg/view?utm_content=DAG7WQ4-Um4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdbdb9a1b49',
+        description: `Then the sovereignty, power and greatness of all the kingdoms under heaven will be handed over to the holy people of the Most High. His kingdom will be an everlasting kingdom, and all rulers will worship and obey him.`
     }
 ]
 

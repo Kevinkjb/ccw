@@ -6,7 +6,7 @@ import logo from '../../images/logo/logo 2.webp';
 import { useState, useEffect, useRef } from 'react';
 import arrowDown from './images/icon-arrow-down.svg';
 import arrowUp from './images/icon-arrow-up.svg';
-import NewsLetter from '../components-data/pdf-files/APRIL 2025 (1080 x 1280 px).pdf';
+// import NewsLetter from '../components-data/pdf-files/APRIL 2025 (1080 x 1280 px).pdf';
 // ABOUT DROPDOWN SECTION
 // eslint-disable-next-line react/prop-types
 const EventsToggle = ({ eventsDropDown }) => {
@@ -15,7 +15,7 @@ const EventsToggle = ({ eventsDropDown }) => {
     <div className='event-box'>
       <div className='event-container'>
         <div className='event-items'>
-          <p><a href={NewsLetter} className='news-link' target='_blank'>Newsletter</a></p>
+          {/* <p><a className='news-link' target='_blank'>Newsletter</a></p> */}
           <p><Link className='news-link' to="/events">Events</Link></p>
         </div>
       </div>
