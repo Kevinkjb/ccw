@@ -8,7 +8,7 @@ import theLostArt5 from '../images/lostart-series/lostart5.png'
 import theLostArt4 from '../images/lostart-series/lostart4.png'
 import theLostArt3 from '../images/lostart-series/lostart3.png'
 import theLostArt2 from '../images/lostart-series/lostart2.png'
-import reflection from '../images/message/Easter Reflection.png'
+import understandingKingdom from '../images/message-images-december/Understanding the Kingdom.png'
 import excellentSpirit from '../images/message/April 27, 2025 Message.png'
 import spiritOfExcellence from '../images/message/05.18.2025 - Spirit of Excellence Joseph - Bro. Marvin Risto.png'
 import excellentStewardship from '../images/message/05.04.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
@@ -18,6 +18,7 @@ import excellenceGodPt2 from '../images/message/July 06 2025.png'
 import helpingOthers from '../images/message/July 13, 2025.png'
 import pursuingExcellence from '../images/message/Pursue Excellence in All We Do.png'
 import theBirthOfExcitingVision from '../images/message/The Birth of an exciting.png'
+// import reflection from '../images/message/Easter Reflection.png'
 // import commitedExcellence from '../images/message/04.13.2025 - Commitment to Excellence - Bro. Ted Matira.png'
 // import RemainFaithful from '../images/message/March30Message.png'
 // import toOnlyGod from '../images/message/To the only God.png'
@@ -60,6 +61,16 @@ import theBirthOfExcitingVision from '../images/message/The Birth of an exciting
 // import KnowingGod from '../images/message/Sunday Sermon.png'
 
 const allMessage = [
+  // KINGDOM SERIES
+    {
+          messageTitle: "Understanding the Kingdom",
+          videoUrl: "https://www.youtube.com/watch?v=sdR_L2F4VkM",
+          imgUrl: understandingKingdom,
+          messageBy: 'Bro. Ted Matira',
+          datePosted: 'Dec 14, 2025',
+          imageSlide: 'https://www.canva.com/design/DAG7WQ4-Um4/tnGZzCp4cGjpVp91__QsFg/view?utm_content=DAG7WQ4-Um4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdbdb9a1b49',
+          description: `Then the sovereignty, power and greatness of all the kingdoms under heaven will be handed over to the holy people of the Most High. His kingdom will be an everlasting kingdom, and all rulers will worship and obey him.`
+      },
   // LOST ART SERIES
       {
         messageTitle: "The Lost Art of Disciple Making Part 1",
@@ -205,16 +216,17 @@ const allMessage = [
           datePosted: 'April 27, 2025',
           imageSlide: 'https://www.canva.com/design/DAGlxKSEXHY/Q7o9DrydcB20L3YgIxK47g/view?utm_content=DAGlxKSEXHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h394c5ee045',
           description: `Then I said to them, “You see the trouble we are in: Jerusalem lies in ruins, and its gates have been burned with fire. Come, let us rebuild the wall of Jerusalem, and we will no longer be in disgrace.”`
-      },
-    {
-          messageTitle: "Easter Reflection",
-          videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/3982864418526940",
-          imgUrl: reflection,
-          messageBy: 'Bro. Ted Matira',
-          datePosted: 'April 20, 2025',
-          imageSlide: 'https://www.canva.com/design/DAGlIrkqMFQ/Iv-DXejUeG25vSCbOaG0zQ/view?utm_content=DAGlIrkqMFQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86d0f0cc7d',
-          description: `But on the first day of the week, at early dawn, the women went to the tomb bringing the spices which they had prepared [to finish anointing the body].`
       }
+    //   ,
+    // {
+    //       messageTitle: "Easter Reflection",
+    //       videoUrl: "https://www.facebook.com/CCWetaskiwin/videos/3982864418526940",
+    //       imgUrl: reflection,
+    //       messageBy: 'Bro. Ted Matira',
+    //       datePosted: 'April 20, 2025',
+    //       imageSlide: 'https://www.canva.com/design/DAGlIrkqMFQ/Iv-DXejUeG25vSCbOaG0zQ/view?utm_content=DAGlIrkqMFQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h86d0f0cc7d',
+    //       description: `But on the first day of the week, at early dawn, the women went to the tomb bringing the spices which they had prepared [to finish anointing the body].`
+    //   }
     //   ,
     // {
     //     messageTitle: "A Commitment to Excellence",
