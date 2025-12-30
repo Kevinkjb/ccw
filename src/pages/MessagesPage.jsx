@@ -8,8 +8,10 @@ import theLostArt5 from '../images/lostart-series/lostart5.png'
 import theLostArt4 from '../images/lostart-series/lostart4.png'
 import theLostArt3 from '../images/lostart-series/lostart3.png'
 import theLostArt2 from '../images/lostart-series/lostart2.png'
+// KINGDOM SERIES
 import understandingKingdom from '../images/message-images-december/Understanding the Kingdom.png'
-import excellentSpirit from '../images/message/April 27, 2025 Message.png'
+import longAwaitedKing from '../images/message-images-december/The Long awaited.png'
+// import excellentSpirit from '../images/message/April 27, 2025 Message.png'
 import spiritOfExcellence from '../images/message/05.18.2025 - Spirit of Excellence Joseph - Bro. Marvin Risto.png'
 import excellentStewardship from '../images/message/05.04.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
 import excellenceStewardship2 from '../images/message/06.22.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
@@ -71,6 +73,15 @@ const allMessage = [
           imageSlide: 'https://www.canva.com/design/DAG7WQ4-Um4/tnGZzCp4cGjpVp91__QsFg/view?utm_content=DAG7WQ4-Um4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hdbdb9a1b49',
           description: `Then the sovereignty, power and greatness of all the kingdoms under heaven will be handed over to the holy people of the Most High. His kingdom will be an everlasting kingdom, and all rulers will worship and obey him.`
       },
+          {
+              messageTitle: "The Long Awaited King",
+              videoUrl: "https://www.youtube.com/watch?v=DIc0ocAUBg0",
+              imgUrl: longAwaitedKing,
+              messageBy: 'Bro. Ted Matira',
+              datePosted: 'Dec 21, 2025',
+              imageSlide: 'https://www.canva.com/design/DAG8HvzquzQ/3GhsS5EAPNUt2jfPffYNNg/view?utm_content=DAG8HvzquzQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1051a7af09',
+              description: `Now after Jesus was born in Bethlehem of Judea in the days of Herod the king, behold, wise men from the east came to Jerusalem,`
+          },
   // LOST ART SERIES
       {
         messageTitle: "The Lost Art of Disciple Making Part 1",
@@ -207,16 +218,17 @@ const allMessage = [
           datePosted: 'May 04, 2025',
           imageSlide: 'https://www.canva.com/design/DAGmfkSTgdY/16iChraUu63_fmkpaVZs8Q/view?utm_content=DAGmfkSTgdY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4624752cf8',
           description: `His master replied, Well done, good and faithful servant! You have been faithful with a few things; I will put you in charge of many things. Come and share your master’s happiness!`
-      },
-    {
-          messageTitle: "How to have an Excellent Spirit?",
-          videoUrl: "https://www.youtube.com/watch?v=BEL5N2YT2yE",
-          imgUrl: excellentSpirit,
-          messageBy: 'Bro. Harry Nietes',
-          datePosted: 'April 27, 2025',
-          imageSlide: 'https://www.canva.com/design/DAGlxKSEXHY/Q7o9DrydcB20L3YgIxK47g/view?utm_content=DAGlxKSEXHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h394c5ee045',
-          description: `Then I said to them, “You see the trouble we are in: Jerusalem lies in ruins, and its gates have been burned with fire. Come, let us rebuild the wall of Jerusalem, and we will no longer be in disgrace.”`
       }
+    //   ,
+    // {
+    //       messageTitle: "How to have an Excellent Spirit?",
+    //       videoUrl: "https://www.youtube.com/watch?v=BEL5N2YT2yE",
+    //       imgUrl: excellentSpirit,
+    //       messageBy: 'Bro. Harry Nietes',
+    //       datePosted: 'April 27, 2025',
+    //       imageSlide: 'https://www.canva.com/design/DAGlxKSEXHY/Q7o9DrydcB20L3YgIxK47g/view?utm_content=DAGlxKSEXHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h394c5ee045',
+    //       description: `Then I said to them, “You see the trouble we are in: Jerusalem lies in ruins, and its gates have been burned with fire. Come, let us rebuild the wall of Jerusalem, and we will no longer be in disgrace.”`
+    //   }
     //   ,
     // {
     //       messageTitle: "Easter Reflection",
