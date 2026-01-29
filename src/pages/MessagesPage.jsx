@@ -8,18 +8,25 @@ import theLostArt5 from '../images/lostart-series/lostart5.png'
 import theLostArt4 from '../images/lostart-series/lostart4.png'
 import theLostArt3 from '../images/lostart-series/lostart3.png'
 import theLostArt2 from '../images/lostart-series/lostart2.png'
+// LUKE SERIES
+import NextMove from '../images/luke-series/Next Move.png'
+import whatsNext from '../images/luke-series/WHAT’S NEXTS.png'
+import NextTime from '../images/luke-series/Next time.png'
+
 // KINGDOM SERIES
 import understandingKingdom from '../images/message-images-december/Understanding the Kingdom.png'
 import longAwaitedKing from '../images/message-images-december/The Long awaited.png'
 // import excellentSpirit from '../images/message/April 27, 2025 Message.png'
-import spiritOfExcellence from '../images/message/05.18.2025 - Spirit of Excellence Joseph - Bro. Marvin Risto.png'
-import excellentStewardship from '../images/message/05.04.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
+// import spiritOfExcellence from '../images/message/05.18.2025 - Spirit of Excellence Joseph - Bro. Marvin Risto.png'
+
 import excellenceStewardship2 from '../images/message/06.22.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
 import excellenceGod from '../images/message/June 29, 2025 - Sunday Service.png'
 import excellenceGodPt2 from '../images/message/July 06 2025.png'
 import helpingOthers from '../images/message/July 13, 2025.png'
 import pursuingExcellence from '../images/message/Pursue Excellence in All We Do.png'
-import theBirthOfExcitingVision from '../images/message/The Birth of an exciting.png'
+import theBirthOfExcitingVision from '../images/message/The Birth of an exciting.png';
+import TheGoodNews from '../images/message-images-december/GoodNews.png'
+// import excellentStewardship from '../images/message/05.04.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
 // import reflection from '../images/message/Easter Reflection.png'
 // import commitedExcellence from '../images/message/04.13.2025 - Commitment to Excellence - Bro. Ted Matira.png'
 // import RemainFaithful from '../images/message/March30Message.png'
@@ -63,7 +70,46 @@ import theBirthOfExcitingVision from '../images/message/The Birth of an exciting
 // import KnowingGod from '../images/message/Sunday Sermon.png'
 
 const allMessage = [
+  // Luke Series Sermon
+      {
+          messageTitle: "Next Move",
+          videoUrl: "https://www.youtube.com/watch?v=NOLJ1v-7zhI",
+          imgUrl: NextMove,
+          messageBy: 'Ptr. Vhic Dela Serna',
+          datePosted: 'Jan 18, 2026',
+          imageSlide: 'https://www.canva.com/design/DAG_pwJEZSE/0gbFITSeeLDny3Pr6oW7Fw/view?utm_content=DAG_pwJEZSE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf12df60a06',
+          description: `When Jesus saw their faith, he said, Friend, your sins are forgiven.`
+      }
+      ,
+      {
+          messageTitle: "Next Time",
+          videoUrl: "https://www.youtube.com/watch?v=8eWMnDRqNnU",
+          imgUrl: NextTime,
+          messageBy: 'Bro. Kevin Baguioso',
+          datePosted: 'Jan 11, 2026',
+          imageSlide: 'https://www.canva.com/design/DAG98eSr_ok/UUzEVClSdPFS678tK5ZK5A/view?utm_content=DAG98eSr_ok&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4f084d0dfa',
+          description: `'In one of the villages, Jesus met a man with an advanced case of leprosy. When the man saw Jesus, he bowed with his face to the ground, begging to be healed. “Lord,” he said, “if you are willing, you can heal me and make me clean.” 
+          Jesus reached out and touched him. “I am willing,” he said. “Be healed!” And instantly the leprosy disappeared.`
+      },
+     {
+          messageTitle: "What's Next",
+          videoUrl: "https://www.youtube.com/watch?v=IKjkscY1g5c",
+          imgUrl: whatsNext,
+          messageBy: 'Bro. Ted Matira',
+          datePosted: 'Jan 04, 2026',
+          imageSlide: 'https://www.canva.com/design/DAG9ZaIkWVc/9mTul0NAh_KY8LhauCGg4A/view?utm_content=DAG9ZaIkWVc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9a0ff62429',
+          description: `When you feel empty and hungry for the word of God, you must be closer to your turning point.`
+      },
   // KINGDOM SERIES
+      {
+          messageTitle: "The Good News of the Kingdom",
+          videoUrl: "https://www.youtube.com/watch?v=-8r-G0PxqcI&t=723s",
+          imgUrl: TheGoodNews,
+          messageBy: 'Bro. Ted Matira',
+          datePosted: 'Dec 28, 2025',
+          imageSlide: '',
+          description: `From then on Jesus began to preach, “Repent of your sins and turn to God, for the Kingdom of Heaven is near.”`
+      },
     {
           messageTitle: "Understanding the Kingdom",
           videoUrl: "https://www.youtube.com/watch?v=sdR_L2F4VkM",
@@ -191,7 +237,8 @@ const allMessage = [
           datePosted: 'June 29, 2025',
           imageSlide: 'https://www.canva.com/design/DAGrsV0_YxY/6CFBExyPBLLAMtSnFBRI5A/view?utm_content=DAGrsV0_YxY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hee8c4fceaa',
           description: `For I have come down from heaven not to do my will but to do the will of him who sent me.`
-      },
+      }
+      ,
   {
           messageTitle: "Excellence in Stewardship",
           videoUrl: "https://www.youtube.com/watch?v=rM9WlUnNg3c",
@@ -200,25 +247,27 @@ const allMessage = [
           datePosted: 'June 22, 2025',
           imageSlide: 'https://www.canva.com/design/DAGrA7nGYRA/KogGgL8C7cKfCK8yINNa6Q/view?utm_content=DAGrA7nGYRA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3ee4ef5051',
           description: `We are stewards of One who is EXCELLENT in every way, every time, and in anything.`
-      },
-  {
-      messageTitle: "Spirit of Excellence",
-      videoUrl: "https://www.youtube.com/watch?v=MOWugjkAv3E",
-      imgUrl: spiritOfExcellence,
-      messageBy: 'Bro. Marvin Risto',
-      datePosted: 'May 18, 2025',
-      imageSlide: 'https://www.canva.com/design/DAGnuf8yhzU/grHZL5S69VpNPOMYPELUdA/view?utm_content=DAGnuf8yhzU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hae291f71b4',
-      description: `“So then, it was not you who sent me here, but God. He made me father to Pharaoh, lord of his entire household and ruler of all Egypt.`
-  },
-  {
-          messageTitle: "Excellence in Stewardship",
-          videoUrl: "https://www.youtube.com/watch?v=QpAyjnUMBaA",
-          imgUrl: excellentStewardship,
-          messageBy: 'Bro. Boni Somook',
-          datePosted: 'May 04, 2025',
-          imageSlide: 'https://www.canva.com/design/DAGmfkSTgdY/16iChraUu63_fmkpaVZs8Q/view?utm_content=DAGmfkSTgdY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4624752cf8',
-          description: `His master replied, Well done, good and faithful servant! You have been faithful with a few things; I will put you in charge of many things. Come and share your master’s happiness!`
       }
+  //     ,
+  // {
+  //     messageTitle: "Spirit of Excellence",
+  //     videoUrl: "https://www.youtube.com/watch?v=MOWugjkAv3E",
+  //     imgUrl: spiritOfExcellence,
+  //     messageBy: 'Bro. Marvin Risto',
+  //     datePosted: 'May 18, 2025',
+  //     imageSlide: 'https://www.canva.com/design/DAGnuf8yhzU/grHZL5S69VpNPOMYPELUdA/view?utm_content=DAGnuf8yhzU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hae291f71b4',
+  //     description: `“So then, it was not you who sent me here, but God. He made me father to Pharaoh, lord of his entire household and ruler of all Egypt.`
+  // }
+  // ,
+  // {
+  //         messageTitle: "Excellence in Stewardship",
+  //         videoUrl: "https://www.youtube.com/watch?v=QpAyjnUMBaA",
+  //         imgUrl: excellentStewardship,
+  //         messageBy: 'Bro. Boni Somook',
+  //         datePosted: 'May 04, 2025',
+  //         imageSlide: 'https://www.canva.com/design/DAGmfkSTgdY/16iChraUu63_fmkpaVZs8Q/view?utm_content=DAGmfkSTgdY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4624752cf8',
+  //         description: `His master replied, Well done, good and faithful servant! You have been faithful with a few things; I will put you in charge of many things. Come and share your master’s happiness!`
+  //     }
     //   ,
     // {
     //       messageTitle: "How to have an Excellent Spirit?",

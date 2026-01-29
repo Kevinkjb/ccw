@@ -10,8 +10,8 @@ const CoreValue = () => {
                 <div className="mission-content">
                     <h3 className="core-title">Mission</h3>
                     <p className='core-text'>
-                        Our Mission is to obey Jesus{`'`}s GREAT COMMISSION by helping people to understand salvation 
-                        by Grace and by walking alongside someone to live in a new and living way of life <span className='core-verse'>(Matthew 28:18-20; Hebrews 10:19-25)</span>. 
+                        We help people understand salvation by grace so they can live a significant life of
+                        worship and service.
                     </p>
                 </div>
                 <div className="mission-img">
@@ -26,29 +26,36 @@ const CoreValue = () => {
                 <div className="vision-content">
                     <h3 className="core-title">Vision</h3>
                     <p className='core-text'>
-                        Our vision is to be a thriving community of believers, 
-                        passionately committed to worshipping and serving God. 
-                        We aspire to be a light in the world, bringing hope, love, and transformation to individuals and communities <span className='core-verse'>(Romans 12:1-2)</span>.
+                        We want to see a movement of people devoted to worshipping God and faithfully
+                        serving our community.
                     </p>
                 </div>
             </div>
+            {/* CORE VALUES SECTION */}
             <div className="core-content-three">
   
                 <div className="list-values">
-                <h3 className="core-title">Core Values</h3>
+                    <h3 className="core-title">Core Values</h3>
                     <div className='core-values-list'>
                         <div className="worship-value">
                             <h3 className='value-title'>Worship</h3>
                             <div className="value-info">
                                 <RiArrowRightSFill className='value-arrow'/>
-                                <p className='value-text'>We practise worship with the precedence and practice of the new Testament church, <span className='core-verse'>Romans 12:1-2; John 4:23-24</span>.</p>
+                                <p className='value-text'>
+                                    We live Worship as a life-style, pursuing God daily through Bible readings ,
+                                    prayers, fellowships and sharing God’s grace with others.
+                                </p>
                             </div>
                         </div>
                         <div className="obedience-value">
                             <h3 className='value-title'>Obedience</h3>
                             <div className="value-info">
                                 <RiArrowRightSFill className='value-arrow'/>
-                                <p className='value-text'>Love is our motivation to willingly obey the Lord, <span className='core-verse'>John 14:15; 2 John 6</span>.</p>
+                                <p className='value-text'>
+                                    We willingly trust and obey God by serving Him and our community, responding
+                                    to the needs through acts of kindness and compassion, specially those who are in the
+                                    household of faith.
+                                </p>
                             </div>
                            
                         </div>
@@ -56,7 +63,10 @@ const CoreValue = () => {
                             <h3 className='value-title'>Relationship</h3>
                             <div className="value-info">
                                 <RiArrowRightSFill className='value-arrow'/>
-                                <p className='value-text'>We maintain, uphold, and grow our relationship by loving God and loving each other as a big Family, <span className='core-verse'>Matthew 22:37-39; Romans 3:8</span>.</p>
+                                <p className='value-text'>
+                                    We are a church family committed to living a life together, caring and loving
+                                    another in Christ.
+                                </p>
                             </div>
                            
                         </div>
@@ -65,12 +75,74 @@ const CoreValue = () => {
                             <div className="value-info">
                                 <RiArrowRightSFill className='value-arrow'/>
                                 <p className='value-text'>
-                                    The Bible clearly instructed us to mentor and develop the followers, 
-                                    So deliberately our leaders committed themselves to nurture the life 
-                                    and the faith of our people until we all reach maturity of life in Christ, <span className='core-verse'>Ephesians 4:11-16; 2 Timothy 2:2</span>.
+                                    {`Making Disciples is our DNA. We deliberately, relationally, purposefully
+                                    equipped believers to grow, succeed to live a significant life, to fulfill Christ's mission to all
+                                    nations.`}
                                 </p>
                             </div>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+            {/* DISCIPLESHIP PROCESS SECTION */}
+            <div className="core-content-three">
+  
+                <div className="list-values">
+                    <h3 className="core-title">Discipleship Process:</h3>
+              
+                    <div className='core-values-list'>
+                        
+                        <div className="worship-value">
+                            <h3 className='value-title'>Come (Get Engaged, and be a Member)</h3>
+                            <div className="value-info">
+                                <RiArrowRightSFill className='value-arrow'/>
+                                <p className='value-text'>
+                                    We are inviting everyone to accept the Lord Jesus Christ as Lord and Saviour.
+                                    Relationships are essential and the sense of belonging is important to us; therefore
+                                    we encourage everyone to get ENGAGE in a meaningful step towards salvation and
+                                    to attend a MEMBERSHIP class (John 1:38-39). Come, get engaged and be a
+                                    member.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="obedience-value">
+                            <h3 className='value-title'>Follow (Be Established in faith and be Mature)</h3>
+                            <div className="value-info">
+                                <RiArrowRightSFill className='value-arrow'/>
+                                <p className='value-text'>
+                                    We are encouraging everyone to follow and obey Jesus by walking alongside
+                                    a leader/mentor/coach, however you called him/her to ESTABLISH A daily life of faith
+                                    to become MATURE believers (Jn 1:40-43). Follow, be established in faith, and be
+                                    mature.
+                                </p>
+                            </div>
+                           
+                        </div>
+                        <div className="relationship-value">
+                            <h3 className='value-title'>Learn (Be Equipped, be involved in the Ministry)</h3>
+                            <div className="value-info">
+                                <RiArrowRightSFill className='value-arrow'/>
+                                <p className='value-text'>
+                                    We are staging a training course to EQUIP everyone into the
+                                    MINISTRY/service. We would like everyone to experience what Jesus is telling His
+                                    disciples, “You will see greater things than these” (John 1:50; John 15:1-17;
+                                    Ephesians 4:11-16). Learn, be equipped, and get involved in the ministry.
+                                </p>
+                            </div>
+                           
+                        </div>
+                        <div className="discipleship-value">
+                            <h3 className='value-title'>Go (Be Empowered and Make Disciples)</h3>
+                            <div className="value-info">
+                                <RiArrowRightSFill className='value-arrow'/>
+                                <p className='value-text'>
+                                    {`We are helping everyone to go and make disciples. With all authority Jesus
+                                    gave them this mandate to “Go and Make Disciples.” He EMPOWERED them by the
+                                    Holy Spirit to take this MISSION to the ends of the age/time, so are we. (John
+                                    20:21-13;30-31; Matthew 28:18-20). Be empowered, Go and make disciples.`}
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -28,8 +28,8 @@ const HomePage = () => {
                 <div className="mission-content">
                     <h3 className="core-title">Mission</h3>
                     <p className='core-text'>
-                        Our Mission is to obey Jesus{`'`}s GREAT COMMISSION by helping people to understand salvation 
-                        by Grace and by walking alongside someone to live in a new and living way of life <span className='core-verse'>(Matthew 28:18-20; Hebrews 10:19-25)</span>. 
+                        We help people understand salvation by grace so they can live a significant life of
+                        worship and service.
                     </p>
                 </div>
                 <div className="mission-img">
@@ -44,9 +44,8 @@ const HomePage = () => {
                 <div className="vision-content">
                     <h3 className="core-title">Vision</h3>
                     <p className='core-text'>
-                        Our vision is to be a thriving community of believers, 
-                        passionately committed to worshipping and serving God. 
-                        We aspire to be a light in the world, bringing hope, love, and transformation to individuals and communities <span className='core-verse'>(Romans 12:1-2)</span>.
+                        We want to see a movement of people devoted to worshipping God and faithfully
+                        serving our community.
                     </p>
                 </div>
             </div>

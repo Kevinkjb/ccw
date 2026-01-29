@@ -1,16 +1,17 @@
 
 
-import TheGoodNews from '../../images/message-images-december/GoodNews.png'
+import TheNextTable from '../../images/luke-series/TheNextTable.png'
 
 const latestMessage = [
     {
-        messageTitle: "The Good News of the Kingdom",
-        videoUrl: "https://www.youtube.com/watch?v=-8r-G0PxqcI&t=723s",
-        imgUrl: TheGoodNews,
-        messageBy: 'Bro. Ted Matira',
-        datePosted: 'Dec 28, 2025',
-        imageSlide: '',
-        description: `From then on Jesus began to preach, “Repent of your sins and turn to God, for the Kingdom of Heaven is near.”`
+        messageTitle: "The Next Table",
+        videoUrl: "https://www.youtube.com/watch?v=Aem7cT4yevo",
+        imgUrl: TheNextTable,
+        messageBy: 'Bro. Joshua Gabay',
+        datePosted: 'Jan 25, 2026',
+        imageSlide: 'https://www.canva.com/design/DAG_S3Ggaq4/KrO254dgtByCeUSuzF36JA/view?utm_content=DAG_S3Ggaq4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfbc4bda5be',
+        description: `After this, Jesus went out and saw a tax collector by the name of Levi sitting at his tax booth. “Follow me,” Jesus said to him, and Levi got up, left everything and followed him.
+`
     }
 ]
 
