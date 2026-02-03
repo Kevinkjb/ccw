@@ -12,14 +12,14 @@ import theLostArt2 from '../images/lostart-series/lostart2.png'
 import NextMove from '../images/luke-series/Next Move.png'
 import whatsNext from '../images/luke-series/WHAT’S NEXTS.png'
 import NextTime from '../images/luke-series/Next time.png'
-
+import TheNextTable from '../images/luke-series/TheNextTable.png'
 // KINGDOM SERIES
 import understandingKingdom from '../images/message-images-december/Understanding the Kingdom.png'
 import longAwaitedKing from '../images/message-images-december/The Long awaited.png'
 // import excellentSpirit from '../images/message/April 27, 2025 Message.png'
 // import spiritOfExcellence from '../images/message/05.18.2025 - Spirit of Excellence Joseph - Bro. Marvin Risto.png'
 
-import excellenceStewardship2 from '../images/message/06.22.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
+// import excellenceStewardship2 from '../images/message/06.22.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
 import excellenceGod from '../images/message/June 29, 2025 - Sunday Service.png'
 import excellenceGodPt2 from '../images/message/July 06 2025.png'
 import helpingOthers from '../images/message/July 13, 2025.png'
@@ -71,6 +71,16 @@ import TheGoodNews from '../images/message-images-december/GoodNews.png'
 
 const allMessage = [
   // Luke Series Sermon
+      {
+          messageTitle: "The Next Table",
+          videoUrl: "https://www.youtube.com/watch?v=Aem7cT4yevo",
+          imgUrl: TheNextTable,
+          messageBy: 'Bro. Joshua Gabay',
+          datePosted: 'Jan 25, 2026',
+          imageSlide: 'https://www.canva.com/design/DAG_S3Ggaq4/KrO254dgtByCeUSuzF36JA/view?utm_content=DAG_S3Ggaq4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfbc4bda5be',
+          description: `After this, Jesus went out and saw a tax collector by the name of Levi sitting at his tax booth. “Follow me,” Jesus said to him, and Levi got up, left everything and followed him.
+  `
+      },
       {
           messageTitle: "Next Move",
           videoUrl: "https://www.youtube.com/watch?v=NOLJ1v-7zhI",
@@ -238,16 +248,16 @@ const allMessage = [
           imageSlide: 'https://www.canva.com/design/DAGrsV0_YxY/6CFBExyPBLLAMtSnFBRI5A/view?utm_content=DAGrsV0_YxY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hee8c4fceaa',
           description: `For I have come down from heaven not to do my will but to do the will of him who sent me.`
       }
-      ,
-  {
-          messageTitle: "Excellence in Stewardship",
-          videoUrl: "https://www.youtube.com/watch?v=rM9WlUnNg3c",
-          imgUrl: excellenceStewardship2,
-          messageBy: 'Bro. Boni Somook',
-          datePosted: 'June 22, 2025',
-          imageSlide: 'https://www.canva.com/design/DAGrA7nGYRA/KogGgL8C7cKfCK8yINNa6Q/view?utm_content=DAGrA7nGYRA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3ee4ef5051',
-          description: `We are stewards of One who is EXCELLENT in every way, every time, and in anything.`
-      }
+  //     ,
+  // {
+  //         messageTitle: "Excellence in Stewardship",
+  //         videoUrl: "https://www.youtube.com/watch?v=rM9WlUnNg3c",
+  //         imgUrl: excellenceStewardship2,
+  //         messageBy: 'Bro. Boni Somook',
+  //         datePosted: 'June 22, 2025',
+  //         imageSlide: 'https://www.canva.com/design/DAGrA7nGYRA/KogGgL8C7cKfCK8yINNa6Q/view?utm_content=DAGrA7nGYRA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3ee4ef5051',
+  //         description: `We are stewards of One who is EXCELLENT in every way, every time, and in anything.`
+  //     }
   //     ,
   // {
   //     messageTitle: "Spirit of Excellence",

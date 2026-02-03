@@ -1,17 +1,16 @@
 
 
-import TheNextTable from '../../images/luke-series/TheNextTable.png'
+import LeavingOldBehind from '../../images/luke-series/LeavingOldBehind.png'
 
 const latestMessage = [
     {
-        messageTitle: "The Next Table",
-        videoUrl: "https://www.youtube.com/watch?v=Aem7cT4yevo",
-        imgUrl: TheNextTable,
-        messageBy: 'Bro. Joshua Gabay',
-        datePosted: 'Jan 25, 2026',
-        imageSlide: 'https://www.canva.com/design/DAG_S3Ggaq4/KrO254dgtByCeUSuzF36JA/view?utm_content=DAG_S3Ggaq4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfbc4bda5be',
-        description: `After this, Jesus went out and saw a tax collector by the name of Levi sitting at his tax booth. “Follow me,” Jesus said to him, and Levi got up, left everything and followed him.
-`
+        messageTitle: "New is Better",
+        videoUrl: "https://www.youtube.com/watch?v=cgEnoUWkWis",
+        imgUrl: LeavingOldBehind,
+        messageBy: 'Bro. Harry Nietes',
+        datePosted: 'Feb 01, 2026',
+        imageSlide: 'https://www.canva.com/design/DAHAB5oila4/sUVEgD1HVEChKrqtFIz-Vw/view?utm_content=DAHAB5oila4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8da040113c',
+        description: `And no one after drinking old wine wants the new, for they say, ‘The old is better.`
     }
 ]
 
