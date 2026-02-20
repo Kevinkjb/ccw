@@ -1,21 +1,22 @@
 // import womensRetreat from '../../images/events/Retreat2025.png'
 // import anniversary from '../../images/events/Church Anniversary.jpg'
+// import familyDay from '../../images/events/2026-events/family-day.png'
 
 const events = [
 
 
     // {
     //     id: 0,
-    //     imgUrl: anniversary,
-    //     eventMonths: 'Jul',
-    //     eventDays: '27',
-    //     eventTitle: "Church of Christ 14th Anniversary",
+    //     imgUrl: familyDay,
+    //     eventMonths: 'Feb',
+    //     eventDays: '15',
+    //     eventTitle: "Special Guest Speaker Dr. Stanley Helton",
     //     description: `
-    //     The birth of an exciting vision
+    //     Join us for Family Worship Sunday.
 
 
     //     `,
-    //     // time: ''
+
     // }
        
 ]

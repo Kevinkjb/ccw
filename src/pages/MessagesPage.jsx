@@ -13,6 +13,8 @@ import NextMove from '../images/luke-series/Next Move.png'
 import whatsNext from '../images/luke-series/WHAT’S NEXTS.png'
 import NextTime from '../images/luke-series/Next time.png'
 import TheNextTable from '../images/luke-series/TheNextTable.png'
+import LeavingOldBehind from '../images/luke-series/LeavingOldBehind.png'
+import LordOfSabbath from '../images/luke-series/Jesus, Lord of the Sabbath.png'
 // KINGDOM SERIES
 import understandingKingdom from '../images/message-images-december/Understanding the Kingdom.png'
 import longAwaitedKing from '../images/message-images-december/The Long awaited.png'
@@ -20,8 +22,8 @@ import longAwaitedKing from '../images/message-images-december/The Long awaited.
 // import spiritOfExcellence from '../images/message/05.18.2025 - Spirit of Excellence Joseph - Bro. Marvin Risto.png'
 
 // import excellenceStewardship2 from '../images/message/06.22.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
-import excellenceGod from '../images/message/June 29, 2025 - Sunday Service.png'
-import excellenceGodPt2 from '../images/message/July 06 2025.png'
+// import excellenceGod from '../images/message/June 29, 2025 - Sunday Service.png'
+// import excellenceGodPt2 from '../images/message/July 06 2025.png'
 import helpingOthers from '../images/message/July 13, 2025.png'
 import pursuingExcellence from '../images/message/Pursue Excellence in All We Do.png'
 import theBirthOfExcitingVision from '../images/message/The Birth of an exciting.png';
@@ -71,6 +73,25 @@ import TheGoodNews from '../images/message-images-december/GoodNews.png'
 
 const allMessage = [
   // Luke Series Sermon
+      {
+          messageTitle: "Jesus, Lord of the Sabbath",
+          videoUrl: "https://www.youtube.com/watch?v=Mhhw8syP6eE",
+          imgUrl: LordOfSabbath,
+          messageBy: 'Bro. June Tinaza',
+          datePosted: 'Feb 08, 2026',
+          imageSlide: 'https://www.canva.com/design/DAHArHG1Fbw/bBGJPvfJUiccDUPlQrryUA/view?utm_content=DAHArHG1Fbw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h2822bec5d3',
+          description: `One Sabbath Jesus was going through the grainfields, and his disciples began to pick some heads of grain, rub them in their hands and eat the kernels. 2 Some of the Pharisees asked, 
+                          “Why are you doing what is unlawful on the Sabbath?`
+      },
+      {
+          messageTitle: "New is Better",
+          videoUrl: "https://www.youtube.com/watch?v=cgEnoUWkWis",
+          imgUrl: LeavingOldBehind,
+          messageBy: 'Bro. Harry Nietes',
+          datePosted: 'Feb 01, 2026',
+          imageSlide: 'https://www.canva.com/design/DAHAB5oila4/sUVEgD1HVEChKrqtFIz-Vw/view?utm_content=DAHAB5oila4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8da040113c',
+          description: `And no one after drinking old wine wants the new, for they say, ‘The old is better.`
+      },
       {
           messageTitle: "The Next Table",
           videoUrl: "https://www.youtube.com/watch?v=Aem7cT4yevo",
@@ -228,26 +249,28 @@ const allMessage = [
           datePosted: 'July 13, 2025',
           imageSlide: 'https://www.canva.com/design/DAGs09I8Ytk/xQeaQ1-dB2ZIAnd2JxQR1g/view?utm_content=DAGs09I8Ytk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h709295e6a3',
           description: `IN HELPING OTHERS, EVEN THOSE THAT MESS UP, FALL SHORT OR ARE HARD TO LOVE.`
-      },
-   {
-          messageTitle: "Defining Excellence",
-          videoUrl: "https://youtu.be/A4tEs1RJNuA",
-          imgUrl: excellenceGodPt2,
-          messageBy: 'Bro. Rodolfo Aguiao',
-          title: 'Defining Excellence',
-          datePosted: 'July 06, 2025',
-          imageSlide: 'https://www.canva.com/design/DAGsOLsshy8/_kqeLSv_AyqEFiPMdfsh9g/view?utm_content=DAGsOLsshy8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4d27f8db7b',
-          description: `Work willingly at whatever you do, as though you were working for the Lord rather than for people.`
-      },
-      {
-          messageTitle: "Excellence to Reflect God’s Glory and Greatness",
-          videoUrl: "https://www.youtube.com/watch?v=JOr91zOray8",
-          imgUrl: excellenceGod,
-          messageBy: 'Bro. Marvin Risto',
-          datePosted: 'June 29, 2025',
-          imageSlide: 'https://www.canva.com/design/DAGrsV0_YxY/6CFBExyPBLLAMtSnFBRI5A/view?utm_content=DAGrsV0_YxY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hee8c4fceaa',
-          description: `For I have come down from heaven not to do my will but to do the will of him who sent me.`
       }
+  //     ,
+  //  {
+  //         messageTitle: "Defining Excellence",
+  //         videoUrl: "https://youtu.be/A4tEs1RJNuA",
+  //         imgUrl: excellenceGodPt2,
+  //         messageBy: 'Bro. Rodolfo Aguiao',
+  //         title: 'Defining Excellence',
+  //         datePosted: 'July 06, 2025',
+  //         imageSlide: 'https://www.canva.com/design/DAGsOLsshy8/_kqeLSv_AyqEFiPMdfsh9g/view?utm_content=DAGsOLsshy8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4d27f8db7b',
+  //         description: `Work willingly at whatever you do, as though you were working for the Lord rather than for people.`
+  //     }
+      // ,
+      // {
+      //     messageTitle: "Excellence to Reflect God’s Glory and Greatness",
+      //     videoUrl: "https://www.youtube.com/watch?v=JOr91zOray8",
+      //     imgUrl: excellenceGod,
+      //     messageBy: 'Bro. Marvin Risto',
+      //     datePosted: 'June 29, 2025',
+      //     imageSlide: 'https://www.canva.com/design/DAGrsV0_YxY/6CFBExyPBLLAMtSnFBRI5A/view?utm_content=DAGrsV0_YxY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hee8c4fceaa',
+      //     description: `For I have come down from heaven not to do my will but to do the will of him who sent me.`
+      // }
   //     ,
   // {
   //         messageTitle: "Excellence in Stewardship",

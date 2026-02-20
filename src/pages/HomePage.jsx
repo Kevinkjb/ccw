@@ -15,7 +15,9 @@ import Footer from "../components/footer/Footer"
 const HomePage = () => {
 
   return (
-    <div className="main">
+
+    <>
+        <div className="main">
       <HeroSection heroTitle="Church of Christ"/>
       <About/>
       <OnlineInfo/>
@@ -57,7 +59,6 @@ const HomePage = () => {
           <h3 className='events-title'>Upcoming Events</h3>
         </div>
             <div className="events-item">
-
             {eventsData.filter((item, index) => index < 1).map((item,index) => (
               <Events key={index} />
             ))}
@@ -66,6 +67,7 @@ const HomePage = () => {
       <Footer/>
 
     </div>
+    </>
   )
 }
 

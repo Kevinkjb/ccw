@@ -1,7 +1,7 @@
 
 .title-container{
-    width: 65rem;
-    margin: 0 auto;
+    width: 70rem;
+    margin: 3rem auto;
 }
 
 @media screen and (max-width: 1200px){

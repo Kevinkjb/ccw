@@ -1,16 +1,18 @@
 
 
-import LeavingOldBehind from '../../images/luke-series/LeavingOldBehind.png'
+import FamilyLikeJesus from '../../images/series-break/FamilyLikeJesus.png'
 
 const latestMessage = [
     {
-        messageTitle: "New is Better",
-        videoUrl: "https://www.youtube.com/watch?v=cgEnoUWkWis",
-        imgUrl: LeavingOldBehind,
-        messageBy: 'Bro. Harry Nietes',
-        datePosted: 'Feb 01, 2026',
-        imageSlide: 'https://www.canva.com/design/DAHAB5oila4/sUVEgD1HVEChKrqtFIz-Vw/view?utm_content=DAHAB5oila4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8da040113c',
-        description: `And no one after drinking old wine wants the new, for they say, ‘The old is better.`
+        messageTitle: "Doing Family Like Jesus",
+        videoUrl: "https://www.youtube.com/watch?v=djeFoIosNvg",
+        imgUrl: FamilyLikeJesus,
+        messageBy: 'Dr. Stan Helton',
+        datePosted: 'Feb 15, 2026',
+        imageSlide: 'https://www.canva.com/design/DAHBWsZALV4/v2Sn895JBQgQikASRr0gDg/view?utm_content=DAHBWsZALV4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb10f15c1d3',
+        description: `²¹ Submit to one another out of reverence for Christ. 
+                        ²² Wives, submit to your husbands as to the Lord. 
+                        ²³ For the husband is the head of the wife as Christ is the head of the church, his body, of which he is the Savior. ²⁴ Now as the church submits to Christ, so also wives should submit to their husbands in everything. `
     }
 ]
 
