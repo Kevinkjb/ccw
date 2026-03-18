@@ -2,35 +2,56 @@ import messageData from '../components/components-data/data'
 import Footer from "../components/footer/Footer"
 import AllMessages from "../components/messages/AllMessages"
 
+// LOSTART BREAK--------------------------------------------------------------------------
 import theLostArt from '../images/lostart-series/lostart1.png'
 import theLostArt6 from '../images/lostart-series/lostart6.png'
 import theLostArt5 from '../images/lostart-series/lostart5.png'
 import theLostArt4 from '../images/lostart-series/lostart4.png'
 import theLostArt3 from '../images/lostart-series/lostart3.png'
 import theLostArt2 from '../images/lostart-series/lostart2.png'
-// LUKE SERIES
+//----------------------------------------------------------------------------
+
+// SERIES BREAK--------------------------------------------------------------------------
+import FamilyLikeJesus from '../images/series-break/FamilyLikeJesus.png';
+import LoveInAnyLanguage from '../images/series-break/LoveInAnyLanguage.png'
+//----------------------------------------------------------------------------
+
+
+// LUKE SERIES--------------------------------------------------------------------------
 import NextMove from '../images/luke-series/Next Move.png'
 import whatsNext from '../images/luke-series/WHAT’S NEXTS.png'
 import NextTime from '../images/luke-series/Next time.png'
 import TheNextTable from '../images/luke-series/TheNextTable.png'
 import LeavingOldBehind from '../images/luke-series/LeavingOldBehind.png'
 import LordOfSabbath from '../images/luke-series/Jesus, Lord of the Sabbath.png'
-// KINGDOM SERIES
+// import EmbracingKingdom from '../images/luke-series/Embracing kingdom.png'
+import NotAbandoned from '../images/luke-series/NotAbandoned.png'
+import UpIsDown from '../images/luke-series/UpIsDown.png'
+//----------------------------------------------------------------------------
+
+
+// KINGDOM SERIES--------------------------------------------------------------------------
 import understandingKingdom from '../images/message-images-december/Understanding the Kingdom.png'
 import longAwaitedKing from '../images/message-images-december/The Long awaited.png'
+import TheGoodNews from '../images/message-images-december/GoodNews.png'
+//----------------------------------------------------------------------------
+
+
+// Excellence Series--------------------------------------
+// import commitedExcellence from '../images/message/04.13.2025 - Commitment to Excellence - Bro. Ted Matira.png'
 // import excellentSpirit from '../images/message/April 27, 2025 Message.png'
 // import spiritOfExcellence from '../images/message/05.18.2025 - Spirit of Excellence Joseph - Bro. Marvin Risto.png'
-
 // import excellenceStewardship2 from '../images/message/06.22.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
 // import excellenceGod from '../images/message/June 29, 2025 - Sunday Service.png'
 // import excellenceGodPt2 from '../images/message/July 06 2025.png'
-import helpingOthers from '../images/message/July 13, 2025.png'
-import pursuingExcellence from '../images/message/Pursue Excellence in All We Do.png'
-import theBirthOfExcitingVision from '../images/message/The Birth of an exciting.png';
-import TheGoodNews from '../images/message-images-december/GoodNews.png'
 // import excellentStewardship from '../images/message/05.04.2025 - Excellence in Stewardship - Bro. Boni Somook.png'
+// import pursuingExcellence from '../images/message/Pursue Excellence in All We Do.png'
+//----------------------------------------------------------------------------
+
+
+// import helpingOthers from '../images/message/July 13, 2025.png'
+// import theBirthOfExcitingVision from '../images/message/The Birth of an exciting.png';
 // import reflection from '../images/message/Easter Reflection.png'
-// import commitedExcellence from '../images/message/04.13.2025 - Commitment to Excellence - Bro. Ted Matira.png'
 // import RemainFaithful from '../images/message/March30Message.png'
 // import toOnlyGod from '../images/message/To the only God.png'
 // import InexpressibleJoy from '../images/message/Inexpressible Joy.pdf.png'
@@ -72,7 +93,29 @@ import TheGoodNews from '../images/message-images-december/GoodNews.png'
 // import KnowingGod from '../images/message/Sunday Sermon.png'
 
 const allMessage = [
+  
+       
   // Luke Series Sermon
+ 
+   
+          {
+              messageTitle: "Up is Down",
+              videoUrl: "https://www.youtube.com/watch?v=aFzZqQFj6CQ",
+              imgUrl: UpIsDown,
+              messageBy: 'Bro. Boni Somook',
+              datePosted: 'March 08, 2026',
+              imageSlide: 'https://www.canva.com/design/DAHDVFfpMAQ/0aCU7meJlSx3_hWAgNC_wA/view?utm_content=DAHDVFfpMAQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h21c99c6403',
+              description: `Blessed are you when people hate you, exclude you, insult you, reject you, and branded you as evil. `
+          },
+          {
+          messageTitle: "Troubled But Not Abandoned",
+          videoUrl: "https://www.youtube.com/watch?v=aFzZqQFj6CQ",
+          imgUrl: NotAbandoned,
+          messageBy: 'Bro. Bong Aguiao',
+          datePosted: 'March 01, 2026',
+          imageSlide: 'https://www.canva.com/design/DAHClAwpIE4/3XzmMjeZ90n8URo1TNYGcw/view?utm_content=DAHClAwpIE4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hf5dca8a5ab',
+          description: `“He called His disciples to Him and chose twelve of them, whom He also designated apostles.”`
+      },
       {
           messageTitle: "Jesus, Lord of the Sabbath",
           videoUrl: "https://www.youtube.com/watch?v=Mhhw8syP6eE",
@@ -131,6 +174,27 @@ const allMessage = [
           imageSlide: 'https://www.canva.com/design/DAG9ZaIkWVc/9mTul0NAh_KY8LhauCGg4A/view?utm_content=DAG9ZaIkWVc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9a0ff62429',
           description: `When you feel empty and hungry for the word of God, you must be closer to your turning point.`
       },
+      // Series Break
+         {
+          messageTitle: "Love In Any Language",
+          videoUrl: "https://www.youtube.com/watch?v=3jA8cOF68F8",
+          imgUrl: LoveInAnyLanguage,
+          messageBy: 'Sis. Tiffany Oboh',
+          datePosted: 'Feb 22, 2026',
+          imageSlide: 'https://www.canva.com/design/DAHCAkw7RAQ/Dnkf11gJIlVI2tMKGVgOvg/view?utm_content=DAHCAkw7RAQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd795731bd7',
+          description: `If I could speak all the languages of earth and of angels, but didn’t love others, I would only be a noisy gong or a clanging cymbal. 2 If I had the gift of prophecy, and if I understood all of God’s secret plans and possessed all knowledge, and if I had such faith that I could move mountains, but didn’t love others, I would be nothing.`
+          },
+       {
+        messageTitle: "Doing Family Like Jesus",
+        videoUrl: "https://www.youtube.com/watch?v=djeFoIosNvg",
+        imgUrl: FamilyLikeJesus,
+        messageBy: 'Dr. Stan Helton',
+        datePosted: 'Feb 15, 2026',
+        imageSlide: 'https://www.canva.com/design/DAHBWsZALV4/v2Sn895JBQgQikASRr0gDg/view?utm_content=DAHBWsZALV4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb10f15c1d3',
+        description: `²¹ Submit to one another out of reverence for Christ. 
+                        ²² Wives, submit to your husbands as to the Lord. 
+                        ²³ For the husband is the head of the wife as Christ is the head of the church, his body, of which he is the Savior. ²⁴ Now as the church submits to Christ, so also wives should submit to their husbands in everything. `
+       },
   // KINGDOM SERIES
       {
           messageTitle: "The Good News of the Kingdom",
@@ -222,34 +286,36 @@ const allMessage = [
         imageSlide: 'https://www.canva.com/design/DAG6rqKbfHY/4jiGPKpIFuIZZbVZHoCjEw/view?utm_content=DAG6rqKbfHY&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb7d10d7d25',
         description: ` And the things you have heard me say in the presence of many witnesses entrust to reliable people who will also be qualified to teach others`
       }
-      ,
-      {
-          messageTitle: "The Birth of an Exciting Vision",
-          videoUrl: "https://youtu.be/HQblqQ4Z4xU",
-          imgUrl: theBirthOfExcitingVision,
-          messageBy: 'Bro. Ted Matira',
-          datePosted: 'July 27, 2025',
-          imageSlide: 'https://www.canva.com/design/DAGuMwK9g0A/Cr0g9fhY1AjlIPqxmDFhTQ/view?utm_content=DAGuMwK9g0A&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h055efca09e',
-          description: `You will be for me a kingdom of priests and a holy nation.’ These are the words you are to speak to the Israelites.”`
-      },
-      {
-          messageTitle: "Excellence In Helping Others",
-          videoUrl: "https://www.youtube.com/watch?v=uEl9eA9apnA",
-          imgUrl: pursuingExcellence,
-          messageBy: 'Bro. Harry Nietes',
-          datePosted: 'July 20, 2025',
-          imageSlide: 'https://www.canva.com/design/DAGtoN6pJTo/byuOG-Gufp1YXPCY_3dVIw/view?utm_content=DAGtoN6pJTo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5dbc08fff6',
-          description: ` Excellence involves the highest standard of character, diligence and integrity in every aspect of our life. It comes from the heart shaped by devotion to what is true, worthy and persistent. `
-      },
-      {
-          messageTitle: "Excellence In Helping Others",
-          videoUrl: "https://www.youtube.com/watch?v=vgW3qz6TBz0",
-          imgUrl: helpingOthers,
-          messageBy: 'Bro. Joshua and Sis. Jazzlee',
-          datePosted: 'July 13, 2025',
-          imageSlide: 'https://www.canva.com/design/DAGs09I8Ytk/xQeaQ1-dB2ZIAnd2JxQR1g/view?utm_content=DAGs09I8Ytk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h709295e6a3',
-          description: `IN HELPING OTHERS, EVEN THOSE THAT MESS UP, FALL SHORT OR ARE HARD TO LOVE.`
-      }
+      // ,
+      // {
+      //     messageTitle: "The Birth of an Exciting Vision",
+      //     videoUrl: "https://youtu.be/HQblqQ4Z4xU",
+      //     imgUrl: theBirthOfExcitingVision,
+      //     messageBy: 'Bro. Ted Matira',
+      //     datePosted: 'July 27, 2025',
+      //     imageSlide: 'https://www.canva.com/design/DAGuMwK9g0A/Cr0g9fhY1AjlIPqxmDFhTQ/view?utm_content=DAGuMwK9g0A&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h055efca09e',
+      //     description: `You will be for me a kingdom of priests and a holy nation.’ These are the words you are to speak to the Israelites.”`
+      // }
+      // ,
+      // {
+      //     messageTitle: "Excellence In Helping Others",
+      //     videoUrl: "https://www.youtube.com/watch?v=uEl9eA9apnA",
+      //     imgUrl: pursuingExcellence,
+      //     messageBy: 'Bro. Harry Nietes',
+      //     datePosted: 'July 20, 2025',
+      //     imageSlide: 'https://www.canva.com/design/DAGtoN6pJTo/byuOG-Gufp1YXPCY_3dVIw/view?utm_content=DAGtoN6pJTo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5dbc08fff6',
+      //     description: ` Excellence involves the highest standard of character, diligence and integrity in every aspect of our life. It comes from the heart shaped by devotion to what is true, worthy and persistent. `
+      // }
+      // ,
+      // {
+      //     messageTitle: "Excellence In Helping Others",
+      //     videoUrl: "https://www.youtube.com/watch?v=vgW3qz6TBz0",
+      //     imgUrl: helpingOthers,
+      //     messageBy: 'Bro. Joshua and Sis. Jazzlee',
+      //     datePosted: 'July 13, 2025',
+      //     imageSlide: 'https://www.canva.com/design/DAGs09I8Ytk/xQeaQ1-dB2ZIAnd2JxQR1g/view?utm_content=DAGs09I8Ytk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h709295e6a3',
+      //     description: `IN HELPING OTHERS, EVEN THOSE THAT MESS UP, FALL SHORT OR ARE HARD TO LOVE.`
+      // }
   //     ,
   //  {
   //         messageTitle: "Defining Excellence",

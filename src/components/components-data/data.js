@@ -1,19 +1,17 @@
 
 
-import FamilyLikeJesus from '../../images/series-break/FamilyLikeJesus.png'
+import EmbracingKingdom from '../../images/luke-series/Embracing kingdom.png'
 
 const latestMessage = [
-    {
-        messageTitle: "Doing Family Like Jesus",
-        videoUrl: "https://www.youtube.com/watch?v=djeFoIosNvg",
-        imgUrl: FamilyLikeJesus,
-        messageBy: 'Dr. Stan Helton',
-        datePosted: 'Feb 15, 2026',
-        imageSlide: 'https://www.canva.com/design/DAHBWsZALV4/v2Sn895JBQgQikASRr0gDg/view?utm_content=DAHBWsZALV4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb10f15c1d3',
-        description: `²¹ Submit to one another out of reverence for Christ. 
-                        ²² Wives, submit to your husbands as to the Lord. 
-                        ²³ For the husband is the head of the wife as Christ is the head of the church, his body, of which he is the Savior. ²⁴ Now as the church submits to Christ, so also wives should submit to their husbands in everything. `
-    }
+   {
+          messageTitle: "Embracing Kingdom",
+          videoUrl: "https://www.youtube.com/watch?v=1A8qEpo4fZY",
+          imgUrl: EmbracingKingdom,
+          messageBy: 'Bro. Marvin Risto',
+          datePosted: 'March 15, 2026',
+          imageSlide: 'https://www.canva.com/design/DAHD5kZtQwk/gMvWPpTVCknECORAjMUAIg/view?utm_content=DAHD5kZtQwk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h454bff72fa',
+          description: `27 “But to you who are listening I say: Love your enemies, do good to those who hate you, 28 bless those who curse you, pray for those who mistreat you. 29 If someone slaps you on one cheek, turn to them the other also. If someone takes your coat, do not withhold your shirt from them. `
+      }
 ]
 
 export default latestMessage
