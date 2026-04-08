@@ -87,7 +87,7 @@
   }
   @media screen and (max-width: 420px){
     .modal-content{
-      width: 20rem;
+      width: 90%;
     }
   }
   
