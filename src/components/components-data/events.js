@@ -1,23 +1,24 @@
 // import womensRetreat from '../../images/events/Retreat2025.png'
 // import anniversary from '../../images/events/Church Anniversary.jpg'
-// import familyDay from '../../images/events/2026-events/family-day.png'
+import familyCamp from '../../images/events/2026-events/Family Camp.png'
 
 const events = [
 
 
-    // {
-    //     id: 0,
-    //     imgUrl: familyDay,
-    //     eventMonths: 'Feb',
-    //     eventDays: '15',
-    //     eventTitle: "Special Guest Speaker Dr. Stanley Helton",
-    //     description: `
-    //     Join us for Family Worship Sunday.
+    {
+        id: 0,
+        imgUrl: familyCamp,
+        eventMonths: 'Jun',
+        eventDays: '05',
+        eventTitle: "Family Camp",
+        description: `
+        Where faith breaks comfort & God makes a way..
+        Come Join Us!
 
 
-    //     `,
+        `,
 
-    // }
+    }
        
 ]
 
