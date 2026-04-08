@@ -36,7 +36,7 @@ const WeeklySchedule = () => {
                 </div>
             </div>
             {/* SECOND SCHEDULE */}
-            <div className="second-schedule">
+            {/* <div className="second-schedule">
                 <div className="weekly-service">
                     <div className="date">
                         <h2>TUE</h2>
@@ -48,18 +48,18 @@ const WeeklySchedule = () => {
                         <p className='schedule-time'>at 7:00 PM</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* THIRD SCHEDULE */}
             <div className="third-schedule">
                 <div className="weekly-service">
                     <div className="date">
                         <h2>WED</h2>
                     </div>
-                    <div className='service-info'>
+                    {/* <div className='service-info'>
                         <p className='service-text'>Womens Senior</p>
                         <p className='schedule-time'>Connect with Sis. Cora</p>
                         <p className='events-number'>780-361-9172</p>
-                    </div>
+                    </div> */}
                     <div className='service-info'>
                         <p className='service-text'>Prayer Meeting</p>
                         <p className='schedule-time'>at 6:00 PM</p>
@@ -86,8 +86,9 @@ const WeeklySchedule = () => {
                         <h2>FRI</h2>
                     </div>
                     <div className="young-pro">
-                        <p className='young-text'>Sunday School Teacher Bible Study</p>
-                        <p className='schedule-time'>at 7:00 PM</p>
+                        <p className='young-text'>Youth Fellowship</p>
+                        <p className='schedule-time'>Connect with Bro. June</p>
+                        <p className='schedule-time'>at 5:00 PM</p>
                     </div>
                 </div>
 
