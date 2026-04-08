@@ -1,16 +1,16 @@
 
 
-import KnowingTheTree from '../../images/luke-series/What kind of tree is this.png'
+import Reaction from '../../images/series-break/ReactiontotheResurrection.png'
 
 const latestMessage = [
    {
-          messageTitle: "Heartbreaking Challenge",
-          videoUrl: "https://www.youtube.com/watch?v=h3yYLLW_zm0&t=1399s",
-          imgUrl: KnowingTheTree,
-          messageBy: 'Bro. Kevin Baguioso',
-          datePosted: 'March 29, 2026',
-          imageSlide: 'https://canva.link/n7jmdj68hn32njz',
-          description: `'45A good person produces good things from the treasury of a good heart, and an evil person produces evil things from the treasury of an evil heart. What you say flows from what is in your heart.'`
+          messageTitle: "Reaction to the Resurrection",
+          videoUrl: "https://www.youtube.com/watch?v=mVywXWF6SBI",
+          imgUrl: Reaction,
+          messageBy: 'Bro. Ted Matira',
+          datePosted: 'April 05, 2026',
+          imageSlide: 'https://canva.link/3p6hzhzc3hkygj7',
+          description: `'Then Jesus told him, “You believe because you have seen me. Blessed are those who believe without seeing me.” '`
       }
 ]
 
