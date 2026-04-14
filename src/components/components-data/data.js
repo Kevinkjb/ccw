@@ -1,16 +1,16 @@
 
 
-import Reaction from '../../images/series-break/ReactiontotheResurrection.png'
+import BuildDeeper from '../../images/luke-series/BuildDeeper.png'
 
 const latestMessage = [
    {
-          messageTitle: "Reaction to the Resurrection",
-          videoUrl: "https://www.youtube.com/watch?v=mVywXWF6SBI",
-          imgUrl: Reaction,
-          messageBy: 'Bro. Ted Matira',
-          datePosted: 'April 05, 2026',
-          imageSlide: 'https://canva.link/3p6hzhzc3hkygj7',
-          description: `'Then Jesus told him, “You believe because you have seen me. Blessed are those who believe without seeing me.” '`
+          messageTitle: "Build Deeper",
+          videoUrl: "https://www.youtube.com/watch?v=Doi9o0f4n5M",
+          imgUrl: BuildDeeper,
+          messageBy: 'Bro. Joshua Gabay',
+          datePosted: 'April 12, 2026',
+          imageSlide: 'https://canva.link/af9cm9yp1tm27ed',
+          description: `They are like a man building a house, who dug down deep and laid the foundation on rock. When a flood came, the torrent struck that house but could not shake it, because it was well built. '`
       }
 ]
 

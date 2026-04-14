@@ -21,11 +21,11 @@
 }
 .events-item{
     display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 1fr 1fr;
     justify-items: center;
     justify-content: space-between;
-    width: 70rem;
+    width: 85rem;
     margin: 2rem auto;
 }
 .events-container{
@@ -41,6 +41,7 @@
 .events-page{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
     grid-template-rows: 1fr;
     width: 80rem;
     max-width: 100%;
