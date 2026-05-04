@@ -16,9 +16,13 @@ import FamilyLikeJesus from '../images/series-break/FamilyLikeJesus.png';
 import LoveInAnyLanguage from '../images/series-break/LoveInAnyLanguage.png'
 import Reaction from '../images/series-break/ReactiontotheResurrection.png'
 //----------------------------------------------------------------------------
-
+// God's Voice Series--------------------------------------------------------------------------
+import RediscoverGodVoice from '../images/Hearing-God-Voice/RediscoverGodVoice.png'
+import ReduceBackgroundNoise from '../images/Hearing-God-Voice/ReduceBackgroundNoise.png'
+//----
 
 // LUKE SERIES--------------------------------------------------------------------------
+import BuildDeeper from '../images/luke-series/BuildDeeper.png'
 import KnowingTheTree from '../images/luke-series/What kind of tree is this.png'
 import BlindJudgement from '../images/luke-series/Blind Judgement.png'
 import NextMove from '../images/luke-series/Next Move.png'
@@ -96,6 +100,36 @@ import TheGoodNews from '../images/message-images-december/GoodNews.png'
 // import KnowingGod from '../images/message/Sunday Sermon.png'
 
 const allMessage = [
+  // HEARING GOD'S VOICE SERIES
+  {
+            messageTitle: "Reduces Background Noise",
+            videoUrl: "https://www.youtube.com/watch?v=a6p0rci_LBY",
+            imgUrl: ReduceBackgroundNoise,
+            messageBy: 'Bro. June Tinaza',
+            datePosted: 'April 26, 2026',
+            imageSlide: 'https://canva.link/0l2835yummbf9iz',
+            description: `Do not conform to the pattern of this world, but be transformed by the renewing of your mind. Then you will be able to test and approve what God’s will is—his good, pleasing and perfect will.`
+        },
+  {
+            messageTitle: "Rediscover God's Voice",
+            videoUrl: "https://www.youtube.com/watch?v=hIoN9v3KZoM&t=227s",
+            imgUrl: RediscoverGodVoice,
+            messageBy: 'Bro. Harry Nietes',
+            datePosted: 'April 19, 2026',
+            imageSlide: 'https://canva.link/wnqdi8lglx07lk1',
+            description: `“My sheep listen to my voice; I know them, and they follow me.”`
+        },
+
+  // LUKE SERIES
+  {
+            messageTitle: "Build Deeper",
+            videoUrl: "https://www.youtube.com/watch?v=Doi9o0f4n5M",
+            imgUrl: BuildDeeper,
+            messageBy: 'Bro. Joshua Gabay',
+            datePosted: 'April 12, 2026',
+            imageSlide: 'https://canva.link/af9cm9yp1tm27ed',
+            description: `They are like a man building a house, who dug down deep and laid the foundation on rock. When a flood came, the torrent struck that house but could not shake it, because it was well built. '`
+        },
   
   //Series Break
      {

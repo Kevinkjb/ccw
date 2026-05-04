@@ -2,23 +2,23 @@
 // import anniversary from '../../images/events/Church Anniversary.jpg'
 import familyCamp from '../../images/events/2026-events/Family Camp.png'
 import bibleStudy from '../../images/events/2026-events/Welcome Winter 2025.png'
-import worshipNight from '../../images/events/2026-events/Worship Night 2026.png'
+// import worshipNight from '../../images/events/2026-events/Worship Night 2026.png'
 
 const events = [
 
 
+    //    {
+    //     id: 0,
+    //     imgUrl: worshipNight,
+    //     eventMonths: 'April',
+    //     eventDays: '25',
+    //     eventTitle: "Faithful Provier",
+    //     description: `
+    //     Join us in thanksgiving and celebration of the purchase of our church property..
+    //     `,
+    // },
        {
         id: 0,
-        imgUrl: worshipNight,
-        eventMonths: 'April',
-        eventDays: '25',
-        eventTitle: "Faithful Provier",
-        description: `
-        Join us in thanksgiving and celebration of the purchase of our church property..
-        `,
-    },
-       {
-        id: 1,
         imgUrl: bibleStudy,
         eventMonths: 'May',
         eventDays: '16',
@@ -28,7 +28,7 @@ const events = [
         `,
     },
     {
-        id: 2,
+        id: 1,
         imgUrl: familyCamp,
         eventMonths: 'Jun',
         eventDays: '05',
