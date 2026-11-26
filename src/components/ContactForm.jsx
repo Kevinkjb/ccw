@@ -38,8 +38,8 @@ const ContactForm = () => {
     
         setErrors({});
         emailjs
-          .sendForm('service_ucykcb8', 'template_6ywljui', form.current, {
-            publicKey: 'eja84i-pVFqt5ioAL',
+          .sendForm('service_y6sokgb', 'template_a7ba65s', form.current, {
+            publicKey: '7k0flvMKVJ8JWjhSi',
           })
           .then(
             () => {

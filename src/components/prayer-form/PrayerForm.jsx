@@ -51,8 +51,8 @@ const PrayerForm = () => {
     const formErrors = validateForm();
     if (Object.keys(formErrors).length === 0) {
       emailjs
-        .sendForm('service_a6qwaqn', 'template_sg9a1ag', form.current, {
-          publicKey: 'eja84i-pVFqt5ioAL',
+        .sendForm('service_y6sokgb', 'template_flcerew', form.current, {
+          publicKey: '7k0flvMKVJ8JWjhSi',
         })
         .then(
           () => {

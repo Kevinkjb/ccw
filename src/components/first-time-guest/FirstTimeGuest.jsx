@@ -83,8 +83,8 @@ const FirstTimeGuest = () => {
     const formErrors = validateForm();
     if (Object.keys(formErrors).length === 0) {
       emailjs.send(
-        'service_b1kni6k',
-        'template_fmxdukp',
+        'service_y6sokgb',
+        'template_mjripy2',
         {
           user_name: formData.user_name,
           user_email: formData.user_email,
@@ -95,7 +95,7 @@ const FirstTimeGuest = () => {
           next_steps: formData.next_steps.join(', '),
           first_time_guest: formData.first_time_guest.join(', ')
         },
-        'eja84i-pVFqt5ioAL'
+        '7k0flvMKVJ8JWjhSi'
       ).then(() => {
         console.log('SUCCESS!');
         form.current.reset();
